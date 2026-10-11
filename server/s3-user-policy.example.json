@@ -1,0 +1,36 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "InspectPrivateBucket",
+      "Effect": "Allow",
+      "Action": ["s3:GetBucketAcl", "s3:GetBucketPolicy", "s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::REPLACE_BUCKET_NAME"]
+    },
+    {
+      "Sid": "ReadAndAppendBackupObjects",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject", "s3:PutObject"],
+      "Resource": ["arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/*"]
+    },
+    {
+      "Sid": "DeleteOnlySnapshotsAndProbes",
+      "Effect": "Allow",
+      "Action": ["s3:DeleteObject"],
+      "Resource": [
+        "arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/owners/*/snapshots/*",
+        "arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/checks/*"
+      ]
+    },
+    {
+      "Sid": "NeverDeleteOriginalsAndReleases",
+      "Effect": "Deny",
+      "Action": ["s3:DeleteObject", "s3:DeleteObjectVersion"],
+      "Resource": [
+        "arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/package-objects/*",
+        "arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/owners/*/objects/*",
+        "arn:aws:s3:::REPLACE_BUCKET_NAME/finance-backups/releases/*"
+      ]
+    }
+  ]
+}

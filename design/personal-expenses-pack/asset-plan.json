@@ -1,0 +1,999 @@
+[
+  {
+    "key": "gift",
+    "label": "Подарки",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/corporate-gifts-birthday-gifts.png",
+    "suggested_icon_id": "bizexp_corporate-gifts-birthday-gifts",
+    "file": "assets/gift.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "fuel",
+    "label": "Бензин",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/lawyer-travel-fuel.png",
+    "suggested_icon_id": "bizexp_lawyer-travel-fuel",
+    "file": "assets/fuel.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "utilities",
+    "label": "Коммунальные услуги",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/office-utilities.png",
+    "suggested_icon_id": "bizexp_office-utilities",
+    "file": "assets/utilities.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "renovation",
+    "label": "Ремонт / материалы",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/office-office-renovation.png",
+    "suggested_icon_id": "bizexp_office-office-renovation",
+    "file": "assets/renovation.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "household",
+    "label": "Хозтовары",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/office-office-supplies.png",
+    "suggested_icon_id": "bizexp_office-office-supplies",
+    "file": "assets/household.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "finance",
+    "label": "Финансы",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/office-extra-accounting.png",
+    "suggested_icon_id": "bizexp_office-extra-accounting",
+    "file": "assets/finance.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "bank-fees",
+    "label": "Банковские комиссии",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/bank-fees.png",
+    "suggested_icon_id": "bizexp_bank-fees",
+    "file": "assets/bank-fees.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "airfare",
+    "label": "Авиабилеты",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/lawyer-travel-tickets.png",
+    "suggested_icon_id": "bizexp_lawyer-travel-tickets",
+    "file": "assets/airfare.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "yandex-disk",
+    "label": "Яндекс Диск",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/advertising-services-yandex-disk.png",
+    "suggested_icon_id": "bizexp_advertising-services-yandex-disk",
+    "file": "assets/yandex-disk.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "subscriptions",
+    "label": "Подписки",
+    "subject": null,
+    "source_file": "business-expenses-pack/assets/bank-fees-account-subscription.png",
+    "suggested_icon_id": "bizexp_bank-fees-account-subscription",
+    "file": "assets/subscriptions.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "food",
+    "label": "Еда",
+    "subject": null,
+    "source_file": "approved_icon_quality/food_approved.png",
+    "suggested_icon_id": "pexp_food",
+    "file": "assets/food.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "sber-card",
+    "label": "Обслуживание карты Сбер Премьер",
+    "subject": null,
+    "source_file": "bank_icons_hq/png/card_sber_green.png",
+    "suggested_icon_id": "pexp_sber-card",
+    "file": "assets/sber-card.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "t-bank-card",
+    "label": "Обслуживание карты Тиньков",
+    "subject": null,
+    "source_file": "bank_icons_hq/png/card_t_bank_black.png",
+    "suggested_icon_id": "pexp_t-bank-card",
+    "file": "assets/t-bank-card.png",
+    "origin": "reused_original"
+  },
+  {
+    "key": "sasha",
+    "label": "Саша лично",
+    "subject": "A masculine dark cognac leather wallet, brushed-steel wristwatch with a simple dark dial, and neatly folded navy shirt. A personal-accessories still life, no person.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_sasha",
+    "file": "assets/sasha.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A masculine dark cognac leather wallet, brushed-steel wristwatch with a simple dark dial, and neatly folded navy shirt. A personal-accessories still life, no person. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "haircut",
+    "label": "Стрижка",
+    "subject": "Professional polished stainless-steel hairdressing scissors and a high-quality black comb with a compact cordless hair clipper. Precisely modeled functional tools.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_haircut",
+    "file": "assets/haircut.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Professional polished stainless-steel hairdressing scissors and a high-quality black comb with a compact cordless hair clipper. Precisely modeled functional tools. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "lenses",
+    "label": "Для линз / линзы",
+    "subject": "Two delicate clear contact lenses, a small white contact lens case with pale blue screw caps, and a clear lens-solution bottle with a minimal plain label. Show the tiny lenses safely in front of the case, optically realistic transparent materials.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_lenses",
+    "file": "assets/lenses.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Two delicate clear contact lenses, a small white contact lens case with pale blue screw caps, and a clear lens-solution bottle with a minimal plain label. Show the tiny lenses safely in front of the case, optically realistic transparent materials. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "clothes",
+    "label": "Одежда",
+    "subject": "Neatly folded blue denim jeans with visible stitching, a cream cotton T-shirt and a folded forest-green sweater, rich realistic textile detail.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_clothes",
+    "file": "assets/clothes.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Neatly folded blue denim jeans with visible stitching, a cream cotton T-shirt and a folded forest-green sweater, rich realistic textile detail. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "fishing",
+    "label": "Рыбалка",
+    "subject": "A compact professional fishing reel attached to the visible handle section of a fishing rod, with two colorful fishing lures and a closed small tackle box. The short handle is fully in frame, no long cropped pole.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_fishing",
+    "file": "assets/fishing.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact professional fishing reel attached to the visible handle section of a fishing rod, with two colorful fishing lures and a closed small tackle box. The short handle is fully in frame, no long cropped pole. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "hookah-supplies",
+    "label": "Препараты для кальяна",
+    "subject": "An unbranded closed dark amber container for hookah consumables, a small ceramic hookah bowl and several black coconut-charcoal cubes with small steel tongs. No people, no smoke, no medical pills, no logos.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_hookah-supplies",
+    "file": "assets/hookah-supplies.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An unbranded closed dark amber container for hookah consumables, a small ceramic hookah bowl and several black coconut-charcoal cubes with small steel tongs. No people, no smoke, no medical pills, no logos. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "nails",
+    "label": "Ногти / маникюр",
+    "subject": "An elegant small manicure set: polished nail scissors, a glass nail file and a deep rose nail-polish bottle with cap closed, no hands.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_nails",
+    "file": "assets/nails.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An elegant small manicure set: polished nail scissors, a glass nail file and a deep rose nail-polish bottle with cap closed, no hands. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "entertainment",
+    "label": "Развлечения",
+    "subject": "A pair of elegant theatre masks in polished warm ceramic beside two neutral event tickets and a compact black game controller. Clear fun and leisure theme, physical objects.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_entertainment",
+    "file": "assets/entertainment.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A pair of elegant theatre masks in polished warm ceramic beside two neutral event tickets and a compact black game controller. Clear fun and leisure theme, physical objects. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "cafe",
+    "label": "Кафе",
+    "subject": "A porcelain cappuccino cup with crisp latte art on its saucer, a flaky golden croissant on a small plate, and a neatly placed teaspoon. Appetizing close-up food photograph.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_cafe",
+    "file": "assets/cafe.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A porcelain cappuccino cup with crisp latte art on its saucer, a flaky golden croissant on a small plate, and a neatly placed teaspoon. Appetizing close-up food photograph. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "cinema",
+    "label": "Кино",
+    "subject": "A striped red-and-white cinema popcorn carton filled with crisp popcorn, a professional black clapperboard and one cinema ticket. No tiny readable text required.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_cinema",
+    "file": "assets/cinema.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A striped red-and-white cinema popcorn carton filled with crisp popcorn, a professional black clapperboard and one cinema ticket. No tiny readable text required. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "concert",
+    "label": "Концерт",
+    "subject": "A premium silver vocal microphone with a black handle and a coiled cable beside two concert tickets, polished concert-accessory product photograph.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_concert",
+    "file": "assets/concert.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium silver vocal microphone with a black handle and a coiled cable beside two concert tickets, polished concert-accessory product photograph. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "home-party",
+    "label": "Тусим дома",
+    "subject": "A compact warm fabric sofa accompanied by a bowl of popcorn and two colorful drinking glasses, a joyful home-gathering still life, all furniture fully visible, no room backdrop.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_home-party",
+    "file": "assets/home-party.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact warm fabric sofa accompanied by a bowl of popcorn and two colorful drinking glasses, a joyful home-gathering still life, all furniture fully visible, no room backdrop. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "birthday",
+    "label": "День рождения",
+    "subject": "A beautifully decorated small cream birthday cake with several gold candles and two tied metallic pastel balloons floating directly above, no numerals and no people.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_birthday",
+    "file": "assets/birthday.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A beautifully decorated small cream birthday cake with several gold candles and two tied metallic pastel balloons floating directly above, no numerals and no people. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "hookah",
+    "label": "Кальян",
+    "subject": "One premium full-size hookah with a jewel-toned clear glass base, brushed-metal stem, ceramic bowl and one neatly curved black hose. Entire object visible, no smoke.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_hookah",
+    "file": "assets/hookah.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: One premium full-size hookah with a jewel-toned clear glass base, brushed-metal stem, ceramic bowl and one neatly curved black hose. Entire object visible, no smoke. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "outings",
+    "label": "Вылазки куда-нибудь / поездки",
+    "subject": "A compact premium travel backpack, a rolled paper road map and a pair of binoculars. Inviting weekend-excursion theme, no written destination.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_outings",
+    "file": "assets/outings.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact premium travel backpack, a rolled paper road map and a pair of binoculars. Inviting weekend-excursion theme, no written destination. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "car",
+    "label": "Автомобиль",
+    "subject": "One elegant metallic graphite modern passenger SUV, front three-quarter view, authentic automotive product photograph, all four wheels intact and visible as appropriate, no manufacturer logo, blank licence plate.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_car",
+    "file": "assets/car.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: One elegant metallic graphite modern passenger SUV, front three-quarter view, authentic automotive product photograph, all four wheels intact and visible as appropriate, no manufacturer logo, blank licence plate. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "parking",
+    "label": "Парковка",
+    "subject": "A modern parking payment meter beside a crisp blue parking sign with one large white P, a neatly rolled parking ticket in front. All objects self-contained.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_parking",
+    "file": "assets/parking.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A modern parking payment meter beside a crisp blue parking sign with one large white P, a neatly rolled parking ticket in front. All objects self-contained. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "shopping",
+    "label": "Покупки / маркетплейсы",
+    "subject": "Two attractive shopping bags, one kraft and one muted teal, beside a sealed cardboard delivery parcel with a blank shipping label. Real paper fibers and fabric handles, no store logos.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_shopping",
+    "file": "assets/shopping.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Two attractive shopping bags, one kraft and one muted teal, beside a sealed cardboard delivery parcel with a blank shipping label. Real paper fibers and fabric handles, no store logos. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "phone",
+    "label": "Связь",
+    "subject": "A slim modern smartphone angled upright with a minimal green call symbol on its screen, beside a small neat telephone handset-shaped physical accessory. No personal information.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_phone",
+    "file": "assets/phone.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A slim modern smartphone angled upright with a minimal green call symbol on its screen, beside a small neat telephone handset-shaped physical accessory. No personal information. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "housing",
+    "label": "Аренда жилья / квартира Казань / имущество",
+    "subject": "A pair of polished house keys on a keyring beside a realistic detailed architectural model of a contemporary apartment building. Warm window reflections, no background scene.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_housing",
+    "file": "assets/housing.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A pair of polished house keys on a keyring beside a realistic detailed architectural model of a contemporary apartment building. Warm window reflections, no background scene. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "transport",
+    "label": "Транспорт",
+    "subject": "A clean contemporary city bus in muted turquoise and white beside a small neutral transit card, vehicle photographed front three-quarter, no route text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_transport",
+    "file": "assets/transport.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A clean contemporary city bus in muted turquoise and white beside a small neutral transit card, vehicle photographed front three-quarter, no route text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "taxi",
+    "label": "Такси",
+    "subject": "A polished yellow sedan taxi, three-quarter frontal view, small white roof sign reading TAXI, blank licence plate, no people or city background.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_taxi",
+    "file": "assets/taxi.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A polished yellow sedan taxi, three-quarter frontal view, small white roof sign reading TAXI, blank licence plate, no people or city background. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "souvenirs",
+    "label": "Сувениры",
+    "subject": "A tasteful compact travel souvenir collection: a small ceramic camel, a colorful hand-painted ceramic cup and a little travel magnet shaped like a palm tree. Tangible objects, no specific destination label.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_souvenirs",
+    "file": "assets/souvenirs.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A tasteful compact travel souvenir collection: a small ceramic camel, a colorful hand-painted ceramic cup and a little travel magnet shaped like a palm tree. Tangible objects, no specific destination label. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "other",
+    "label": "Другое / иные расходы",
+    "subject": "A small open natural kraft storage box containing a rolled receipt, a keyring and a folded soft cloth, a restrained everyday miscellaneous-items still life, no question mark.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_other",
+    "file": "assets/other.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A small open natural kraft storage box containing a rolled receipt, a keyring and a folded soft cloth, a restrained everyday miscellaneous-items still life, no question mark. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "natasha",
+    "label": "Наташа лично",
+    "subject": "An elegant warm beige leather handbag with finely detailed stitching, a silk scarf draped neatly through its handle and a slim gold-toned wristwatch. Personal accessories, no person.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_natasha",
+    "file": "assets/natasha.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An elegant warm beige leather handbag with finely detailed stitching, a silk scarf draped neatly through its handle and a slim gold-toned wristwatch. Personal accessories, no person. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "clothes-shoes",
+    "label": "Одежда и обувь",
+    "subject": "A neatly folded cream knit sweater and indigo jeans beside a pair of elegant white leather casual sneakers, realistic textile and leather detail.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_clothes-shoes",
+    "file": "assets/clothes-shoes.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A neatly folded cream knit sweater and indigo jeans beside a pair of elegant white leather casual sneakers, realistic textile and leather detail. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "books",
+    "label": "Книги / Буковица",
+    "subject": "Three beautifully bound cloth hardcover books with differently colored spines, one open book in front showing unobtrusive unreadable text. No invented titles or logos.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_books",
+    "file": "assets/books.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Three beautifully bound cloth hardcover books with differently colored spines, one open book in front showing unobtrusive unreadable text. No invented titles or logos. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "education",
+    "label": "Обучение / образование",
+    "subject": "An open hardcover textbook, a graphite pencil and a premium dark laptop showing a simple lesson slide with a diagram. No tiny text, no person, no mortarboard.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_education",
+    "file": "assets/education.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An open hardcover textbook, a graphite pencil and a premium dark laptop showing a simple lesson slide with a diagram. No tiny text, no person, no mortarboard. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "massage",
+    "label": "Массаж",
+    "subject": "Two neatly rolled plush ivory towels, a clear bottle of golden massage oil and three smooth dark basalt massage stones, luxurious wellness product photograph.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_massage",
+    "file": "assets/massage.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Two neatly rolled plush ivory towels, a clear bottle of golden massage oil and three smooth dark basalt massage stones, luxurious wellness product photograph. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "cosmetics",
+    "label": "Косметика",
+    "subject": "A coordinated refined cosmetic set: rose lipstick, an elegant glass perfume bottle and a makeup brush beside a closed compact, realistic glass reflections and bristle detail, no brand names.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_cosmetics",
+    "file": "assets/cosmetics.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A coordinated refined cosmetic set: rose lipstick, an elegant glass perfume bottle and a makeup brush beside a closed compact, realistic glass reflections and bristle detail, no brand names. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "cosmetology",
+    "label": "Косметолог",
+    "subject": "An elegant professional facial-care device with a smooth metal treatment head beside a small glass serum dropper bottle and a folded white treatment towel. No needles, no face, no medical text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_cosmetology",
+    "file": "assets/cosmetology.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An elegant professional facial-care device with a smooth metal treatment head beside a small glass serum dropper bottle and a folded white treatment towel. No needles, no face, no medical text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "eyelashes",
+    "label": "Ресницы",
+    "subject": "A pair of delicate realistic false eyelash strips on a small curved neutral tray beside precision silver tweezers and a soft lash brush. Clear individual fine fibers, no eyes or face.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_eyelashes",
+    "file": "assets/eyelashes.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A pair of delicate realistic false eyelash strips on a small curved neutral tray beside precision silver tweezers and a soft lash brush. Clear individual fine fibers, no eyes or face. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "fitness",
+    "label": "Спорт / тренажёрный зал",
+    "subject": "Two black and chrome dumbbells beside a rolled muted teal exercise mat and a brushed-steel water bottle, realistic fitness equipment product photograph.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_fitness",
+    "file": "assets/fitness.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Two black and chrome dumbbells beside a rolled muted teal exercise mat and a brushed-steel water bottle, realistic fitness equipment product photograph. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "misha",
+    "label": "Миша",
+    "subject": "A stylish navy-blue student backpack with a neatly tucked notebook and compact silver headphones, clean student-accessories product photograph, no person.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_misha",
+    "file": "assets/misha.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A stylish navy-blue student backpack with a neatly tucked notebook and compact silver headphones, clean student-accessories product photograph, no person. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "allowance",
+    "label": "Студенческие / карманные деньги",
+    "subject": "A compact open brown leather coin purse with a few generic neutral banknotes and several coins neatly arranged, no readable currency amount, no invented legal tender details.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_allowance",
+    "file": "assets/allowance.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact open brown leather coin purse with a few generic neutral banknotes and several coins neatly arranged, no readable currency amount, no invented legal tender details. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "tutor",
+    "label": "Репетитор",
+    "subject": "An open squared exercise notebook with a simple handwritten arithmetic example, a wooden pencil and a small teaching whiteboard with a simple triangle diagram. Physical study tools, no people.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_tutor",
+    "file": "assets/tutor.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An open squared exercise notebook with a simple handwritten arithmetic example, a wooden pencil and a small teaching whiteboard with a simple triangle diagram. Physical study tools, no people. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "earned",
+    "label": "Заработал / заработала",
+    "subject": "A neat small kraft pay envelope partly open with generic banknotes and a few coins beside a compact work notebook. No readable amounts or personal names.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_earned",
+    "file": "assets/earned.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A neat small kraft pay envelope partly open with generic banknotes and a few coins beside a compact work notebook. No readable amounts or personal names. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "masha",
+    "label": "Маша",
+    "subject": "An elegant muted lilac student backpack, a cream notebook and compact white over-ear headphones, realistic fabric texture and hardware. No person, no toys.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_masha",
+    "file": "assets/masha.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An elegant muted lilac student backpack, a cream notebook and compact white over-ear headphones, realistic fabric texture and hardware. No person, no toys. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "school-fees",
+    "label": "Сборы в школе",
+    "subject": "A stack of school exercise notebooks with colored covers beside a small plain payment envelope and several pencils in a simple holder. No school name or readable financial details.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_school-fees",
+    "file": "assets/school-fees.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A stack of school exercise notebooks with colored covers beside a small plain payment envelope and several pencils in a simple holder. No school name or readable financial details. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "home",
+    "label": "Дом",
+    "subject": "A photorealistic finely detailed architectural scale model of a comfortable modern family house with a pitched roof, front entrance and small attached terrace, photographed as a high-end physical model, fully isolated, no landscape.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_home",
+    "file": "assets/home.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A photorealistic finely detailed architectural scale model of a comfortable modern family house with a pitched roof, front entrance and small attached terrace, photographed as a high-end physical model, fully isolated, no landscape. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "appliances",
+    "label": "Бытовая техника",
+    "subject": "A premium modern front-loading washing machine beside a compact stainless-steel electric kettle, precise real-world proportions and material detail, no brand name.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_appliances",
+    "file": "assets/appliances.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium modern front-loading washing machine beside a compact stainless-steel electric kettle, precise real-world proportions and material detail, no brand name. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "builders",
+    "label": "Строители / услуги для дома",
+    "subject": "A realistic yellow construction hard hat resting beside a well-worn brown leather tool belt with a hammer and a screwdriver. Authentic textured work equipment, no people.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_builders",
+    "file": "assets/builders.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A realistic yellow construction hard hat resting beside a well-worn brown leather tool belt with a hammer and a screwdriver. Authentic textured work equipment, no people. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "electronics",
+    "label": "Мелкая электроника",
+    "subject": "A premium compact portable speaker, white wireless earbuds in their charging case and a small power bank with a neatly coiled charging cable. No brand names.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_electronics",
+    "file": "assets/electronics.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium compact portable speaker, white wireless earbuds in their charging case and a small power bank with a neatly coiled charging cable. No brand names. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "firewood",
+    "label": "Дрова",
+    "subject": "A compact neat stack of split birch firewood logs showing realistic white bark, rich wood grain and rough freshly split ends, no fire, no axe.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_firewood",
+    "file": "assets/firewood.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact neat stack of split birch firewood logs showing realistic white bark, rich wood grain and rough freshly split ends, no fire, no axe. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "textiles",
+    "label": "Текстиль",
+    "subject": "A stack of premium folded natural linen bedding in ivory and muted sage, a soft cotton throw and one plush matching cushion, exceptionally detailed textile fibers.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_textiles",
+    "file": "assets/textiles.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A stack of premium folded natural linen bedding in ivory and muted sage, a soft cotton throw and one plush matching cushion, exceptionally detailed textile fibers. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "sauna-furniture",
+    "label": "Мебель для бани",
+    "subject": "A beautifully crafted natural light-wood sauna bench and a matching compact wooden stool, with a small wooden sauna bucket. Real wood grain, no steam or room background.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_sauna-furniture",
+    "file": "assets/sauna-furniture.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A beautifully crafted natural light-wood sauna bench and a matching compact wooden stool, with a small wooden sauna bucket. Real wood grain, no steam or room background. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "repair-appliance",
+    "label": "Ремонт техники",
+    "subject": "A compact electric appliance with a neatly opened service panel beside a precision screwdriver and small multimeter. Orderly professional repair still life, no exposed dangerous sparks.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_repair-appliance",
+    "file": "assets/repair-appliance.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact electric appliance with a neatly opened service panel beside a precision screwdriver and small multimeter. Orderly professional repair still life, no exposed dangerous sparks. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "jaecoo",
+    "label": "Авто Jaecoo",
+    "subject": "A metallic forest-green JAECOO SUV in front three-quarter view, distinctive upright grille and boxy contemporary SUV silhouette, realistic automotive showroom product photography, JAECOO wordmark subtly on the grille, no invented model number, blank licence plate. Whole vehicle visible.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_jaecoo",
+    "file": "assets/jaecoo.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A metallic forest-green JAECOO SUV in front three-quarter view, distinctive upright grille and boxy contemporary SUV silhouette, realistic automotive showroom product photography, JAECOO wordmark subtly on the grille, no invented model number, blank licence plate. Whole vehicle visible. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "car-accessories",
+    "label": "Другое к авто",
+    "subject": "A premium black car key fob, a coiled phone charging cable, a folded microfiber cloth and a small black automotive organizer pouch. No vehicle manufacturer logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_car-accessories",
+    "file": "assets/car-accessories.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium black car key fob, a coiled phone charging cable, a folded microfiber cloth and a small black automotive organizer pouch. No vehicle manufacturer logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "carwash",
+    "label": "Автомойка",
+    "subject": "A clean metallic silver passenger car beside a compact blue car-wash bucket with a yellow sponge and a folded microfiber towel, subtle realistic water droplets on body, no floor or background.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_carwash",
+    "file": "assets/carwash.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A clean metallic silver passenger car beside a compact blue car-wash bucket with a yellow sponge and a folded microfiber towel, subtle realistic water droplets on body, no floor or background. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "car-service",
+    "label": "Техническое обслуживание",
+    "subject": "A professional steel socket wrench, a clean oil filter and a sealed dark engine-oil bottle with a plain neutral label. Authentic automotive service equipment.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_car-service",
+    "file": "assets/car-service.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A professional steel socket wrench, a clean oil filter and a sealed dark engine-oil bottle with a plain neutral label. Authentic automotive service equipment. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "car-parts",
+    "label": "Запчасти",
+    "subject": "A detailed metal automotive brake disc, two clean spark plugs and a toothed rubber drive belt, authentic machined surfaces, compact arrangement.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_car-parts",
+    "file": "assets/car-parts.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A detailed metal automotive brake disc, two clean spark plugs and a toothed rubber drive belt, authentic machined surfaces, compact arrangement. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "sim",
+    "label": "SIM-карта",
+    "subject": "A macro product photograph of a white-and-gold SIM card partially within a pale blue plastic adapter, with crisp contact traces and a tiny metallic SIM removal pin. No operator branding.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_sim",
+    "file": "assets/sim.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A macro product photograph of a white-and-gold SIM card partially within a pale blue plastic adapter, with crisp contact traces and a tiny metallic SIM removal pin. No operator branding. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "fine",
+    "label": "Штрафы / штрафы ГИБДД",
+    "subject": "A folded traffic fine notice with one large readable Russian title ШТРАФ and a small car key fob, beside a compact metal clipboard. No personal data, plate numbers or readable amounts.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_fine",
+    "file": "assets/fine.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A folded traffic fine notice with one large readable Russian title ШТРАФ and a small car key fob, beside a compact metal clipboard. No personal data, plate numbers or readable amounts. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "kasko",
+    "label": "Страховка КАСКО",
+    "subject": "A premium paper insurance policy folder with one clearly readable Cyrillic title КАСКО, a detailed small graphite car and a silver shield-shaped keyring. Photo of physical objects, no invented insurer logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_kasko",
+    "file": "assets/kasko.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium paper insurance policy folder with one clearly readable Cyrillic title КАСКО, a detailed small graphite car and a silver shield-shaped keyring. Photo of physical objects, no invented insurer logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "osago",
+    "label": "Страховка ОСАГО",
+    "subject": "A cream paper motor insurance document folder with one clearly readable Cyrillic title ОСАГО, a neat car key and a dark pen. No invented insurer logo or small personal data.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_osago",
+    "file": "assets/osago.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A cream paper motor insurance document folder with one clearly readable Cyrillic title ОСАГО, a neat car key and a dark pen. No invented insurer logo or small personal data. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "insurance-kz",
+    "label": "Страховка Казахстан",
+    "subject": "A blue motor insurance folder, a car key fob and a small neatly folded turquoise Kazakhstan flag with its gold sun and eagle emblem, realistic textile, no other country flags.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_insurance-kz",
+    "file": "assets/insurance-kz.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A blue motor insurance folder, a car key fob and a small neatly folded turquoise Kazakhstan flag with its gold sun and eagle emblem, realistic textile, no other country flags. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "mazda",
+    "label": "Автомобиль Mazda",
+    "subject": "An elegant deep metallic red Mazda passenger car in front three-quarter view, flowing Mazda design proportions and recognizable Mazda badge centered on its grille, unspecified model, realistic automotive studio product photo, blank plate. Whole car visible.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_mazda",
+    "file": "assets/mazda.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An elegant deep metallic red Mazda passenger car in front three-quarter view, flowing Mazda design proportions and recognizable Mazda badge centered on its grille, unspecified model, realistic automotive studio product photo, blank plate. Whole car visible. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "hbo",
+    "label": "HBO",
+    "subject": "A premium slim black television or tablet angled slightly backward, screen displaying the large crisp white word HBO on deep black. Small black remote neatly in front. Photo of physical device, no background.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_hbo",
+    "file": "assets/hbo.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium slim black television or tablet angled slightly backward, screen displaying the large crisp white word HBO on deep black. Small black remote neatly in front. Photo of physical device, no background. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "mail-cloud",
+    "label": "Облако Mail",
+    "subject": "A premium compact blue external storage drive beside a small upright white display tile showing a crisp blue cloud and the concise label Mail. Realistic storage hardware, not a flat app icon.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_mail-cloud",
+    "file": "assets/mail-cloud.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium compact blue external storage drive beside a small upright white display tile showing a crisp blue cloud and the concise label Mail. Realistic storage hardware, not a flat app icon. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "start",
+    "label": "Старт",
+    "subject": "A premium thin black tablet displaying a large clean white word START on deep red, with a small neatly placed streaming remote. Physical product photograph, no background.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_start",
+    "file": "assets/start.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium thin black tablet displaying a large clean white word START on deep red, with a small neatly placed streaming remote. Physical product photograph, no background. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "yandex-music",
+    "label": "Яндекс Музыка",
+    "subject": "Premium black over-ear headphones resting around a small music-player device with a warm yellow screen and one large musical note. No tiny text or invented logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_yandex-music",
+    "file": "assets/yandex-music.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Premium black over-ear headphones resting around a small music-player device with a warm yellow screen and one large musical note. No tiny text or invented logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "finance-app",
+    "label": "Финанс",
+    "subject": "A compact modern smartphone beside a small calculator, screen with a clean blue-and-green chart and the single Russian word Финанс. Do not invent a proprietary logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_finance-app",
+    "file": "assets/finance-app.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A compact modern smartphone beside a small calculator, screen with a clean blue-and-green chart and the single Russian word Финанс. Do not invent a proprietary logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "pm",
+    "label": "PM",
+    "subject": "A premium dark smartphone angled upright with a restrained teal screen showing only the two large crisp white Latin letters PM. Do not imply what PM stands for, no invented company logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_pm",
+    "file": "assets/pm.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium dark smartphone angled upright with a restrained teal screen showing only the two large crisp white Latin letters PM. Do not imply what PM stands for, no invented company logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "ivi",
+    "label": "ivi",
+    "subject": "A premium black tablet and small black remote, screen with the large crisp white lowercase word ivi on a saturated raspberry-red field, no extra text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_ivi",
+    "file": "assets/ivi.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium black tablet and small black remote, screen with the large crisp white lowercase word ivi on a saturated raspberry-red field, no extra text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "premier",
+    "label": "Премьер",
+    "subject": "A premium thin black tablet and simple remote, screen showing the large crisp black word PREMIER on a warm vivid yellow field. No extra text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_premier",
+    "file": "assets/premier.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium thin black tablet and simple remote, screen showing the large crisp black word PREMIER on a warm vivid yellow field. No extra text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "audiobooks",
+    "label": "Аудиокниги / MyBook",
+    "subject": "Premium over-ear headphones gently resting around an open hardcover book with rich paper texture and a subtle dark bookmark, real physical objects. No invented book titles.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_audiobooks",
+    "file": "assets/audiobooks.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: Premium over-ear headphones gently resting around an open hardcover book with rich paper texture and a subtle dark bookmark, real physical objects. No invented book titles. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "kinopoisk",
+    "label": "Кинопоиск",
+    "subject": "A premium dark tablet beside a small film clapperboard; screen shows one large crisp white Cyrillic К on vivid warm orange, a restrained cinema-streaming visual cue. No other text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_kinopoisk",
+    "file": "assets/kinopoisk.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium dark tablet beside a small film clapperboard; screen shows one large crisp white Cyrillic К on vivid warm orange, a restrained cinema-streaming visual cue. No other text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "commentator",
+    "label": "Дмитрий Никотин",
+    "subject": "A premium studio podcast microphone in a black shock mount beside a small pair of headphones and a plain notebook, editorial subscription theme. No portrait, no political symbols, no fabricated service logo.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_commentator",
+    "file": "assets/commentator.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium studio podcast microphone in a black shock mount beside a small pair of headphones and a plain notebook, editorial subscription theme. No portrait, no political symbols, no fabricated service logo. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "telegram",
+    "label": "Телеграм",
+    "subject": "A premium slim smartphone angled upright, screen displaying a large simple white paper-plane Telegram symbol on vivid blue. Real glass and metal device materials, no personal messages.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_telegram",
+    "file": "assets/telegram.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium slim smartphone angled upright, screen displaying a large simple white paper-plane Telegram symbol on vivid blue. Real glass and metal device materials, no personal messages. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "radar",
+    "label": "Радар",
+    "subject": "A premium small dark tablet with a clean green radar sweep display and one large Cyrillic word РАДАР. An abstract subscription label, no claim about a particular service or function.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_radar",
+    "file": "assets/radar.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium small dark tablet with a clean green radar sweep display and one large Cyrillic word РАДАР. An abstract subscription label, no claim about a particular service or function. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "chatgpt",
+    "label": "ChatGPT",
+    "subject": "A premium thin silver tablet with a deep charcoal screen showing the large crisp white interwoven ChatGPT knot symbol and the small clear word ChatGPT below. Real glass, crisp bezels, no people.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_chatgpt",
+    "file": "assets/chatgpt.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium thin silver tablet with a deep charcoal screen showing the large crisp white interwoven ChatGPT knot symbol and the small clear word ChatGPT below. Real glass, crisp bezels, no people. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "vpn",
+    "label": "VPN",
+    "subject": "A premium slim smartphone with a deep teal screen showing the large clear letters VPN and a simple lock symbol, beside a small brushed-metal padlock. Real physical objects.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_vpn",
+    "file": "assets/vpn.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium slim smartphone with a deep teal screen showing the large clear letters VPN and a simple lock symbol, beside a small brushed-metal padlock. Real physical objects. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "zoom",
+    "label": "Zoom",
+    "subject": "A premium compact webcam beside a slim upright blue screen displaying the large crisp lowercase white word zoom and a simple white video-camera symbol. Realistic product photography.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_zoom",
+    "file": "assets/zoom.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium compact webcam beside a slim upright blue screen displaying the large crisp lowercase white word zoom and a simple white video-camera symbol. Realistic product photography. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "furniture",
+    "label": "Мебель",
+    "subject": "A refined small arrangement of a warm taupe fabric armchair and a round natural oak side table, impeccable wood grain and upholstered fabric, both fully visible, no room backdrop.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_furniture",
+    "file": "assets/furniture.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A refined small arrangement of a warm taupe fabric armchair and a round natural oak side table, impeccable wood grain and upholstered fabric, both fully visible, no room backdrop. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "equipment",
+    "label": "Техника",
+    "subject": "A rugged compact red outdoor motorized machine engine assembly with an intact protective casing and a sturdy black toolbox beside it. Clear household outdoor equipment theme, no brand.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_equipment",
+    "file": "assets/equipment.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A rugged compact red outdoor motorized machine engine assembly with an intact protective casing and a sturdy black toolbox beside it. Clear household outdoor equipment theme, no brand. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "snowmobile",
+    "label": "Снегоход",
+    "subject": "A modern red and black snowmobile with two front skis and a visible rear rubber track, front three-quarter studio photograph, complete vehicle in frame, no snow landscape.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_snowmobile",
+    "file": "assets/snowmobile.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A modern red and black snowmobile with two front skis and a visible rear rubber track, front three-quarter studio photograph, complete vehicle in frame, no snow landscape. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "snowblower",
+    "label": "Снегоуборщик",
+    "subject": "A robust red two-stage snow blower with a black discharge chute and deep-tread rubber wheels, precise auger housing and handles, fully visible studio product photograph, no snow or landscape.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_snowblower",
+    "file": "assets/snowblower.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A robust red two-stage snow blower with a black discharge chute and deep-tread rubber wheels, precise auger housing and handles, fully visible studio product photograph, no snow or landscape. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "mower",
+    "label": "Газонокосилка",
+    "subject": "A premium green and graphite walk-behind lawn mower with four wheels, a black grass collection bag and a neatly upright handle, fully visible product photograph, no lawn or ground.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_mower",
+    "file": "assets/mower.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium green and graphite walk-behind lawn mower with four wheels, a black grass collection bag and a neatly upright handle, fully visible product photograph, no lawn or ground. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "trimmer",
+    "label": "Триммер",
+    "subject": "A modern orange and graphite garden grass trimmer with a compact motor housing, comfortable handle, full shaft and protected cutting head, arranged diagonally so the entire tool fits inside a square frame, no cropped ends.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_trimmer",
+    "file": "assets/trimmer.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A modern orange and graphite garden grass trimmer with a compact motor housing, comfortable handle, full shaft and protected cutting head, arranged diagonally so the entire tool fits inside a square frame, no cropped ends. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "loans",
+    "label": "Кредиты",
+    "subject": "A realistic paper loan agreement with a restrained single Cyrillic title КРЕДИТ, a dark pen, a compact calculator and a few neutral coins, no readable amounts or lender logos.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_loans",
+    "file": "assets/loans.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A realistic paper loan agreement with a restrained single Cyrillic title КРЕДИТ, a dark pen, a compact calculator and a few neutral coins, no readable amounts or lender logos. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "mortgage",
+    "label": "Ипотека",
+    "subject": "A detailed small house model beside a neat paper agreement, polished house keys and a compact calculator, physical-object product photograph, no lender logo or readable personal data.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_mortgage",
+    "file": "assets/mortgage.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A detailed small house model beside a neat paper agreement, polished house keys and a compact calculator, physical-object product photograph, no lender logo or readable personal data. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "car-tax",
+    "label": "Налог на автомобиль",
+    "subject": "A cream tax notice with a simple large title НАЛОГ, a small silver passenger car and a compact calculator, no readable amounts or personal data.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_car-tax",
+    "file": "assets/car-tax.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A cream tax notice with a simple large title НАЛОГ, a small silver passenger car and a compact calculator, no readable amounts or personal data. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "land-rent",
+    "label": "Аренда земли",
+    "subject": "A realistic folded cadastral-style land plan with muted green parcel shapes beside a small brass key and a dark pen, no real address, no tiny readable text, no landscape.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_land-rent",
+    "file": "assets/land-rent.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A realistic folded cadastral-style land plan with muted green parcel shapes beside a small brass key and a dark pen, no real address, no tiny readable text, no landscape. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "online-learning",
+    "label": "Онлайн-тренинги",
+    "subject": "A premium laptop showing a clean online lesson interface with simple diagrams, over-ear headphones beside it and an open notebook, no people or readable small text.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_online-learning",
+    "file": "assets/online-learning.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A premium laptop showing a clean online lesson interface with simple diagrams, over-ear headphones beside it and an open notebook, no people or readable small text. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "offline-learning",
+    "label": "Офлайн-тренинги",
+    "subject": "A realistic compact presentation flipchart with a neat simple colored diagram beside a stack of learning workbooks and a black marker. Physical seminar objects, no people or room.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_offline-learning",
+    "file": "assets/offline-learning.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A realistic compact presentation flipchart with a neat simple colored diagram beside a stack of learning workbooks and a black marker. Physical seminar objects, no people or room. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "english",
+    "label": "Английский детям",
+    "subject": "An open English-learning workbook with clear large letters ABC and three colorful alphabet blocks beside a pencil. No flags or fabricated course branding.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_english",
+    "file": "assets/english.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: An open English-learning workbook with clear large letters ABC and three colorful alphabet blocks beside a pencil. No flags or fabricated course branding. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  },
+  {
+    "key": "group-course",
+    "label": "Складчина",
+    "subject": "A small neat stack of course workbooks beside three differently colored payment envelopes with a few generic coins between them, shared course-purchase concept, no personal names or logos.",
+    "source_file": null,
+    "suggested_icon_id": "pexp_group-course",
+    "file": "assets/group-course.png",
+    "prompt": "Use case: product-mockup. Asset type: ONE individual photorealistic personal-finance category PNG, square composition, genuine transparent background. Subject: A small neat stack of course workbooks beside three differently colored payment envelopes with a few generic coins between them, shared course-purchase concept, no personal names or logos. Create a premium sharply focused studio product PHOTOGRAPH with convincing native high detail, real materials and fine surface texture, natural physical proportions, soft directional studio lighting, balanced rich colors. Entire ensemble centered and fully visible, fills about 84–90% of the square; compact readable silhouette at 80–112px. Isolated cutout with REAL alpha transparency outside the objects, including negative spaces. No room, ground, white rectangle, backdrop, painted checkerboard, icon border, background tile, halo, watermark, cartoon, flat vector or toy-like 3D render. No extra objects; no legible text except the specific short title requested. Maximize native image resolution and detail. A single standalone asset, never a grid or contact sheet.",
+    "origin": "generated_for_this_package"
+  }
+]

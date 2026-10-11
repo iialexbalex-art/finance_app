@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "package_key": "business_expenses_20261006_v1",
+  "space_kind": "business",
+  "transaction_type": "expense",
+  "root_count": 11,
+  "subcategory_count": 51,
+  "category_count": 62,
+  "notes": [
+    "Покупка оргтехники и покупка мебели разделены.",
+    "Суточные / иное и Декларации / иные платежи сохранены объединёнными.",
+    "Три сотрудника: Дарья Вологжанина, Марина Смирнова, Эльвира Набиуллина.",
+    "АУСН — нормализованное русское написание AUSN.",
+    "Две похожие комиссии за обслуживание/абонентку сохранены отдельно по исходному списку."
+  ],
+  "install_mode": "replace_all_existing_business_expense_categories",
+  "categories": [
+    {
+      "key": "advertising",
+      "name": "Реклама",
+      "parent_key": null,
+      "path": "Реклама",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising",
+      "asset_file": "assets/advertising.png"
+    },
+    {
+      "key": "advertising-olx",
+      "name": "Реклама на площадке OLX",
+      "parent_key": "advertising",
+      "path": "Реклама / Реклама на площадке OLX",
+      "sort_order": 1,
+      "aliases": [
+        "OLX"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-olx",
+      "asset_file": "assets/advertising-olx.png"
+    },
+    {
+      "key": "advertising-yandex-direct",
+      "name": "Яндекс.Директ",
+      "parent_key": "advertising",
+      "path": "Реклама / Яндекс.Директ",
+      "sort_order": 2,
+      "aliases": [
+        "Яндекс Директ"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-yandex-direct",
+      "asset_file": "assets/advertising-yandex-direct.png"
+    },
+    {
+      "key": "advertising-seo",
+      "name": "SEO",
+      "parent_key": "advertising",
+      "path": "Реклама / SEO",
+      "sort_order": 3,
+      "aliases": [
+        "СЕО"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-seo",
+      "asset_file": "assets/advertising-seo.png"
+    },
+    {
+      "key": "advertising-agency-client-fee",
+      "name": "Агентская комиссия за клиента",
+      "parent_key": "advertising",
+      "path": "Реклама / Агентская комиссия за клиента",
+      "sort_order": 4,
+      "aliases": [
+        "Оплата комиссии за клиента агентские"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-agency-client-fee",
+      "asset_file": "assets/advertising-agency-client-fee.png"
+    },
+    {
+      "key": "advertising-avito-budget",
+      "name": "Авито — бюджет",
+      "parent_key": "advertising",
+      "path": "Реклама / Авито — бюджет",
+      "sort_order": 5,
+      "aliases": [
+        "Авито бюджет"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-avito-budget",
+      "asset_file": "assets/advertising-avito-budget.png"
+    },
+    {
+      "key": "office",
+      "name": "Обслуживание офиса",
+      "parent_key": null,
+      "path": "Обслуживание офиса",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office",
+      "asset_file": "assets/office.png"
+    },
+    {
+      "key": "office-internet",
+      "name": "Интернет",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Интернет",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-internet",
+      "asset_file": "assets/office-internet.png"
+    },
+    {
+      "key": "office-office-groceries",
+      "name": "Продукты в офис",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Продукты в офис",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-groceries",
+      "asset_file": "assets/office-office-groceries.png"
+    },
+    {
+      "key": "office-printer-service",
+      "name": "Обслуживание принтеров",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Обслуживание принтеров",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-printer-service",
+      "asset_file": "assets/office-printer-service.png"
+    },
+    {
+      "key": "office-stationery",
+      "name": "Канцтовары",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Канцтовары",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-stationery",
+      "asset_file": "assets/office-stationery.png"
+    },
+    {
+      "key": "office-water",
+      "name": "Вода",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Вода",
+      "sort_order": 5,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-water",
+      "asset_file": "assets/office-water.png"
+    },
+    {
+      "key": "office-beeline",
+      "name": "Телефония Билайн",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Телефония Билайн",
+      "sort_order": 6,
+      "aliases": [
+        "Билайн"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-beeline",
+      "asset_file": "assets/office-beeline.png"
+    },
+    {
+      "key": "office-rent",
+      "name": "Аренда",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Аренда",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-rent",
+      "asset_file": "assets/office-rent.png"
+    },
+    {
+      "key": "office-utilities",
+      "name": "Коммунальные услуги",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Коммунальные услуги",
+      "sort_order": 8,
+      "aliases": [
+        "Коммуналка"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-utilities",
+      "asset_file": "assets/office-utilities.png"
+    },
+    {
+      "key": "office-office-equipment",
+      "name": "Покупка оргтехники",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Покупка оргтехники",
+      "sort_order": 9,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-equipment",
+      "asset_file": "assets/office-office-equipment.png"
+    },
+    {
+      "key": "office-office-furniture",
+      "name": "Покупка мебели",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Покупка мебели",
+      "sort_order": 10,
+      "aliases": [
+        "Мебель"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-furniture",
+      "asset_file": "assets/office-office-furniture.png"
+    },
+    {
+      "key": "office-office-renovation",
+      "name": "Ремонт офиса",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Ремонт офиса",
+      "sort_order": 11,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-renovation",
+      "asset_file": "assets/office-office-renovation.png"
+    },
+    {
+      "key": "office-security-cameras",
+      "name": "Камеры",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Камеры",
+      "sort_order": 12,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-security-cameras",
+      "asset_file": "assets/office-security-cameras.png"
+    },
+    {
+      "key": "office-office-supplies",
+      "name": "Хозтовары в офис",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Хозтовары в офис",
+      "sort_order": 13,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-supplies",
+      "asset_file": "assets/office-office-supplies.png"
+    },
+    {
+      "key": "office-office-cleaning",
+      "name": "Уборка офиса",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Уборка офиса",
+      "sort_order": 14,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-cleaning",
+      "asset_file": "assets/office-office-cleaning.png"
+    },
+    {
+      "key": "office-snow-removal",
+      "name": "Уборка снега",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Уборка снега",
+      "sort_order": 15,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-snow-removal",
+      "asset_file": "assets/office-snow-removal.png"
+    },
+    {
+      "key": "office-sipuni",
+      "name": "Телефония Сипуни",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Телефония Сипуни",
+      "sort_order": 16,
+      "aliases": [
+        "Сипуни",
+        "Sipuni"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-sipuni",
+      "asset_file": "assets/office-sipuni.png"
+    },
+    {
+      "key": "office-extra",
+      "name": "Доп. обслуживание офиса",
+      "parent_key": null,
+      "path": "Доп. обслуживание офиса",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra",
+      "asset_file": "assets/office-extra.png"
+    },
+    {
+      "key": "office-extra-post",
+      "name": "Почта",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Почта",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-post",
+      "asset_file": "assets/office-extra-post.png"
+    },
+    {
+      "key": "office-extra-headhunter",
+      "name": "HeadHunter",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / HeadHunter",
+      "sort_order": 2,
+      "aliases": [
+        "Headhunter",
+        "HH",
+        "hh.ru"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-headhunter",
+      "asset_file": "assets/office-extra-headhunter.png"
+    },
+    {
+      "key": "office-extra-garant",
+      "name": "Правовая система Гарант",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Правовая система Гарант",
+      "sort_order": 3,
+      "aliases": [
+        "Гарант"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-garant",
+      "asset_file": "assets/office-extra-garant.png"
+    },
+    {
+      "key": "office-extra-accounting",
+      "name": "Оплата бухгалтерии",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Оплата бухгалтерии",
+      "sort_order": 4,
+      "aliases": [
+        "Бухгалтерия"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-accounting",
+      "asset_file": "assets/office-extra-accounting.png"
+    },
+    {
+      "key": "advertising-services",
+      "name": "Обслуживание рекламы",
+      "parent_key": null,
+      "path": "Обслуживание рекламы",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services",
+      "asset_file": "assets/advertising-services.png"
+    },
+    {
+      "key": "advertising-services-bitrix24",
+      "name": "Оплата Bitrix24",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Оплата Bitrix24",
+      "sort_order": 1,
+      "aliases": [
+        "Bitrix24",
+        "Битрикс24"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-bitrix24",
+      "asset_file": "assets/advertising-services-bitrix24.png"
+    },
+    {
+      "key": "advertising-services-bitrix24-marketplace",
+      "name": "Оплата маркетплейса Bitrix24",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Оплата маркетплейса Bitrix24",
+      "sort_order": 2,
+      "aliases": [
+        "Маркетплейс Bitrix24"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-bitrix24-marketplace",
+      "asset_file": "assets/advertising-services-bitrix24-marketplace.png"
+    },
+    {
+      "key": "advertising-services-reviews",
+      "name": "Отзывы",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Отзывы",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-reviews",
+      "asset_file": "assets/advertising-services-reviews.png"
+    },
+    {
+      "key": "advertising-services-domains",
+      "name": "Домены",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Домены",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-domains",
+      "asset_file": "assets/advertising-services-domains.png"
+    },
+    {
+      "key": "advertising-services-hosting",
+      "name": "Хостинги",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Хостинги",
+      "sort_order": 5,
+      "aliases": [
+        "Хостинг"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-hosting",
+      "asset_file": "assets/advertising-services-hosting.png"
+    },
+    {
+      "key": "advertising-services-avitologist",
+      "name": "Авитолог",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Авитолог",
+      "sort_order": 6,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-avitologist",
+      "asset_file": "assets/advertising-services-avitologist.png"
+    },
+    {
+      "key": "advertising-services-vapi",
+      "name": "VAPI",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / VAPI",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-vapi",
+      "asset_file": "assets/advertising-services-vapi.png"
+    },
+    {
+      "key": "advertising-services-yandex-disk",
+      "name": "Яндекс.Диск",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Яндекс.Диск",
+      "sort_order": 8,
+      "aliases": [
+        "Яндекс Диск"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-yandex-disk",
+      "asset_file": "assets/advertising-services-yandex-disk.png"
+    },
+    {
+      "key": "salary",
+      "name": "Зарплата",
+      "parent_key": null,
+      "path": "Зарплата",
+      "sort_order": 5,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary",
+      "asset_file": "assets/salary.png"
+    },
+    {
+      "key": "salary-salary-darya",
+      "name": "Лид-менеджер — Вологжанина Дарья",
+      "parent_key": "salary",
+      "path": "Зарплата / Лид-менеджер — Вологжанина Дарья",
+      "sort_order": 1,
+      "aliases": [
+        "Лид менеджер (Вологжанина Дарья)",
+        "Вологжанина Дарья"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-darya",
+      "asset_file": "assets/salary-salary-darya.png"
+    },
+    {
+      "key": "salary-salary-marina",
+      "name": "Юрист — Смирнова Марина",
+      "parent_key": "salary",
+      "path": "Зарплата / Юрист — Смирнова Марина",
+      "sort_order": 2,
+      "aliases": [
+        "Юрист Смирнова Марина",
+        "Смирнова Марина"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-marina",
+      "asset_file": "assets/salary-salary-marina.png"
+    },
+    {
+      "key": "salary-salary-elvira",
+      "name": "Юрист — Набиуллина Эльвира",
+      "parent_key": "salary",
+      "path": "Зарплата / Юрист — Набиуллина Эльвира",
+      "sort_order": 3,
+      "aliases": [
+        "Юрист Набиуллина Эльвира",
+        "Набиуллина Эльвира"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-elvira",
+      "asset_file": "assets/salary-salary-elvira.png"
+    },
+    {
+      "key": "lawyer-travel",
+      "name": "Командировки юристов",
+      "parent_key": null,
+      "path": "Командировки юристов",
+      "sort_order": 6,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel",
+      "asset_file": "assets/lawyer-travel.png"
+    },
+    {
+      "key": "lawyer-travel-tickets",
+      "name": "Билеты",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Билеты",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-tickets",
+      "asset_file": "assets/lawyer-travel-tickets.png"
+    },
+    {
+      "key": "lawyer-travel-hotel",
+      "name": "Гостиница",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Гостиница",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-hotel",
+      "asset_file": "assets/lawyer-travel-hotel.png"
+    },
+    {
+      "key": "lawyer-travel-fuel",
+      "name": "Бензин",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Бензин",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-fuel",
+      "asset_file": "assets/lawyer-travel-fuel.png"
+    },
+    {
+      "key": "lawyer-travel-per-diem",
+      "name": "Суточные / иное",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Суточные / иное",
+      "sort_order": 4,
+      "aliases": [
+        "Суточные иное"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-per-diem",
+      "asset_file": "assets/lawyer-travel-per-diem.png"
+    },
+    {
+      "key": "taxes",
+      "name": "Налоги",
+      "parent_key": null,
+      "path": "Налоги",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes",
+      "asset_file": "assets/taxes.png"
+    },
+    {
+      "key": "taxes-ausn",
+      "name": "АУСН",
+      "parent_key": "taxes",
+      "path": "Налоги / АУСН",
+      "sort_order": 1,
+      "aliases": [
+        "AUSN"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes-ausn",
+      "asset_file": "assets/taxes-ausn.png"
+    },
+    {
+      "key": "taxes-employee-taxes",
+      "name": "Налоги за работников",
+      "parent_key": "taxes",
+      "path": "Налоги / Налоги за работников",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes-employee-taxes",
+      "asset_file": "assets/taxes-employee-taxes.png"
+    },
+    {
+      "key": "corporate-gifts",
+      "name": "Корпоративы и подарки",
+      "parent_key": null,
+      "path": "Корпоративы и подарки",
+      "sort_order": 8,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts",
+      "asset_file": "assets/corporate-gifts.png"
+    },
+    {
+      "key": "corporate-gifts-birthday-gifts",
+      "name": "Подарки на день рождения",
+      "parent_key": "corporate-gifts",
+      "path": "Корпоративы и подарки / Подарки на день рождения",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts-birthday-gifts",
+      "asset_file": "assets/corporate-gifts-birthday-gifts.png"
+    },
+    {
+      "key": "corporate-gifts-office-party",
+      "name": "Корпоратив за счёт офиса",
+      "parent_key": "corporate-gifts",
+      "path": "Корпоративы и подарки / Корпоратив за счёт офиса",
+      "sort_order": 2,
+      "aliases": [
+        "Корпоратив за счет офиса"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts-office-party",
+      "asset_file": "assets/corporate-gifts-office-party.png"
+    },
+    {
+      "key": "client-refunds",
+      "name": "Возврат по договорам клиентам",
+      "parent_key": null,
+      "path": "Возврат по договорам клиентам",
+      "sort_order": 9,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-refunds",
+      "asset_file": "assets/client-refunds.png"
+    },
+    {
+      "key": "client-payments",
+      "name": "Оплата за клиента",
+      "parent_key": null,
+      "path": "Оплата за клиента",
+      "sort_order": 10,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments",
+      "asset_file": "assets/client-payments.png"
+    },
+    {
+      "key": "client-payments-state-duty",
+      "name": "Госпошлина",
+      "parent_key": "client-payments",
+      "path": "Оплата за клиента / Госпошлина",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments-state-duty",
+      "asset_file": "assets/client-payments-state-duty.png"
+    },
+    {
+      "key": "client-payments-declarations-other",
+      "name": "Декларации / иные платежи",
+      "parent_key": "client-payments",
+      "path": "Оплата за клиента / Декларации / иные платежи",
+      "sort_order": 2,
+      "aliases": [
+        "Декларации иные платежи"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments-declarations-other",
+      "asset_file": "assets/client-payments-declarations-other.png"
+    },
+    {
+      "key": "bank-fees",
+      "name": "Банковские комиссии",
+      "parent_key": null,
+      "path": "Банковские комиссии",
+      "sort_order": 11,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees",
+      "asset_file": "assets/bank-fees.png"
+    },
+    {
+      "key": "bank-fees-sber-terminal",
+      "name": "Терминал Сбер",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Терминал Сбер",
+      "sort_order": 1,
+      "aliases": [
+        "Терминал Сбербанк"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-sber-terminal",
+      "asset_file": "assets/bank-fees-sber-terminal.png"
+    },
+    {
+      "key": "bank-fees-sber-payments",
+      "name": "За платёжки Сбер",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / За платёжки Сбер",
+      "sort_order": 2,
+      "aliases": [
+        "За платежки Сбер"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-sber-payments",
+      "asset_file": "assets/bank-fees-sber-payments.png"
+    },
+    {
+      "key": "bank-fees-monthly-account-fee",
+      "name": "Ежемесячная комиссия за обслуживание счёта",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Ежемесячная комиссия за обслуживание счёта",
+      "sort_order": 3,
+      "aliases": [
+        "Ежемесячная комиссия за обслуживание счета"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-monthly-account-fee",
+      "asset_file": "assets/bank-fees-monthly-account-fee.png"
+    },
+    {
+      "key": "bank-fees-cash-deposit-fee",
+      "name": "За внесение денег на счёт",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / За внесение денег на счёт",
+      "sort_order": 4,
+      "aliases": [
+        "За внесение денег на счет"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-cash-deposit-fee",
+      "asset_file": "assets/bank-fees-cash-deposit-fee.png"
+    },
+    {
+      "key": "bank-fees-account-subscription",
+      "name": "Заведение счёта — абонентка",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Заведение счёта — абонентка",
+      "sort_order": 5,
+      "aliases": [
+        "Заведение счета - абонентка"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-account-subscription",
+      "asset_file": "assets/bank-fees-account-subscription.png"
+    }
+  ]
+}

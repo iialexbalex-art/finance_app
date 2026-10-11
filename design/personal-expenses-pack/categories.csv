@@ -1,0 +1,144 @@
+﻿key;parent_key;name;path;sort_order;asset_key;suggested_icon_id;asset_file;aliases
+sasha;;Саша лично;Саша лично;1;sasha;pexp_sasha;assets/sasha.png;
+sasha-haircut;sasha;Стрижка;Саша лично / Стрижка;1;haircut;pexp_haircut;assets/haircut.png;
+sasha-lenses;sasha;Для линз;Саша лично / Для линз;2;lenses;pexp_lenses;assets/lenses.png;дли линз
+sasha-clothes;sasha;Одежда;Саша лично / Одежда;3;clothes;pexp_clothes;assets/clothes.png;
+sasha-fishing;sasha;Рыбалка;Саша лично / Рыбалка;4;fishing;pexp_fishing;assets/fishing.png;
+sasha-gift;sasha;Подарок;Саша лично / Подарок;5;gift;bizexp_corporate-gifts-birthday-gifts;assets/gift.png;Подарки
+sasha-hookah-supplies;sasha;Препараты для кальяна;Саша лично / Препараты для кальяна;6;hookah-supplies;pexp_hookah-supplies;assets/hookah-supplies.png;
+sasha-nails;sasha;Ногти;Саша лично / Ногти;7;nails;pexp_nails;assets/nails.png;Маникюр
+entertainment;;Развлечения;Развлечения;2;entertainment;pexp_entertainment;assets/entertainment.png;
+entertainment-cafe;entertainment;Кафе;Развлечения / Кафе;1;cafe;pexp_cafe;assets/cafe.png;
+entertainment-cinema;entertainment;Кино;Развлечения / Кино;2;cinema;pexp_cinema;assets/cinema.png;
+entertainment-concert;entertainment;Концерт;Развлечения / Концерт;3;concert;pexp_concert;assets/concert.png;
+entertainment-home-party;entertainment;Тусим дома;Развлечения / Тусим дома;4;home-party;pexp_home-party;assets/home-party.png;
+entertainment-birthday;entertainment;День рождения;Развлечения / День рождения;5;birthday;pexp_birthday;assets/birthday.png;
+entertainment-hookah;entertainment;Кальян;Развлечения / Кальян;6;hookah;pexp_hookah;assets/hookah.png;
+outings;;Вылазки куда-нибудь;Вылазки куда-нибудь;3;outings;pexp_outings;assets/outings.png;
+outings-fuel;outings;Бензин;Вылазки куда-нибудь / Бензин;1;fuel;bizexp_lawyer-travel-fuel;assets/fuel.png;
+outings-car;outings;Автомобиль;Вылазки куда-нибудь / Автомобиль;2;car;pexp_car;assets/car.png;
+outings-parking;outings;Парковка;Вылазки куда-нибудь / Парковка;3;parking;pexp_parking;assets/parking.png;Парковки | Паркинг
+outings-shopping;outings;Покупки;Вылазки куда-нибудь / Покупки;4;shopping;pexp_shopping;assets/shopping.png;
+outings-trips;outings;Поездки;Вылазки куда-нибудь / Поездки;5;outings;pexp_outings;assets/outings.png;
+outings-phone;outings;Связь;Вылазки куда-нибудь / Связь;6;phone;pexp_phone;assets/phone.png;
+outings-food;outings;Еда;Вылазки куда-нибудь / Еда;7;food;pexp_food;assets/food.png;
+outings-cafe;outings;Кафе;Вылазки куда-нибудь / Кафе;8;cafe;pexp_cafe;assets/cafe.png;
+outings-housing;outings;Аренда жилья;Вылазки куда-нибудь / Аренда жилья;9;housing;pexp_housing;assets/housing.png;
+outings-entertainment;outings;Развлечения;Вылазки куда-нибудь / Развлечения;10;entertainment;pexp_entertainment;assets/entertainment.png;
+outings-transport;outings;Транспорт;Вылазки куда-нибудь / Транспорт;11;transport;pexp_transport;assets/transport.png;
+outings-taxi;outings;Такси;Вылазки куда-нибудь / Такси;12;taxi;pexp_taxi;assets/taxi.png;
+outings-souvenirs;outings;Сувениры;Вылазки куда-нибудь / Сувениры;13;souvenirs;pexp_souvenirs;assets/souvenirs.png;
+outings-airfare;outings;Авиабилеты;Вылазки куда-нибудь / Авиабилеты;14;airfare;bizexp_lawyer-travel-tickets;assets/airfare.png;
+outings-other;outings;Другое;Вылазки куда-нибудь / Другое;15;other;pexp_other;assets/other.png;
+natasha;;Наташа лично;Наташа лично;4;natasha;pexp_natasha;assets/natasha.png;
+natasha-marketplaces;natasha;Маркетплейсы;Наташа лично / Маркетплейсы;1;shopping;pexp_shopping;assets/shopping.png;
+natasha-clothes-shoes;natasha;Одежда и обувь;Наташа лично / Одежда и обувь;2;clothes-shoes;pexp_clothes-shoes;assets/clothes-shoes.png;
+natasha-books;natasha;Книги;Наташа лично / Книги;3;books;pexp_books;assets/books.png;
+natasha-learning;natasha;Обучение;Наташа лично / Обучение;4;education;pexp_education;assets/education.png;
+natasha-massage;natasha;Массаж;Наташа лично / Массаж;5;massage;pexp_massage;assets/massage.png;
+natasha-cosmetics;natasha;Косметика;Наташа лично / Косметика;6;cosmetics;pexp_cosmetics;assets/cosmetics.png;
+natasha-nails;natasha;Ногти;Наташа лично / Ногти;7;nails;pexp_nails;assets/nails.png;Маникюр
+natasha-cosmetology;natasha;Косметолог;Наташа лично / Косметолог;8;cosmetology;pexp_cosmetology;assets/cosmetology.png;
+natasha-eyelashes;natasha;Ресницы;Наташа лично / Ресницы;9;eyelashes;pexp_eyelashes;assets/eyelashes.png;
+natasha-gifts;natasha;Подарки;Наташа лично / Подарки;10;gift;bizexp_corporate-gifts-birthday-gifts;assets/gift.png;Подарок
+natasha-sport;natasha;Спорт;Наташа лично / Спорт;11;fitness;pexp_fitness;assets/fitness.png;
+misha;;Миша;Миша;5;misha;pexp_misha;assets/misha.png;
+misha-student-money;misha;Студенческие деньги;Миша / Студенческие деньги;1;allowance;pexp_allowance;assets/allowance.png;
+misha-clothes;misha;Одежда;Миша / Одежда;2;clothes;pexp_clothes;assets/clothes.png;
+misha-entertainment;misha;Развлечения;Миша / Развлечения;3;entertainment;pexp_entertainment;assets/entertainment.png;
+misha-gifts;misha;Подарки;Миша / Подарки;4;gift;bizexp_corporate-gifts-birthday-gifts;assets/gift.png;Подарок
+misha-tutor;misha;Репетитор;Миша / Репетитор;5;tutor;pexp_tutor;assets/tutor.png;
+misha-earned;misha;Заработал;Миша / Заработал;6;earned;pexp_earned;assets/earned.png;
+masha;;Маша;Маша;6;masha;pexp_masha;assets/masha.png;
+masha-marketplaces;masha;Маркетплейсы;Маша / Маркетплейсы;1;shopping;pexp_shopping;assets/shopping.png;
+masha-cosmetics;masha;Косметика;Маша / Косметика;2;cosmetics;pexp_cosmetics;assets/cosmetics.png;
+masha-manicure;masha;Маникюр;Маша / Маникюр;3;nails;pexp_nails;assets/nails.png;Ногти
+masha-gym;masha;Тренажёрный зал;Маша / Тренажёрный зал;4;fitness;pexp_fitness;assets/fitness.png;Тренажерка | Тренажёрка
+masha-lenses;masha;Линзы;Маша / Линзы;5;lenses;pexp_lenses;assets/lenses.png;
+masha-pocket-money;masha;Карманные деньги;Маша / Карманные деньги;6;allowance;pexp_allowance;assets/allowance.png;
+masha-learning;masha;Обучение;Маша / Обучение;7;education;pexp_education;assets/education.png;
+masha-haircut;masha;Стрижка;Маша / Стрижка;8;haircut;pexp_haircut;assets/haircut.png;
+masha-gifts;masha;Подарки;Маша / Подарки;9;gift;bizexp_corporate-gifts-birthday-gifts;assets/gift.png;Подарок
+masha-school-fees;masha;Сборы в школе;Маша / Сборы в школе;10;school-fees;pexp_school-fees;assets/school-fees.png;
+masha-earned;masha;Заработала;Маша / Заработала;11;earned;pexp_earned;assets/earned.png;
+masha-tutor;masha;Репетитор;Маша / Репетитор;12;tutor;pexp_tutor;assets/tutor.png;
+masha-books;masha;Книги;Маша / Книги;13;books;pexp_books;assets/books.png;
+home;;Дом;Дом;7;home;pexp_home;assets/home.png;
+home-appliances;home;Бытовая техника;Дом / Бытовая техника;1;appliances;pexp_appliances;assets/appliances.png;
+home-renovation-materials;home;Материалы к ремонту;Дом / Материалы к ремонту;2;renovation;bizexp_office-office-renovation;assets/renovation.png;
+home-builders;home;Строители;Дом / Строители;3;builders;pexp_builders;assets/builders.png;
+home-electronics;home;Мелкая электроника;Дом / Мелкая электроника;4;electronics;pexp_electronics;assets/electronics.png;
+home-firewood;home;Дрова;Дом / Дрова;5;firewood;pexp_firewood;assets/firewood.png;
+home-textiles;home;Текстиль;Дом / Текстиль;6;textiles;pexp_textiles;assets/textiles.png;
+home-household;home;Хозтовары для дома;Дом / Хозтовары для дома;7;household;bizexp_office-office-supplies;assets/household.png;
+home-sauna-furniture;home;Мебель для бани;Дом / Мебель для бани;8;sauna-furniture;pexp_sauna-furniture;assets/sauna-furniture.png;
+home-small-household;home;По мелочи для хозяйства;Дом / По мелочи для хозяйства;9;other;pexp_other;assets/other.png;
+home-repair-appliance;home;Ремонт техники;Дом / Ремонт техники;10;repair-appliance;pexp_repair-appliance;assets/repair-appliance.png;
+home-property;home;Приобретение имущества;Дом / Приобретение имущества;11;housing;pexp_housing;assets/housing.png;
+home-marketplace;home;Маркетплейс для дома;Дом / Маркетплейс для дома;12;shopping;pexp_shopping;assets/shopping.png;Маркетплейсы для дома
+home-services;home;Услуги для дома;Дом / Услуги для дома;13;builders;pexp_builders;assets/builders.png;
+home-utilities;home;Коммунальные услуги;Дом / Коммунальные услуги;14;utilities;bizexp_office-utilities;assets/utilities.png;
+jaecoo;;Авто Jaecoo;Авто Jaecoo;8;jaecoo;pexp_jaecoo;assets/jaecoo.png;Авто JQ | Автомобиль Jaecoo
+jaecoo-other;jaecoo;Что-то другое к авто;Авто Jaecoo / Что-то другое к авто;1;car-accessories;pexp_car-accessories;assets/car-accessories.png;
+jaecoo-carwash;jaecoo;Мойка;Авто Jaecoo / Мойка;2;carwash;pexp_carwash;assets/carwash.png;Автомойка
+jaecoo-service;jaecoo;Техническое обслуживание;Авто Jaecoo / Техническое обслуживание;3;car-service;pexp_car-service;assets/car-service.png;Техобслуживание
+jaecoo-parts;jaecoo;Запчасти;Авто Jaecoo / Запчасти;4;car-parts;pexp_car-parts;assets/car-parts.png;
+jaecoo-sim;jaecoo;SIM-карта;Авто Jaecoo / SIM-карта;5;sim;pexp_sim;assets/sim.png;Симка
+jaecoo-fines;jaecoo;Штрафы ГИБДД;Авто Jaecoo / Штрафы ГИБДД;6;fine;pexp_fine;assets/fine.png;
+jaecoo-kasko;jaecoo;Страховка КАСКО;Авто Jaecoo / Страховка КАСКО;7;kasko;pexp_kasko;assets/kasko.png;
+jaecoo-osago;jaecoo;Страховка ОСАГО;Авто Jaecoo / Страховка ОСАГО;8;osago;pexp_osago;assets/osago.png;
+jaecoo-insurance-kz;jaecoo;Страховка Казахстан;Авто Jaecoo / Страховка Казахстан;9;insurance-kz;pexp_insurance-kz;assets/insurance-kz.png;
+mazda;;Автомобиль Mazda;Автомобиль Mazda;9;mazda;pexp_mazda;assets/mazda.png;Авто Mazda
+mazda-carwash;mazda;Автомойка;Автомобиль Mazda / Автомойка;1;carwash;pexp_carwash;assets/carwash.png;Мойка
+mazda-service;mazda;Техобслуживание;Автомобиль Mazda / Техобслуживание;2;car-service;pexp_car-service;assets/car-service.png;Техническое обслуживание
+mazda-sim;mazda;SIM-карта;Автомобиль Mazda / SIM-карта;3;sim;pexp_sim;assets/sim.png;За симку | Засимку | Симка
+mazda-kasko;mazda;Страховка КАСКО;Автомобиль Mazda / Страховка КАСКО;4;kasko;pexp_kasko;assets/kasko.png;
+mazda-osago;mazda;Страховка ОСАГО;Автомобиль Mazda / Страховка ОСАГО;5;osago;pexp_osago;assets/osago.png;
+mazda-other;mazda;Что-то другое к авто;Автомобиль Mazda / Что-то другое к авто;6;car-accessories;pexp_car-accessories;assets/car-accessories.png;
+subscriptions;;Подписки;Подписки;10;subscriptions;bizexp_bank-fees-account-subscription;assets/subscriptions.png;
+subscriptions-hbo;subscriptions;HBO;Подписки / HBO;1;hbo;pexp_hbo;assets/hbo.png;
+subscriptions-bukovitsa;subscriptions;Буковица;Подписки / Буковица;2;books;pexp_books;assets/books.png;
+subscriptions-mail;subscriptions;Облако Mail;Подписки / Облако Mail;3;mail-cloud;pexp_mail-cloud;assets/mail-cloud.png;
+subscriptions-start;subscriptions;Старт;Подписки / Старт;4;start;pexp_start;assets/start.png;
+subscriptions-music;subscriptions;Яндекс Музыка;Подписки / Яндекс Музыка;5;yandex-music;pexp_yandex-music;assets/yandex-music.png;Яндекс.Музыка
+subscriptions-finance;subscriptions;Финанс;Подписки / Финанс;6;finance-app;pexp_finance-app;assets/finance-app.png;
+subscriptions-pm;subscriptions;PM;Подписки / PM;7;pm;pexp_pm;assets/pm.png;
+subscriptions-disk;subscriptions;Яндекс Диск;Подписки / Яндекс Диск;8;yandex-disk;bizexp_advertising-services-yandex-disk;assets/yandex-disk.png;Яндекс.Диск
+subscriptions-ivi;subscriptions;ivi;Подписки / ivi;9;ivi;pexp_ivi;assets/ivi.png;
+subscriptions-premier;subscriptions;Премьер;Подписки / Премьер;10;premier;pexp_premier;assets/premier.png;
+subscriptions-audiobooks;subscriptions;Аудиокниги;Подписки / Аудиокниги;11;audiobooks;pexp_audiobooks;assets/audiobooks.png;
+subscriptions-mybook;subscriptions;MyBook;Подписки / MyBook;12;audiobooks;pexp_audiobooks;assets/audiobooks.png;
+subscriptions-kinopoisk;subscriptions;Кинопоиск;Подписки / Кинопоиск;13;kinopoisk;pexp_kinopoisk;assets/kinopoisk.png;
+subscriptions-nikotin;subscriptions;Дмитрий Никотин;Подписки / Дмитрий Никотин;14;commentator;pexp_commentator;assets/commentator.png;
+subscriptions-telegram;subscriptions;Телеграм;Подписки / Телеграм;15;telegram;pexp_telegram;assets/telegram.png;Telegram
+subscriptions-radar;subscriptions;Радар;Подписки / Радар;16;radar;pexp_radar;assets/radar.png;
+subscriptions-chatgpt;subscriptions;ChatGPT;Подписки / ChatGPT;17;chatgpt;pexp_chatgpt;assets/chatgpt.png;
+subscriptions-vpn;subscriptions;VPN;Подписки / VPN;18;vpn;pexp_vpn;assets/vpn.png;
+subscriptions-zoom;subscriptions;Zoom;Подписки / Zoom;19;zoom;pexp_zoom;assets/zoom.png;
+kazan;;Квартира Казань;Квартира Казань;11;housing;pexp_housing;assets/housing.png;
+kazan-renovation;kazan;Ремонт;Квартира Казань / Ремонт;1;renovation;bizexp_office-office-renovation;assets/renovation.png;
+kazan-furniture;kazan;Мебель;Квартира Казань / Мебель;2;furniture;pexp_furniture;assets/furniture.png;
+kazan-other;kazan;Другое;Квартира Казань / Другое;3;other;pexp_other;assets/other.png;
+equipment;;Техника;Техника;12;equipment;pexp_equipment;assets/equipment.png;
+equipment-snowmobile;equipment;Снегоход;Техника / Снегоход;1;snowmobile;pexp_snowmobile;assets/snowmobile.png;
+equipment-snowblower;equipment;Снегоуборщик;Техника / Снегоуборщик;2;snowblower;pexp_snowblower;assets/snowblower.png;
+equipment-mower;equipment;Газонокосилка;Техника / Газонокосилка;3;mower;pexp_mower;assets/mower.png;
+equipment-trimmer;equipment;Триммер;Техника / Триммер;4;trimmer;pexp_trimmer;assets/trimmer.png;
+loans;;Кредиты;Кредиты;13;loans;pexp_loans;assets/loans.png;
+loans-jaecoo;loans;Авто Jaecoo;Кредиты / Авто Jaecoo;1;jaecoo;pexp_jaecoo;assets/jaecoo.png;Авто JQ
+loans-mortgage;loans;Ипотека;Кредиты / Ипотека;2;mortgage;pexp_mortgage;assets/mortgage.png;
+loans-masha-education;loans;Маша — обучение;Кредиты / Маша — обучение;3;education;pexp_education;assets/education.png;Маша Обучение
+finance;;Финансы;Финансы;14;finance;bizexp_office-extra-accounting;assets/finance.png;
+finance-mazda-tax;finance;Налог на автомобиль Mazda;Финансы / Налог на автомобиль Mazda;1;car-tax;pexp_car-tax;assets/car-tax.png;
+finance-jaecoo-tax;finance;Налог на автомобиль Jaecoo;Финансы / Налог на автомобиль Jaecoo;2;car-tax;pexp_car-tax;assets/car-tax.png;Налог на автомобиль JQ
+finance-land-rent;finance;Аренда земли;Финансы / Аренда земли;3;land-rent;pexp_land-rent;assets/land-rent.png;
+finance-fines;finance;Штрафы;Финансы / Штрафы;4;fine;pexp_fine;assets/fine.png;
+finance-other;finance;Иные;Финансы / Иные;5;other;pexp_other;assets/other.png;
+education;;Образование;Образование;15;education;pexp_education;assets/education.png;
+education-online;education;Онлайн-тренинги;Образование / Онлайн-тренинги;1;online-learning;pexp_online-learning;assets/online-learning.png;Онлайн тренинги
+education-offline;education;Офлайн-тренинги;Образование / Офлайн-тренинги;2;offline-learning;pexp_offline-learning;assets/offline-learning.png;Офлайн тренинги
+education-english;education;Английский детям;Образование / Английский детям;3;english;pexp_english;assets/english.png;
+education-group-course;education;Складчина;Образование / Складчина;4;group-course;pexp_group-course;assets/group-course.png;
+bank-fees;;Банковские комиссии;Банковские комиссии;16;bank-fees;bizexp_bank-fees;assets/bank-fees.png;
+bank-fees-sber;bank-fees;Обслуживание карты Сбер Премьер;Банковские комиссии / Обслуживание карты Сбер Премьер;1;sber-card;pexp_sber-card;assets/sber-card.png;
+bank-fees-tinkoff;bank-fees;Обслуживание карты Тиньков;Банковские комиссии / Обслуживание карты Тиньков;2;t-bank-card;pexp_t-bank-card;assets/t-bank-card.png;Обслуживание карты Тинькофф | Обслуживание карты Т-Банк

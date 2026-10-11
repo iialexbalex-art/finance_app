@@ -1,0 +1,210 @@
+{
+  "reference_only": true,
+  "set_version": "wallet_set_2026_10_02",
+  "note": "Compare with current data. Preserve later user renames, ordering, archive/delete actions and balances. Do not reinstall this set.",
+  "expected_original_personal_groups": {
+    "cash": 6,
+    "bank_account": 4,
+    "card": 8
+  },
+  "wallets": [
+    {
+      "set_key": "personal_cash_kzt",
+      "space_kind": "personal",
+      "original_order": 1,
+      "name": "Наличные тенге",
+      "wallet_group": "cash",
+      "currency": "KZT",
+      "original_icon_id": "cash_kzt_photo"
+    },
+    {
+      "set_key": "personal_cash_usd",
+      "space_kind": "personal",
+      "original_order": 2,
+      "name": "Наличные доллары",
+      "wallet_group": "cash",
+      "currency": "USD",
+      "original_icon_id": "cash_usd_photo"
+    },
+    {
+      "set_key": "personal_safe",
+      "space_kind": "personal",
+      "original_order": 3,
+      "name": "Сейф",
+      "wallet_group": "cash",
+      "currency": "RUB",
+      "original_icon_id": "safe_steel_photo"
+    },
+    {
+      "set_key": "personal_kaspi_card",
+      "space_kind": "personal",
+      "original_order": 4,
+      "name": "Карта Kaspi",
+      "wallet_group": "card",
+      "currency": "KZT",
+      "original_icon_id": "card_kaspi_green"
+    },
+    {
+      "set_key": "personal_kaspi_deposit",
+      "space_kind": "personal",
+      "original_order": 5,
+      "name": "Депозит Kaspi",
+      "wallet_group": "bank_account",
+      "currency": "KZT",
+      "original_icon_id": "account_kaspi_deposit"
+    },
+    {
+      "set_key": "personal_sber_primary",
+      "space_kind": "personal",
+      "original_order": 6,
+      "name": "Основная Сбер первый",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_sber_green"
+    },
+    {
+      "set_key": "personal_sber_natasha",
+      "space_kind": "personal",
+      "original_order": 7,
+      "name": "Карта Сбер Наташа",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_sber_silver"
+    },
+    {
+      "set_key": "personal_sber_5581",
+      "space_kind": "personal",
+      "original_order": 8,
+      "name": "Карта Сбер 55 81",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_sber_graphite"
+    },
+    {
+      "set_key": "personal_sber_5255",
+      "space_kind": "personal",
+      "original_order": 9,
+      "name": "Карта Сбер 52 55",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_sber_gold"
+    },
+    {
+      "set_key": "personal_sber_savings",
+      "space_kind": "personal",
+      "original_order": 10,
+      "name": "Копилка Сбер",
+      "wallet_group": "bank_account",
+      "currency": "RUB",
+      "original_icon_id": "account_sber_savings"
+    },
+    {
+      "set_key": "personal_t_card",
+      "space_kind": "personal",
+      "original_order": 11,
+      "name": "Карта Тиньков",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_t_green"
+    },
+    {
+      "set_key": "personal_t_savings",
+      "space_kind": "personal",
+      "original_order": 12,
+      "name": "Копилка Тиньков",
+      "wallet_group": "bank_account",
+      "currency": "RUB",
+      "original_icon_id": "account_t_savings"
+    },
+    {
+      "set_key": "personal_alfa_card",
+      "space_kind": "personal",
+      "original_order": 13,
+      "name": "Карта Альфа банка",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_alfa_green"
+    },
+    {
+      "set_key": "personal_bakai_card",
+      "space_kind": "personal",
+      "original_order": 14,
+      "name": "Киргизская карта",
+      "wallet_group": "card",
+      "currency": "USD",
+      "original_icon_id": "card_bakai_green"
+    },
+    {
+      "set_key": "personal_sber_rewards",
+      "space_kind": "personal",
+      "original_order": 15,
+      "name": "Сбер Спасибо",
+      "wallet_group": "bank_account",
+      "currency": "RUB",
+      "original_icon_id": "reward_sber_spasibo"
+    },
+    {
+      "set_key": "personal_cash_thb",
+      "space_kind": "personal",
+      "original_order": 16,
+      "name": "Наличка Таиландский бат",
+      "wallet_group": "cash",
+      "currency": "THB",
+      "original_icon_id": "cash_thb_photo"
+    },
+    {
+      "set_key": "personal_cash_egp",
+      "space_kind": "personal",
+      "original_order": 17,
+      "name": "Наличка египетский фунт",
+      "wallet_group": "cash",
+      "currency": "EGP",
+      "original_icon_id": "cash_egp_photo"
+    },
+    {
+      "set_key": "personal_cash_try",
+      "space_kind": "personal",
+      "original_order": 18,
+      "name": "наличка турецкая лира",
+      "wallet_group": "cash",
+      "currency": "TRY",
+      "original_icon_id": "cash_try_photo"
+    },
+    {
+      "set_key": "business_office_cash",
+      "space_kind": "business",
+      "original_order": 1,
+      "name": "Касса офис",
+      "wallet_group": "cash",
+      "currency": "RUB",
+      "original_icon_id": "cashbox_office_photo"
+    },
+    {
+      "set_key": "business_sber_card",
+      "space_kind": "business",
+      "original_order": 2,
+      "name": "Карта Сбер 6886 (ИП)",
+      "wallet_group": "card",
+      "currency": "RUB",
+      "original_icon_id": "card_sber_business"
+    },
+    {
+      "set_key": "business_sber_checking",
+      "space_kind": "business",
+      "original_order": 3,
+      "name": "Расчётный счёт ИП",
+      "wallet_group": "bank_account",
+      "currency": "RUB",
+      "original_icon_id": "account_sber_checking"
+    },
+    {
+      "set_key": "business_bcc_checking",
+      "space_kind": "business",
+      "original_order": 4,
+      "name": "Расчётный счёт ТОО",
+      "wallet_group": "bank_account",
+      "currency": "KZT",
+      "original_icon_id": "account_bcc_checking"
+    }
+  ]
+}

@@ -1,0 +1,2380 @@
+{
+  "gift": {
+    "key": "gift",
+    "label": "Подарки",
+    "file": "assets/gift.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_corporate-gifts-birthday-gifts",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2395988,
+    "sha256": "80ceffa9032e2186bca10ff48fe0bbd41a08d924bb580755cffbbfd44e422904",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3515,
+    "used_by": [
+      "sasha-gift",
+      "natasha-gifts",
+      "misha-gifts",
+      "masha-gifts"
+    ],
+    "reused_from": "business-expenses-pack/assets/corporate-gifts-birthday-gifts.png",
+    "icon_id": "bizexp_corporate-gifts-birthday-gifts",
+    "runtime_asset": "assets/business_expenses/corporate-gifts-birthday-gifts.png"
+  },
+  "fuel": {
+    "key": "fuel",
+    "label": "Бензин",
+    "file": "assets/fuel.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_lawyer-travel-fuel",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2088212,
+    "sha256": "d586ba481cd27f62070fe493662d54771aef66ddee1d7d4aa23f850162439f73",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2976,
+    "used_by": [
+      "outings-fuel"
+    ],
+    "reused_from": "business-expenses-pack/assets/lawyer-travel-fuel.png",
+    "icon_id": "bizexp_lawyer-travel-fuel",
+    "runtime_asset": "assets/business_expenses/lawyer-travel-fuel.png"
+  },
+  "utilities": {
+    "key": "utilities",
+    "label": "Коммунальные услуги",
+    "file": "assets/utilities.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_office-utilities",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1780760,
+    "sha256": "89a8b519b3137a727e752bacfcb26d90f2ad504edb005547d4cae6947509a928",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3484,
+    "used_by": [
+      "home-utilities"
+    ],
+    "reused_from": "business-expenses-pack/assets/office-utilities.png",
+    "icon_id": "bizexp_office-utilities",
+    "runtime_asset": "assets/business_expenses/office-utilities.png"
+  },
+  "renovation": {
+    "key": "renovation",
+    "label": "Ремонт / материалы",
+    "file": "assets/renovation.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_office-office-renovation",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1768684,
+    "sha256": "ac56b310e9a9a47a2fc54a22e4dc8216d52f03ee15ce9627ad657764bef52223",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4138,
+    "used_by": [
+      "home-renovation-materials",
+      "kazan-renovation"
+    ],
+    "reused_from": "business-expenses-pack/assets/office-office-renovation.png",
+    "icon_id": "bizexp_office-office-renovation",
+    "runtime_asset": "assets/business_expenses/office-office-renovation.png"
+  },
+  "household": {
+    "key": "household",
+    "label": "Хозтовары",
+    "file": "assets/household.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_office-office-supplies",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1856207,
+    "sha256": "433ff6269c0a3b602ac51744f3fe40d90c23a32126a4004ff0bcdd30da85222c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4176,
+    "used_by": [
+      "home-household"
+    ],
+    "reused_from": "business-expenses-pack/assets/office-office-supplies.png",
+    "icon_id": "bizexp_office-office-supplies",
+    "runtime_asset": "assets/business_expenses/office-office-supplies.png"
+  },
+  "finance": {
+    "key": "finance",
+    "label": "Финансы",
+    "file": "assets/finance.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_office-extra-accounting",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1960991,
+    "sha256": "5f8683e935a01136460d8f3f602b9a4731bec5f594f7a75356637ec1e97f5406",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3939,
+    "used_by": [
+      "finance"
+    ],
+    "reused_from": "business-expenses-pack/assets/office-extra-accounting.png",
+    "icon_id": "bizexp_office-extra-accounting",
+    "runtime_asset": "assets/business_expenses/office-extra-accounting.png"
+  },
+  "bank-fees": {
+    "key": "bank-fees",
+    "label": "Банковские комиссии",
+    "file": "assets/bank-fees.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_bank-fees",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2037756,
+    "sha256": "e6dfdee0d94585ad95c5f31f36d64b4f99e9e170ab3cfd287d86c70346396cc5",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3807,
+    "used_by": [
+      "bank-fees"
+    ],
+    "reused_from": "business-expenses-pack/assets/bank-fees.png",
+    "icon_id": "bizexp_bank-fees",
+    "runtime_asset": "assets/business_expenses/bank-fees.png"
+  },
+  "airfare": {
+    "key": "airfare",
+    "label": "Авиабилеты",
+    "file": "assets/airfare.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_lawyer-travel-tickets",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1269617,
+    "sha256": "3ed84d83f11d1a58264ea3f725c919e159973be8ade4c034bfee0d07856da918",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.6426,
+    "used_by": [
+      "outings-airfare"
+    ],
+    "reused_from": "business-expenses-pack/assets/lawyer-travel-tickets.png",
+    "icon_id": "bizexp_lawyer-travel-tickets",
+    "runtime_asset": "assets/business_expenses/lawyer-travel-tickets.png"
+  },
+  "yandex-disk": {
+    "key": "yandex-disk",
+    "label": "Яндекс Диск",
+    "file": "assets/yandex-disk.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_advertising-services-yandex-disk",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1492224,
+    "sha256": "8a7cd49d36d92f1a11b22a48cbc38f606523c98c8db468206c7cc1e3c8b4cee6",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4966,
+    "used_by": [
+      "subscriptions-disk"
+    ],
+    "reused_from": "business-expenses-pack/assets/advertising-services-yandex-disk.png",
+    "icon_id": "bizexp_advertising-services-yandex-disk",
+    "runtime_asset": "assets/business_expenses/advertising-services-yandex-disk.png"
+  },
+  "subscriptions": {
+    "key": "subscriptions",
+    "label": "Подписки",
+    "file": "assets/subscriptions.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "bizexp_bank-fees-account-subscription",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2122870,
+    "sha256": "0c511230a2c5252134cd99e688ee7fded1ee84896438a70a2f3980523760c07e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4196,
+    "used_by": [
+      "subscriptions"
+    ],
+    "reused_from": "business-expenses-pack/assets/bank-fees-account-subscription.png",
+    "icon_id": "bizexp_bank-fees-account-subscription",
+    "runtime_asset": "assets/business_expenses/bank-fees-account-subscription.png"
+  },
+  "food": {
+    "key": "food",
+    "label": "Еда",
+    "file": "assets/food.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "pexp_food",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2799399,
+    "sha256": "6da560def27d186bc11d41a5c1777207348e0bd76e1ec3da854d2b532da479ca",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2896,
+    "used_by": [
+      "outings-food"
+    ],
+    "reused_from": "approved_icon_quality/food_approved.png",
+    "icon_id": "cat_exp_food",
+    "runtime_asset": "assets/category_photoreal/cat_exp_food.png"
+  },
+  "sber-card": {
+    "key": "sber-card",
+    "label": "Обслуживание карты Сбер Премьер",
+    "file": "assets/sber-card.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "pexp_sber-card",
+    "size_px": [
+      1585,
+      992
+    ],
+    "bytes": 2107297,
+    "sha256": "6e3bdcd97b9a116887320f99e33473047a433d08bf8940e992cd1fd9268ea6db",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "transparent_pixel_fraction": 0.2204,
+    "used_by": [
+      "bank-fees-sber"
+    ],
+    "reused_from": "bank_icons_hq/png/card_sber_green.png",
+    "icon_id": "card_sber_green",
+    "runtime_asset": "assets/wallet_photoreal/card_sber_green.png"
+  },
+  "t-bank-card": {
+    "key": "t-bank-card",
+    "label": "Обслуживание карты Тиньков",
+    "file": "assets/t-bank-card.png",
+    "origin": "reused_original",
+    "suggested_icon_id": "pexp_t-bank-card",
+    "size_px": [
+      1578,
+      997
+    ],
+    "bytes": 1579456,
+    "sha256": "3f989d395942a36b754f745fb18947df3549960ae19bd355fddcd147cee08fb8",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.1105,
+    "used_by": [
+      "bank-fees-tinkoff"
+    ],
+    "reused_from": "bank_icons_hq/png/card_t_bank_black.png",
+    "icon_id": "card_t_bank_black_hq_v1",
+    "runtime_asset": "assets/wallet_photoreal/card_t_bank_black_hq_v1.png"
+  },
+  "sasha": {
+    "key": "sasha",
+    "label": "Саша лично",
+    "file": "assets/sasha.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_sasha",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2713647,
+    "sha256": "e245eb05e87c0e8d85ca0dd7a8dd305979b7ec5ad4e2df0e2f747b48a6857f41",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.309,
+    "used_by": [
+      "sasha"
+    ],
+    "icon_id": "personal_sasha",
+    "runtime_asset": "assets/personal_expenses/sasha.png"
+  },
+  "haircut": {
+    "key": "haircut",
+    "label": "Стрижка",
+    "file": "assets/haircut.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_haircut",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1748456,
+    "sha256": "c5266009fdc8e5c121d22a2bb430a5429c1a22fbc40a8ec6b8afdc6df7898bb1",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5465,
+    "used_by": [
+      "sasha-haircut",
+      "masha-haircut"
+    ],
+    "icon_id": "personal_haircut",
+    "runtime_asset": "assets/personal_expenses/haircut.png"
+  },
+  "lenses": {
+    "key": "lenses",
+    "label": "Для линз / линзы",
+    "file": "assets/lenses.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_lenses",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1128143,
+    "sha256": "c048df8c94ef7e6220e3e1517f87792317198daf2740b6a25e4687ed60d5cad8",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5604,
+    "used_by": [
+      "sasha-lenses",
+      "masha-lenses"
+    ],
+    "icon_id": "personal_lenses",
+    "runtime_asset": "assets/personal_expenses/lenses.png"
+  },
+  "clothes": {
+    "key": "clothes",
+    "label": "Одежда",
+    "file": "assets/clothes.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_clothes",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2480819,
+    "sha256": "ae8a88c1e93731631aaaae80fac8683010dd436f9a7e2362abc177c72581c55f",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3081,
+    "used_by": [
+      "sasha-clothes",
+      "misha-clothes"
+    ],
+    "icon_id": "personal_clothes",
+    "runtime_asset": "assets/personal_expenses/clothes.png"
+  },
+  "fishing": {
+    "key": "fishing",
+    "label": "Рыбалка",
+    "file": "assets/fishing.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_fishing",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2018833,
+    "sha256": "64a4ae57ef4c31cc2182fa149c039470f7ce74dbece009349669f40d3d3adbc7",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5222,
+    "used_by": [
+      "sasha-fishing"
+    ],
+    "icon_id": "personal_fishing",
+    "runtime_asset": "assets/personal_expenses/fishing.png"
+  },
+  "hookah-supplies": {
+    "key": "hookah-supplies",
+    "label": "Препараты для кальяна",
+    "file": "assets/hookah-supplies.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_hookah-supplies",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2305716,
+    "sha256": "10c623fc5ffa92735a98eeb66c2e1064ec4d8a71d55f6880bb68b86d82bb98e7",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3766,
+    "used_by": [
+      "sasha-hookah-supplies"
+    ],
+    "icon_id": "personal_hookah_supplies",
+    "runtime_asset": "assets/personal_expenses/hookah-supplies.png"
+  },
+  "nails": {
+    "key": "nails",
+    "label": "Ногти / маникюр",
+    "file": "assets/nails.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_nails",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1712227,
+    "sha256": "43cc8077aa3bafff82059c88e31dd169481167fc3b41e3c6174515432766cf1e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4932,
+    "used_by": [
+      "sasha-nails",
+      "natasha-nails",
+      "masha-manicure"
+    ],
+    "icon_id": "personal_nails",
+    "runtime_asset": "assets/personal_expenses/nails.png"
+  },
+  "entertainment": {
+    "key": "entertainment",
+    "label": "Развлечения",
+    "file": "assets/entertainment.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_entertainment",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2160237,
+    "sha256": "2ce8f8953250af8bb89fe197ade943dc49c767b7733dff2c0b921a6918a16a1b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3582,
+    "used_by": [
+      "entertainment",
+      "outings-entertainment",
+      "misha-entertainment"
+    ],
+    "icon_id": "personal_entertainment",
+    "runtime_asset": "assets/personal_expenses/entertainment.png"
+  },
+  "cafe": {
+    "key": "cafe",
+    "label": "Кафе",
+    "file": "assets/cafe.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_cafe",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1780065,
+    "sha256": "bde08ee5cc1c98bc648bd036d5da70edcedd44aad1d3e2a8294bdee0367c104a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4363,
+    "used_by": [
+      "entertainment-cafe",
+      "outings-cafe"
+    ],
+    "icon_id": "personal_cafe",
+    "runtime_asset": "assets/personal_expenses/cafe.png"
+  },
+  "cinema": {
+    "key": "cinema",
+    "label": "Кино",
+    "file": "assets/cinema.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_cinema",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2004624,
+    "sha256": "a58f2fbbaa8d73757630906fd0e5dc21b9310a8889ee4fb8a85b494ae15b6463",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.387,
+    "used_by": [
+      "entertainment-cinema"
+    ],
+    "icon_id": "personal_cinema",
+    "runtime_asset": "assets/personal_expenses/cinema.png"
+  },
+  "concert": {
+    "key": "concert",
+    "label": "Концерт",
+    "file": "assets/concert.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_concert",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1839224,
+    "sha256": "469b453c3d85dc70d07b7c35a43e099df8f0ba0233a0c010396c167407e25b3b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5139,
+    "used_by": [
+      "entertainment-concert"
+    ],
+    "icon_id": "personal_concert",
+    "runtime_asset": "assets/personal_expenses/concert.png"
+  },
+  "home-party": {
+    "key": "home-party",
+    "label": "Тусим дома",
+    "file": "assets/home-party.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_home-party",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2060701,
+    "sha256": "f091029a7d5e0cfbb76a30963a3fbe485c7b27619ec7de32c131da8bfb928e8a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4969,
+    "used_by": [
+      "entertainment-home-party"
+    ],
+    "icon_id": "personal_home_party",
+    "runtime_asset": "assets/personal_expenses/home-party.png"
+  },
+  "birthday": {
+    "key": "birthday",
+    "label": "День рождения",
+    "file": "assets/birthday.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_birthday",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1286495,
+    "sha256": "d6f1381849b79a374a987b93b93d65eb9df906ea0b94103c51780d78571b7b3d",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5859,
+    "used_by": [
+      "entertainment-birthday"
+    ],
+    "icon_id": "personal_birthday",
+    "runtime_asset": "assets/personal_expenses/birthday.png"
+  },
+  "hookah": {
+    "key": "hookah",
+    "label": "Кальян",
+    "file": "assets/hookah.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_hookah",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 946679,
+    "sha256": "fad54eb83720e8fd2168bff86ded9c9369cff281224e8141ba47502f93f4b835",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.7694,
+    "used_by": [
+      "entertainment-hookah"
+    ],
+    "icon_id": "personal_hookah",
+    "runtime_asset": "assets/personal_expenses/hookah.png"
+  },
+  "outings": {
+    "key": "outings",
+    "label": "Вылазки куда-нибудь / поездки",
+    "file": "assets/outings.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_outings",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2717802,
+    "sha256": "6af487d2072d90dee9ac6d1517232f83bba9933571efcd29bc0fa9f457b9a9e9",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3157,
+    "used_by": [
+      "outings",
+      "outings-trips"
+    ],
+    "icon_id": "personal_outings",
+    "runtime_asset": "assets/personal_expenses/outings.png"
+  },
+  "car": {
+    "key": "car",
+    "label": "Автомобиль",
+    "file": "assets/car.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_car",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1345832,
+    "sha256": "79e11e1c8dadf28403fac4e6079eddaa506792fc8d30c7c84630ece65f34c47d",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5272,
+    "used_by": [
+      "outings-car"
+    ],
+    "icon_id": "personal_car",
+    "runtime_asset": "assets/personal_expenses/car.png"
+  },
+  "parking": {
+    "key": "parking",
+    "label": "Парковка",
+    "file": "assets/parking.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_parking",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1892317,
+    "sha256": "3dc6d8713cd968c6af7278488b3fa4f69e1d3f9e86614683a49944ce76353a4c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4028,
+    "used_by": [
+      "outings-parking"
+    ],
+    "icon_id": "personal_parking",
+    "runtime_asset": "assets/personal_expenses/parking.png"
+  },
+  "shopping": {
+    "key": "shopping",
+    "label": "Покупки / маркетплейсы",
+    "file": "assets/shopping.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_shopping",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2034070,
+    "sha256": "66c3466fb6070085a30e0a86714b28878275e6c376d2f41c5e8cf0808c183f27",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3536,
+    "used_by": [
+      "outings-shopping",
+      "natasha-marketplaces",
+      "masha-marketplaces",
+      "home-marketplace"
+    ],
+    "icon_id": "personal_shopping",
+    "runtime_asset": "assets/personal_expenses/shopping.png"
+  },
+  "phone": {
+    "key": "phone",
+    "label": "Связь",
+    "file": "assets/phone.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_phone",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1526164,
+    "sha256": "cc9fccf2fd03a99e44d06bce638b6dbe88ae88cc974df70a223b4039a2131e61",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.433,
+    "used_by": [
+      "outings-phone"
+    ],
+    "icon_id": "personal_phone",
+    "runtime_asset": "assets/personal_expenses/phone.png"
+  },
+  "housing": {
+    "key": "housing",
+    "label": "Аренда жилья / квартира Казань / имущество",
+    "file": "assets/housing.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_housing",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2149017,
+    "sha256": "ee5d31bb8df74cd849fbdf6be19f8401fbf3081db68cd0b296faf5e5fd183e9c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4157,
+    "used_by": [
+      "outings-housing",
+      "home-property",
+      "kazan"
+    ],
+    "icon_id": "personal_housing",
+    "runtime_asset": "assets/personal_expenses/housing.png"
+  },
+  "transport": {
+    "key": "transport",
+    "label": "Транспорт",
+    "file": "assets/transport.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_transport",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1638002,
+    "sha256": "576af0166a803cc03f03b77f69e1561a5d411cfcd561c23e8258761101e5614b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4305,
+    "used_by": [
+      "outings-transport"
+    ],
+    "icon_id": "personal_transport",
+    "runtime_asset": "assets/personal_expenses/transport.png"
+  },
+  "taxi": {
+    "key": "taxi",
+    "label": "Такси",
+    "file": "assets/taxi.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_taxi",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1371162,
+    "sha256": "62417642e57530524b7945d77246e060810eec36aa3a28d1ead8cfe0d449792e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5353,
+    "used_by": [
+      "outings-taxi"
+    ],
+    "icon_id": "personal_taxi",
+    "runtime_asset": "assets/personal_expenses/taxi.png"
+  },
+  "souvenirs": {
+    "key": "souvenirs",
+    "label": "Сувениры",
+    "file": "assets/souvenirs.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_souvenirs",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2126480,
+    "sha256": "e91052a44f984e1fe87cd780db12580cc21d6762b3e657435558b297784e36ae",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4534,
+    "used_by": [
+      "outings-souvenirs"
+    ],
+    "icon_id": "personal_souvenirs",
+    "runtime_asset": "assets/personal_expenses/souvenirs.png"
+  },
+  "other": {
+    "key": "other",
+    "label": "Другое / иные расходы",
+    "file": "assets/other.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_other",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2044656,
+    "sha256": "dd534859cc6e16eecb146f3a608f062cfac50d5f7b0c3e125adb59d2a63d7373",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4319,
+    "used_by": [
+      "outings-other",
+      "home-small-household",
+      "kazan-other",
+      "finance-other"
+    ],
+    "icon_id": "personal_other",
+    "runtime_asset": "assets/personal_expenses/other.png"
+  },
+  "natasha": {
+    "key": "natasha",
+    "label": "Наташа лично",
+    "file": "assets/natasha.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_natasha",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2244569,
+    "sha256": "6642b5b20c64b3be43084d249008672b7e4ef706f7782cf53f0d5ccf9850a0c4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3698,
+    "used_by": [
+      "natasha"
+    ],
+    "icon_id": "personal_natasha",
+    "runtime_asset": "assets/personal_expenses/natasha.png"
+  },
+  "clothes-shoes": {
+    "key": "clothes-shoes",
+    "label": "Одежда и обувь",
+    "file": "assets/clothes-shoes.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_clothes-shoes",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2214746,
+    "sha256": "e20eea041d6c4497601e77ef7371ddf2f60b0fd10f35068da1db0db471751645",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3739,
+    "used_by": [
+      "natasha-clothes-shoes"
+    ],
+    "icon_id": "personal_clothes_shoes",
+    "runtime_asset": "assets/personal_expenses/clothes-shoes.png"
+  },
+  "books": {
+    "key": "books",
+    "label": "Книги / Буковица",
+    "file": "assets/books.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_books",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2178263,
+    "sha256": "47600664a1ed544bb26339478b272a87ddff2b2862ee76ce124ac80389c789f4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3618,
+    "used_by": [
+      "natasha-books",
+      "masha-books",
+      "subscriptions-bukovitsa"
+    ],
+    "icon_id": "personal_books",
+    "runtime_asset": "assets/personal_expenses/books.png"
+  },
+  "education": {
+    "key": "education",
+    "label": "Обучение / образование",
+    "file": "assets/education.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_education",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1353417,
+    "sha256": "9d62579fc6211bab73e1d5a1512e2e8cee3267b348643e61fd4be62f8a73bd7c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.454,
+    "used_by": [
+      "natasha-learning",
+      "masha-learning",
+      "loans-masha-education",
+      "education"
+    ],
+    "icon_id": "personal_education",
+    "runtime_asset": "assets/personal_expenses/education.png"
+  },
+  "massage": {
+    "key": "massage",
+    "label": "Массаж",
+    "file": "assets/massage.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_massage",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2155599,
+    "sha256": "372c795681737c7e3cb47dae5d3dae048c4db84ad58b2d2fb9bffa3398911cc4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3922,
+    "used_by": [
+      "natasha-massage"
+    ],
+    "icon_id": "personal_massage",
+    "runtime_asset": "assets/personal_expenses/massage.png"
+  },
+  "cosmetics": {
+    "key": "cosmetics",
+    "label": "Косметика",
+    "file": "assets/cosmetics.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_cosmetics",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1952168,
+    "sha256": "eb8f6d2f003657a4618c0fd1a80f91a8843ea9e28e568830efaeb88fdac37ac6",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3814,
+    "used_by": [
+      "natasha-cosmetics",
+      "masha-cosmetics"
+    ],
+    "icon_id": "personal_cosmetics",
+    "runtime_asset": "assets/personal_expenses/cosmetics.png"
+  },
+  "cosmetology": {
+    "key": "cosmetology",
+    "label": "Косметолог",
+    "file": "assets/cosmetology.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_cosmetology",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1318103,
+    "sha256": "77cad6cb315c00aad8f12253a86deef8c36ece4e2cc7a52f204d782efea88563",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5574,
+    "used_by": [
+      "natasha-cosmetology"
+    ],
+    "icon_id": "personal_cosmetology",
+    "runtime_asset": "assets/personal_expenses/cosmetology.png"
+  },
+  "eyelashes": {
+    "key": "eyelashes",
+    "label": "Ресницы",
+    "file": "assets/eyelashes.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_eyelashes",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1560774,
+    "sha256": "18c5a3ce98da51f654ebca7d5d0d867d38720d622c0fc37115879441e900aab4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5471,
+    "used_by": [
+      "natasha-eyelashes"
+    ],
+    "icon_id": "personal_eyelashes",
+    "runtime_asset": "assets/personal_expenses/eyelashes.png"
+  },
+  "fitness": {
+    "key": "fitness",
+    "label": "Спорт / тренажёрный зал",
+    "file": "assets/fitness.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_fitness",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2052036,
+    "sha256": "daf1f99fe67cc4d9926a3b10bce8504de2e0fb3d8d662cca6bf4516dd44e501c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.464,
+    "used_by": [
+      "natasha-sport",
+      "masha-gym"
+    ],
+    "icon_id": "personal_fitness",
+    "runtime_asset": "assets/personal_expenses/fitness.png"
+  },
+  "misha": {
+    "key": "misha",
+    "label": "Миша",
+    "file": "assets/misha.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_misha",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2334279,
+    "sha256": "5bbfc517f84abec326a3ce2846912311cafb4e811db90860451c7200ce68fdae",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3642,
+    "used_by": [
+      "misha"
+    ],
+    "icon_id": "personal_misha",
+    "runtime_asset": "assets/personal_expenses/misha.png"
+  },
+  "allowance": {
+    "key": "allowance",
+    "label": "Студенческие / карманные деньги",
+    "file": "assets/allowance.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_allowance",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2457909,
+    "sha256": "a708c62647bf6dc9f02badd75966060ec59d1c2161b45fa116033f190cc8610a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3844,
+    "used_by": [
+      "misha-student-money",
+      "masha-pocket-money"
+    ],
+    "icon_id": "personal_allowance",
+    "runtime_asset": "assets/personal_expenses/allowance.png"
+  },
+  "tutor": {
+    "key": "tutor",
+    "label": "Репетитор",
+    "file": "assets/tutor.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_tutor",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1467025,
+    "sha256": "dc1e03cd3af466c5afa8bc0bbdaff86b4513e4e3b655bff32565d4110d5d6354",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4584,
+    "used_by": [
+      "misha-tutor",
+      "masha-tutor"
+    ],
+    "icon_id": "personal_tutor",
+    "runtime_asset": "assets/personal_expenses/tutor.png"
+  },
+  "earned": {
+    "key": "earned",
+    "label": "Заработал / заработала",
+    "file": "assets/earned.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_earned",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2401372,
+    "sha256": "d97716933fcb5b72c646daecdd6d87f40c4e3abea466d48f8acb0b10c7ae395b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3867,
+    "used_by": [
+      "misha-earned",
+      "masha-earned"
+    ],
+    "icon_id": "personal_earned",
+    "runtime_asset": "assets/personal_expenses/earned.png"
+  },
+  "masha": {
+    "key": "masha",
+    "label": "Маша",
+    "file": "assets/masha.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_masha",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2276342,
+    "sha256": "ba97f948e9324ca9d4bfa967fe1af37262062a1b8af83f1fadcc9ce72a55fe26",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3394,
+    "used_by": [
+      "masha"
+    ],
+    "icon_id": "personal_masha",
+    "runtime_asset": "assets/personal_expenses/masha.png"
+  },
+  "school-fees": {
+    "key": "school-fees",
+    "label": "Сборы в школе",
+    "file": "assets/school-fees.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_school-fees",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2105326,
+    "sha256": "ea62eb7b8839c8d873b61c4ed12e23b33beb42686e686c5bd221206a14af5706",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3459,
+    "used_by": [
+      "masha-school-fees"
+    ],
+    "icon_id": "personal_school_fees",
+    "runtime_asset": "assets/personal_expenses/school-fees.png"
+  },
+  "home": {
+    "key": "home",
+    "label": "Дом",
+    "file": "assets/home.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_home",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1945152,
+    "sha256": "09835845c4db99dc98d6a3fa629b10bd4fdd9c28700052b432b7046f0e4093af",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4116,
+    "used_by": [
+      "home"
+    ],
+    "icon_id": "personal_home",
+    "runtime_asset": "assets/personal_expenses/home.png"
+  },
+  "appliances": {
+    "key": "appliances",
+    "label": "Бытовая техника",
+    "file": "assets/appliances.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_appliances",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2008604,
+    "sha256": "2952bcf1ac75b4803a016792a8d4b4cccc8930da843bb846154cc0e05a5df0b7",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2714,
+    "used_by": [
+      "home-appliances"
+    ],
+    "icon_id": "personal_appliances",
+    "runtime_asset": "assets/personal_expenses/appliances.png"
+  },
+  "builders": {
+    "key": "builders",
+    "label": "Строители / услуги для дома",
+    "file": "assets/builders.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_builders",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2049855,
+    "sha256": "6870c15713cbbfe5b8836d073e89ba60989d9dab90e8f57be04f20022c611c6a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4339,
+    "used_by": [
+      "home-builders",
+      "home-services"
+    ],
+    "icon_id": "personal_builders",
+    "runtime_asset": "assets/personal_expenses/builders.png"
+  },
+  "electronics": {
+    "key": "electronics",
+    "label": "Мелкая электроника",
+    "file": "assets/electronics.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_electronics",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2109650,
+    "sha256": "40e6f78f77951367348b550d6fc9750901412206a0e0f137623c4276c6bfa71c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.392,
+    "used_by": [
+      "home-electronics"
+    ],
+    "icon_id": "personal_electronics",
+    "runtime_asset": "assets/personal_expenses/electronics.png"
+  },
+  "firewood": {
+    "key": "firewood",
+    "label": "Дрова",
+    "file": "assets/firewood.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_firewood",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2826242,
+    "sha256": "8eafe403457c5b99593bf09e2739b6b8bc79b0772e589bfed2f45293c291c98c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.344,
+    "used_by": [
+      "home-firewood"
+    ],
+    "icon_id": "personal_firewood",
+    "runtime_asset": "assets/personal_expenses/firewood.png"
+  },
+  "textiles": {
+    "key": "textiles",
+    "label": "Текстиль",
+    "file": "assets/textiles.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_textiles",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2729697,
+    "sha256": "a842fd2ac9279c51776e5bd36839e9615b37da72792d67991107eedab3e70339",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2497,
+    "used_by": [
+      "home-textiles"
+    ],
+    "icon_id": "personal_textiles",
+    "runtime_asset": "assets/personal_expenses/textiles.png"
+  },
+  "sauna-furniture": {
+    "key": "sauna-furniture",
+    "label": "Мебель для бани",
+    "file": "assets/sauna-furniture.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_sauna-furniture",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1882701,
+    "sha256": "f62a15cbf48b23ad4c152befa2c55315a3775ffff8b7332b0d48e0d8e0dbffc4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3986,
+    "used_by": [
+      "home-sauna-furniture"
+    ],
+    "icon_id": "personal_sauna_furniture",
+    "runtime_asset": "assets/personal_expenses/sauna-furniture.png"
+  },
+  "repair-appliance": {
+    "key": "repair-appliance",
+    "label": "Ремонт техники",
+    "file": "assets/repair-appliance.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_repair-appliance",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1867389,
+    "sha256": "1568c2d2af6c8eae464a0040b95485003f61b631fef871f61064dd7a23a69763",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.356,
+    "used_by": [
+      "home-repair-appliance"
+    ],
+    "icon_id": "personal_repair_appliance",
+    "runtime_asset": "assets/personal_expenses/repair-appliance.png"
+  },
+  "jaecoo": {
+    "key": "jaecoo",
+    "label": "Авто Jaecoo",
+    "file": "assets/jaecoo.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_jaecoo",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1414516,
+    "sha256": "9b7bb908540f920d7aa7eb3a37646526daeac548872b599623612fc4c74b936f",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5011,
+    "used_by": [
+      "jaecoo",
+      "loans-jaecoo"
+    ],
+    "icon_id": "personal_jaecoo",
+    "runtime_asset": "assets/personal_expenses/jaecoo.png"
+  },
+  "car-accessories": {
+    "key": "car-accessories",
+    "label": "Другое к авто",
+    "file": "assets/car-accessories.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_car-accessories",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2243231,
+    "sha256": "5ce7b6260bcf95dd96396ca4f547ac2dd09e5361848695998c8d48f936825eb1",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3882,
+    "used_by": [
+      "jaecoo-other",
+      "mazda-other"
+    ],
+    "icon_id": "personal_car_accessories",
+    "runtime_asset": "assets/personal_expenses/car-accessories.png"
+  },
+  "carwash": {
+    "key": "carwash",
+    "label": "Автомойка",
+    "file": "assets/carwash.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_carwash",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1953065,
+    "sha256": "ebf6800a2be163f911fd013a8298a435eac0cad8312626943a20eeeb89949ec4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4959,
+    "used_by": [
+      "jaecoo-carwash",
+      "mazda-carwash"
+    ],
+    "icon_id": "personal_carwash",
+    "runtime_asset": "assets/personal_expenses/carwash.png"
+  },
+  "car-service": {
+    "key": "car-service",
+    "label": "Техническое обслуживание",
+    "file": "assets/car-service.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_car-service",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1867498,
+    "sha256": "510c339eeb6f9aeb18b55fd6b7fd017e167dbd1b3cf9f674ee10b305967cd421",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4386,
+    "used_by": [
+      "jaecoo-service",
+      "mazda-service"
+    ],
+    "icon_id": "personal_car_service",
+    "runtime_asset": "assets/personal_expenses/car-service.png"
+  },
+  "car-parts": {
+    "key": "car-parts",
+    "label": "Запчасти",
+    "file": "assets/car-parts.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_car-parts",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2159070,
+    "sha256": "678a360e667f41e31c5a5764c45c65382dc06e505cf6580f1a20a05e41f5c334",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3981,
+    "used_by": [
+      "jaecoo-parts"
+    ],
+    "icon_id": "personal_car_parts",
+    "runtime_asset": "assets/personal_expenses/car-parts.png"
+  },
+  "sim": {
+    "key": "sim",
+    "label": "SIM-карта",
+    "file": "assets/sim.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_sim",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1466803,
+    "sha256": "a68330de67fbeb79bc38d93f5accd1069dde4752a69ccb51abfce48866d43862",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5901,
+    "used_by": [
+      "jaecoo-sim",
+      "mazda-sim"
+    ],
+    "icon_id": "personal_sim",
+    "runtime_asset": "assets/personal_expenses/sim.png"
+  },
+  "fine": {
+    "key": "fine",
+    "label": "Штрафы / штрафы ГИБДД",
+    "file": "assets/fine.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_fine",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2193098,
+    "sha256": "d8167983c82571de47380d91cec757c9d27c7ee843f95fd926a63d83a9e916a3",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3707,
+    "used_by": [
+      "jaecoo-fines",
+      "finance-fines"
+    ],
+    "icon_id": "personal_fine",
+    "runtime_asset": "assets/personal_expenses/fine.png"
+  },
+  "kasko": {
+    "key": "kasko",
+    "label": "Страховка КАСКО",
+    "file": "assets/kasko.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_kasko",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2533904,
+    "sha256": "3353fe00863620a871e77ebdb3064003d25040b69c8c93367d4a2e6ad7cc8227",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2934,
+    "used_by": [
+      "jaecoo-kasko",
+      "mazda-kasko"
+    ],
+    "icon_id": "personal_kasko",
+    "runtime_asset": "assets/personal_expenses/kasko.png"
+  },
+  "osago": {
+    "key": "osago",
+    "label": "Страховка ОСАГО",
+    "file": "assets/osago.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_osago",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2122101,
+    "sha256": "6a211fbae557fff55c573613ce090dabc9bf540fcdfb33d8f386590993ce257a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.301,
+    "used_by": [
+      "jaecoo-osago",
+      "mazda-osago"
+    ],
+    "icon_id": "personal_osago",
+    "runtime_asset": "assets/personal_expenses/osago.png"
+  },
+  "insurance-kz": {
+    "key": "insurance-kz",
+    "label": "Страховка Казахстан",
+    "file": "assets/insurance-kz.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_insurance-kz",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2386590,
+    "sha256": "27b6af1a2fc6085bc80633335e8228d6a6f41b40da21deb4056c41e25e432dca",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3933,
+    "used_by": [
+      "jaecoo-insurance-kz"
+    ],
+    "icon_id": "personal_insurance_kz",
+    "runtime_asset": "assets/personal_expenses/insurance-kz.png"
+  },
+  "mazda": {
+    "key": "mazda",
+    "label": "Автомобиль Mazda",
+    "file": "assets/mazda.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_mazda",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1143861,
+    "sha256": "a4ff83675900a97ba1c4fe2f7ed8cd38e71cb18d3bdd635eca92589304d3dae4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.6052,
+    "used_by": [
+      "mazda"
+    ],
+    "icon_id": "personal_mazda",
+    "runtime_asset": "assets/personal_expenses/mazda.png"
+  },
+  "hbo": {
+    "key": "hbo",
+    "label": "HBO",
+    "file": "assets/hbo.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_hbo",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1105539,
+    "sha256": "2fe18bd3c1a7aa877848801e0bc533190d64ffa746a72633ecb59b8d9a319e05",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3617,
+    "used_by": [
+      "subscriptions-hbo"
+    ],
+    "icon_id": "personal_hbo",
+    "runtime_asset": "assets/personal_expenses/hbo.png"
+  },
+  "mail-cloud": {
+    "key": "mail-cloud",
+    "label": "Облако Mail",
+    "file": "assets/mail-cloud.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_mail-cloud",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1695839,
+    "sha256": "c81a0209fb3319e095ec64ef36425f025c24a20166eddc85b84276d58685c9e4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3798,
+    "used_by": [
+      "subscriptions-mail"
+    ],
+    "icon_id": "personal_mail_cloud",
+    "runtime_asset": "assets/personal_expenses/mail-cloud.png"
+  },
+  "start": {
+    "key": "start",
+    "label": "Старт",
+    "file": "assets/start.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_start",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1220711,
+    "sha256": "f101a33566f3ee3a52c34b2c13fab6f3bef9bef7cb11e8f2b0d1c12e052b43a4",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4074,
+    "used_by": [
+      "subscriptions-start"
+    ],
+    "icon_id": "personal_start",
+    "runtime_asset": "assets/personal_expenses/start.png"
+  },
+  "yandex-music": {
+    "key": "yandex-music",
+    "label": "Яндекс Музыка",
+    "file": "assets/yandex-music.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_yandex-music",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2022577,
+    "sha256": "4afcd8225ffdac66ad3edac8f96bac025051051fcfb32bbf60a4ead5de67cc43",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3998,
+    "used_by": [
+      "subscriptions-music"
+    ],
+    "icon_id": "personal_yandex_music",
+    "runtime_asset": "assets/personal_expenses/yandex-music.png"
+  },
+  "finance-app": {
+    "key": "finance-app",
+    "label": "Финанс",
+    "file": "assets/finance-app.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_finance-app",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1577016,
+    "sha256": "bb09108d1dc7cde87ab878fe755c27b3d9df4b8460847feda9c82157d5be27dc",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.346,
+    "used_by": [
+      "subscriptions-finance"
+    ],
+    "icon_id": "personal_finance_app",
+    "runtime_asset": "assets/personal_expenses/finance-app.png"
+  },
+  "pm": {
+    "key": "pm",
+    "label": "PM",
+    "file": "assets/pm.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_pm",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 859690,
+    "sha256": "05f77ad2f78c1aad428f79bbddfbc54dbc6b31eb892d3707b6ad76e5c8323947",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5553,
+    "used_by": [
+      "subscriptions-pm"
+    ],
+    "icon_id": "personal_pm",
+    "runtime_asset": "assets/personal_expenses/pm.png"
+  },
+  "ivi": {
+    "key": "ivi",
+    "label": "ivi",
+    "file": "assets/ivi.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_ivi",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1055631,
+    "sha256": "678e90110e3e85905324d78ba9ff45270c52e702a57a4aea6712e896ccaf4caf",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4254,
+    "used_by": [
+      "subscriptions-ivi"
+    ],
+    "icon_id": "personal_ivi",
+    "runtime_asset": "assets/personal_expenses/ivi.png"
+  },
+  "premier": {
+    "key": "premier",
+    "label": "Премьер",
+    "file": "assets/premier.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_premier",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1145534,
+    "sha256": "bd9d26dae32b3fc183f5fc6129dcd676aa5fac68c80e8246194d755304290171",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3958,
+    "used_by": [
+      "subscriptions-premier"
+    ],
+    "icon_id": "personal_premier",
+    "runtime_asset": "assets/personal_expenses/premier.png"
+  },
+  "audiobooks": {
+    "key": "audiobooks",
+    "label": "Аудиокниги / MyBook",
+    "file": "assets/audiobooks.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_audiobooks",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1986522,
+    "sha256": "4f98d81237e781ce80c0d8e133b977838c688fbe9f23b664ccdad1062a8e5f8c",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3694,
+    "used_by": [
+      "subscriptions-audiobooks",
+      "subscriptions-mybook"
+    ],
+    "icon_id": "personal_audiobooks",
+    "runtime_asset": "assets/personal_expenses/audiobooks.png"
+  },
+  "kinopoisk": {
+    "key": "kinopoisk",
+    "label": "Кинопоиск",
+    "file": "assets/kinopoisk.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_kinopoisk",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1542294,
+    "sha256": "0c26cfd212d55aa05d4c2cb368563ac8bb8520f900c6f05e26f16dcf02de6f8a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3632,
+    "used_by": [
+      "subscriptions-kinopoisk"
+    ],
+    "icon_id": "personal_kinopoisk",
+    "runtime_asset": "assets/personal_expenses/kinopoisk.png"
+  },
+  "commentator": {
+    "key": "commentator",
+    "label": "Дмитрий Никотин",
+    "file": "assets/commentator.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_commentator",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1666932,
+    "sha256": "f5ff1c4583aaf7d830edaf5afd4cbda84774494c19de37745bb7e4b31f224400",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5051,
+    "used_by": [
+      "subscriptions-nikotin"
+    ],
+    "icon_id": "personal_commentator",
+    "runtime_asset": "assets/personal_expenses/commentator.png"
+  },
+  "telegram": {
+    "key": "telegram",
+    "label": "Телеграм",
+    "file": "assets/telegram.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_telegram",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 899604,
+    "sha256": "6d60077d978845c14b85b99fcc145ac7863294669b1d599c1f7abd5f85cd053e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5548,
+    "used_by": [
+      "subscriptions-telegram"
+    ],
+    "icon_id": "personal_telegram",
+    "runtime_asset": "assets/personal_expenses/telegram.png"
+  },
+  "radar": {
+    "key": "radar",
+    "label": "Радар",
+    "file": "assets/radar.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_radar",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1595503,
+    "sha256": "71609edd722642625f2975890719af3eb7ba345aae7717a7b18b500648d60e0a",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.2962,
+    "used_by": [
+      "subscriptions-radar"
+    ],
+    "icon_id": "personal_radar",
+    "runtime_asset": "assets/personal_expenses/radar.png"
+  },
+  "chatgpt": {
+    "key": "chatgpt",
+    "label": "ChatGPT",
+    "file": "assets/chatgpt.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_chatgpt",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1095507,
+    "sha256": "9d17e596f3a4dbb8518bdb245a13dbab78247b506fc7e631aa14f2dfb536105e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4165,
+    "used_by": [
+      "subscriptions-chatgpt"
+    ],
+    "icon_id": "personal_chatgpt",
+    "runtime_asset": "assets/personal_expenses/chatgpt.png"
+  },
+  "vpn": {
+    "key": "vpn",
+    "label": "VPN",
+    "file": "assets/vpn.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_vpn",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1218680,
+    "sha256": "9fce55709767c7f4976cf85af87bba51fa69e40b5058c8a79404596bee9649ae",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5326,
+    "used_by": [
+      "subscriptions-vpn"
+    ],
+    "icon_id": "personal_vpn",
+    "runtime_asset": "assets/personal_expenses/vpn.png"
+  },
+  "zoom": {
+    "key": "zoom",
+    "label": "Zoom",
+    "file": "assets/zoom.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_zoom",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1583937,
+    "sha256": "93ef6f2e3f3ab22bca190f6c86e5819bae92b817cad3826e36bbd313daac6297",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.35,
+    "used_by": [
+      "subscriptions-zoom"
+    ],
+    "icon_id": "personal_zoom",
+    "runtime_asset": "assets/personal_expenses/zoom.png"
+  },
+  "furniture": {
+    "key": "furniture",
+    "label": "Мебель",
+    "file": "assets/furniture.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_furniture",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1851145,
+    "sha256": "2c1751de09f4ed82b1d658cc97431ae8094bd889a20de603fe1e95ee92fa6b86",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5592,
+    "used_by": [
+      "kazan-furniture"
+    ],
+    "icon_id": "personal_furniture",
+    "runtime_asset": "assets/personal_expenses/furniture.png"
+  },
+  "equipment": {
+    "key": "equipment",
+    "label": "Техника",
+    "file": "assets/equipment.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_equipment",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2012322,
+    "sha256": "42ea431ca86cc60b393aebde9cb21c6c510a32ba29d8736cacd97b7c16f6c35e",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3494,
+    "used_by": [
+      "equipment"
+    ],
+    "icon_id": "personal_equipment",
+    "runtime_asset": "assets/personal_expenses/equipment.png"
+  },
+  "snowmobile": {
+    "key": "snowmobile",
+    "label": "Снегоход",
+    "file": "assets/snowmobile.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_snowmobile",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1476385,
+    "sha256": "e210950849d27487419fdfa1aa21381265ac3933f5b37b35492b19fbe5ff8234",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5832,
+    "used_by": [
+      "equipment-snowmobile"
+    ],
+    "icon_id": "personal_snowmobile",
+    "runtime_asset": "assets/personal_expenses/snowmobile.png"
+  },
+  "snowblower": {
+    "key": "snowblower",
+    "label": "Снегоуборщик",
+    "file": "assets/snowblower.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_snowblower",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1850653,
+    "sha256": "1975524c230a90e6a78c28bb4e83c72ee13270d37d758fa44ab7b53b75f34b1b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4171,
+    "used_by": [
+      "equipment-snowblower"
+    ],
+    "icon_id": "personal_snowblower",
+    "runtime_asset": "assets/personal_expenses/snowblower.png"
+  },
+  "mower": {
+    "key": "mower",
+    "label": "Газонокосилка",
+    "file": "assets/mower.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_mower",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1487440,
+    "sha256": "c3cafff1ed0a90a3887d0892d06363d611ae207e0ec6c3da02e1e61dca23a8fe",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.5789,
+    "used_by": [
+      "equipment-mower"
+    ],
+    "icon_id": "personal_mower",
+    "runtime_asset": "assets/personal_expenses/mower.png"
+  },
+  "trimmer": {
+    "key": "trimmer",
+    "label": "Триммер",
+    "file": "assets/trimmer.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_trimmer",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 528612,
+    "sha256": "83c8a11e19b262ebda9aaecca31bc3cb69e4357cef4a51d3f539d0f03c11988d",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.8603,
+    "used_by": [
+      "equipment-trimmer"
+    ],
+    "icon_id": "personal_trimmer",
+    "runtime_asset": "assets/personal_expenses/trimmer.png"
+  },
+  "loans": {
+    "key": "loans",
+    "label": "Кредиты",
+    "file": "assets/loans.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_loans",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1882106,
+    "sha256": "0a795c11670bf87535d83a6e813cfbaf72731af27164e4a60da1710fff55706f",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3705,
+    "used_by": [
+      "loans"
+    ],
+    "icon_id": "personal_loans",
+    "runtime_asset": "assets/personal_expenses/loans.png"
+  },
+  "mortgage": {
+    "key": "mortgage",
+    "label": "Ипотека",
+    "file": "assets/mortgage.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_mortgage",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2097151,
+    "sha256": "9bc47dae6dd08a3e32ab668ebe1f42fd7d7664d1e5538a1689cc86b8b4218e90",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.387,
+    "used_by": [
+      "loans-mortgage"
+    ],
+    "icon_id": "personal_mortgage",
+    "runtime_asset": "assets/personal_expenses/mortgage.png"
+  },
+  "car-tax": {
+    "key": "car-tax",
+    "label": "Налог на автомобиль",
+    "file": "assets/car-tax.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_car-tax",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1780409,
+    "sha256": "acedaffff87b6b29012b018273d44f06e5fb480461f892b91c48573b037b17b6",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.3939,
+    "used_by": [
+      "finance-mazda-tax",
+      "finance-jaecoo-tax"
+    ],
+    "icon_id": "personal_car_tax",
+    "runtime_asset": "assets/personal_expenses/car-tax.png"
+  },
+  "land-rent": {
+    "key": "land-rent",
+    "label": "Аренда земли",
+    "file": "assets/land-rent.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_land-rent",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 2133095,
+    "sha256": "a2068dbbcd305e22c061d00c5820a13abb36622e6e26c66c0b4de603ac84efac",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4069,
+    "used_by": [
+      "finance-land-rent"
+    ],
+    "icon_id": "personal_land_rent",
+    "runtime_asset": "assets/personal_expenses/land-rent.png"
+  },
+  "online-learning": {
+    "key": "online-learning",
+    "label": "Онлайн-тренинги",
+    "file": "assets/online-learning.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_online-learning",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1380478,
+    "sha256": "530502e90ae987760a67bbf68c299f21bf823f7862bcaa96ac549234550bce9b",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4228,
+    "used_by": [
+      "education-online"
+    ],
+    "icon_id": "personal_online_learning",
+    "runtime_asset": "assets/personal_expenses/online-learning.png"
+  },
+  "offline-learning": {
+    "key": "offline-learning",
+    "label": "Офлайн-тренинги",
+    "file": "assets/offline-learning.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_offline-learning",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1671688,
+    "sha256": "8292a33036bdcdb6c12b3f33c2dbb534ee66bd0d19a705440e5f7eef2598372f",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4107,
+    "used_by": [
+      "education-offline"
+    ],
+    "icon_id": "personal_offline_learning",
+    "runtime_asset": "assets/personal_expenses/offline-learning.png"
+  },
+  "english": {
+    "key": "english",
+    "label": "Английский детям",
+    "file": "assets/english.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_english",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1682965,
+    "sha256": "de22b28329406850b2a533e07b442a2fa7f6991db1c5c11a05c931f4694c9255",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.363,
+    "used_by": [
+      "education-english"
+    ],
+    "icon_id": "personal_english",
+    "runtime_asset": "assets/personal_expenses/english.png"
+  },
+  "group-course": {
+    "key": "group-course",
+    "label": "Складчина",
+    "file": "assets/group-course.png",
+    "origin": "generated_for_this_package",
+    "suggested_icon_id": "pexp_group-course",
+    "size_px": [
+      1254,
+      1254
+    ],
+    "bytes": 1743588,
+    "sha256": "ed6be848974aea581dad490232d61707b5fa4a26d113af07ff4bbd896a49e9e3",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixel_fraction": 0.4515,
+    "used_by": [
+      "education-group-course"
+    ],
+    "icon_id": "personal_group_course",
+    "runtime_asset": "assets/personal_expenses/group-course.png"
+  }
+}

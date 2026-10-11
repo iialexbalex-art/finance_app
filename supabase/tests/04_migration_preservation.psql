@@ -1,0 +1,19 @@
+-- НЕ ЗАПУЩЕНО. Только psql, одна сессия отдельной тестовой БД на схеме 003.
+-- Скрипт САМ применяет 004 при ручном запуске. Не запускать на уже применённой 004.
+\set ON_ERROR_STOP on
+create temp table category_snapshot_before_004 as
+  select id,space_id,kind,name,parent_id,is_archived,created_at from public.categories;
+\ir ../migrations/202609300004_category_tree.sql
+do $test$
+begin
+  if exists (
+    (select id,space_id,kind,name,parent_id,is_archived,created_at from public.categories
+      except select * from category_snapshot_before_004)
+    union all
+    (select * from category_snapshot_before_004
+      except select id,space_id,kind,name,parent_id,is_archived,created_at from public.categories)
+  ) then raise exception 'FAIL: migration changed category data'; end if;
+  raise notice 'PASS: migration preserved IDs, names, links, archive flags and timestamps';
+end
+$test$;
+drop table category_snapshot_before_004;

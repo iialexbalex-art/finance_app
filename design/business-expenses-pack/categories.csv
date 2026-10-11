@@ -1,0 +1,63 @@
+﻿Ключ;Категория;Родитель;Порядок;Файл картинки
+advertising;Реклама;;1;assets/advertising.png
+advertising-olx;Реклама на площадке OLX;Реклама;1;assets/advertising-olx.png
+advertising-yandex-direct;Яндекс.Директ;Реклама;2;assets/advertising-yandex-direct.png
+advertising-seo;SEO;Реклама;3;assets/advertising-seo.png
+advertising-agency-client-fee;Агентская комиссия за клиента;Реклама;4;assets/advertising-agency-client-fee.png
+advertising-avito-budget;Авито — бюджет;Реклама;5;assets/advertising-avito-budget.png
+office;Обслуживание офиса;;2;assets/office.png
+office-internet;Интернет;Обслуживание офиса;1;assets/office-internet.png
+office-office-groceries;Продукты в офис;Обслуживание офиса;2;assets/office-office-groceries.png
+office-printer-service;Обслуживание принтеров;Обслуживание офиса;3;assets/office-printer-service.png
+office-stationery;Канцтовары;Обслуживание офиса;4;assets/office-stationery.png
+office-water;Вода;Обслуживание офиса;5;assets/office-water.png
+office-beeline;Телефония Билайн;Обслуживание офиса;6;assets/office-beeline.png
+office-rent;Аренда;Обслуживание офиса;7;assets/office-rent.png
+office-utilities;Коммунальные услуги;Обслуживание офиса;8;assets/office-utilities.png
+office-office-equipment;Покупка оргтехники;Обслуживание офиса;9;assets/office-office-equipment.png
+office-office-furniture;Покупка мебели;Обслуживание офиса;10;assets/office-office-furniture.png
+office-office-renovation;Ремонт офиса;Обслуживание офиса;11;assets/office-office-renovation.png
+office-security-cameras;Камеры;Обслуживание офиса;12;assets/office-security-cameras.png
+office-office-supplies;Хозтовары в офис;Обслуживание офиса;13;assets/office-office-supplies.png
+office-office-cleaning;Уборка офиса;Обслуживание офиса;14;assets/office-office-cleaning.png
+office-snow-removal;Уборка снега;Обслуживание офиса;15;assets/office-snow-removal.png
+office-sipuni;Телефония Сипуни;Обслуживание офиса;16;assets/office-sipuni.png
+office-extra;Доп. обслуживание офиса;;3;assets/office-extra.png
+office-extra-post;Почта;Доп. обслуживание офиса;1;assets/office-extra-post.png
+office-extra-headhunter;HeadHunter;Доп. обслуживание офиса;2;assets/office-extra-headhunter.png
+office-extra-garant;Правовая система Гарант;Доп. обслуживание офиса;3;assets/office-extra-garant.png
+office-extra-accounting;Оплата бухгалтерии;Доп. обслуживание офиса;4;assets/office-extra-accounting.png
+advertising-services;Обслуживание рекламы;;4;assets/advertising-services.png
+advertising-services-bitrix24;Оплата Bitrix24;Обслуживание рекламы;1;assets/advertising-services-bitrix24.png
+advertising-services-bitrix24-marketplace;Оплата маркетплейса Bitrix24;Обслуживание рекламы;2;assets/advertising-services-bitrix24-marketplace.png
+advertising-services-reviews;Отзывы;Обслуживание рекламы;3;assets/advertising-services-reviews.png
+advertising-services-domains;Домены;Обслуживание рекламы;4;assets/advertising-services-domains.png
+advertising-services-hosting;Хостинги;Обслуживание рекламы;5;assets/advertising-services-hosting.png
+advertising-services-avitologist;Авитолог;Обслуживание рекламы;6;assets/advertising-services-avitologist.png
+advertising-services-vapi;VAPI;Обслуживание рекламы;7;assets/advertising-services-vapi.png
+advertising-services-yandex-disk;Яндекс.Диск;Обслуживание рекламы;8;assets/advertising-services-yandex-disk.png
+salary;Зарплата;;5;assets/salary.png
+salary-salary-darya;Лид-менеджер — Вологжанина Дарья;Зарплата;1;assets/salary-salary-darya.png
+salary-salary-marina;Юрист — Смирнова Марина;Зарплата;2;assets/salary-salary-marina.png
+salary-salary-elvira;Юрист — Набиуллина Эльвира;Зарплата;3;assets/salary-salary-elvira.png
+lawyer-travel;Командировки юристов;;6;assets/lawyer-travel.png
+lawyer-travel-tickets;Билеты;Командировки юристов;1;assets/lawyer-travel-tickets.png
+lawyer-travel-hotel;Гостиница;Командировки юристов;2;assets/lawyer-travel-hotel.png
+lawyer-travel-fuel;Бензин;Командировки юристов;3;assets/lawyer-travel-fuel.png
+lawyer-travel-per-diem;Суточные / иное;Командировки юристов;4;assets/lawyer-travel-per-diem.png
+taxes;Налоги;;7;assets/taxes.png
+taxes-ausn;АУСН;Налоги;1;assets/taxes-ausn.png
+taxes-employee-taxes;Налоги за работников;Налоги;2;assets/taxes-employee-taxes.png
+corporate-gifts;Корпоративы и подарки;;8;assets/corporate-gifts.png
+corporate-gifts-birthday-gifts;Подарки на день рождения;Корпоративы и подарки;1;assets/corporate-gifts-birthday-gifts.png
+corporate-gifts-office-party;Корпоратив за счёт офиса;Корпоративы и подарки;2;assets/corporate-gifts-office-party.png
+client-refunds;Возврат по договорам клиентам;;9;assets/client-refunds.png
+client-payments;Оплата за клиента;;10;assets/client-payments.png
+client-payments-state-duty;Госпошлина;Оплата за клиента;1;assets/client-payments-state-duty.png
+client-payments-declarations-other;Декларации / иные платежи;Оплата за клиента;2;assets/client-payments-declarations-other.png
+bank-fees;Банковские комиссии;;11;assets/bank-fees.png
+bank-fees-sber-terminal;Терминал Сбер;Банковские комиссии;1;assets/bank-fees-sber-terminal.png
+bank-fees-sber-payments;За платёжки Сбер;Банковские комиссии;2;assets/bank-fees-sber-payments.png
+bank-fees-monthly-account-fee;Ежемесячная комиссия за обслуживание счёта;Банковские комиссии;3;assets/bank-fees-monthly-account-fee.png
+bank-fees-cash-deposit-fee;За внесение денег на счёт;Банковские комиссии;4;assets/bank-fees-cash-deposit-fee.png
+bank-fees-account-subscription;Заведение счёта — абонентка;Банковские комиссии;5;assets/bank-fees-account-subscription.png

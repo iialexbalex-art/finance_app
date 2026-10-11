@@ -1,0 +1,999 @@
+{
+  "package_key": "business_expenses_20261006_v1",
+  "image_count": 62,
+  "images": [
+    {
+      "category_key": "advertising",
+      "category_path": "Реклама",
+      "icon_id": "bizexp_advertising",
+      "file": "assets/advertising.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1656672,
+      "sha256": "85199cd1488c0774191024204a31e8a47b99adca1998288ffe3c91fb4fbba284",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-olx",
+      "category_path": "Реклама / Реклама на площадке OLX",
+      "icon_id": "bizexp_advertising-olx",
+      "file": "assets/advertising-olx.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1090751,
+      "sha256": "82c0100f5ac8955fa657e12e0d0cdf98dbbe4afac6bf2e851856d20aa0ec7e88",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-yandex-direct",
+      "category_path": "Реклама / Яндекс.Директ",
+      "icon_id": "bizexp_advertising-yandex-direct",
+      "file": "assets/advertising-yandex-direct.png",
+      "size_px": [
+        1333,
+        1180
+      ],
+      "bytes": 1461825,
+      "sha256": "3775444c4ee9ae7560c12aaee5ed5afaf666da7edcfc218f66ad4380de9ebe01",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-seo",
+      "category_path": "Реклама / SEO",
+      "icon_id": "bizexp_advertising-seo",
+      "file": "assets/advertising-seo.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1393261,
+      "sha256": "c2e52dce226ef8c9402c1193ffd333ce78caef8a0c85ab83ae1dacd43f1385c0",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-agency-client-fee",
+      "category_path": "Реклама / Агентская комиссия за клиента",
+      "icon_id": "bizexp_advertising-agency-client-fee",
+      "file": "assets/advertising-agency-client-fee.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2077772,
+      "sha256": "3cdadf628165d97d1b8c4dbe77262f598a45f91359bdd14cd5abd74696662647",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-avito-budget",
+      "category_path": "Реклама / Авито — бюджет",
+      "icon_id": "bizexp_advertising-avito-budget",
+      "file": "assets/advertising-avito-budget.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1430775,
+      "sha256": "69595566b6478af277840359ada1504edf3ea539d0b82ee03e7f564d9d2a5a66",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office",
+      "category_path": "Обслуживание офиса",
+      "icon_id": "bizexp_office",
+      "file": "assets/office.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1532510,
+      "sha256": "77dd26288523f14d40449c474533179e514e75356877d477122c75d9c71d94af",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-internet",
+      "category_path": "Обслуживание офиса / Интернет",
+      "icon_id": "bizexp_office-internet",
+      "file": "assets/office-internet.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1084979,
+      "sha256": "210e903c6d47573aa395c398280f2c7cb28f38f4eb1aeb4f07f5af43d63f12b9",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-groceries",
+      "category_path": "Обслуживание офиса / Продукты в офис",
+      "icon_id": "bizexp_office-office-groceries",
+      "file": "assets/office-office-groceries.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2396317,
+      "sha256": "c82b3cb9d85d5a5b677559bab1e3f6b76411d99ff5e74a202ffc517736530247",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-printer-service",
+      "category_path": "Обслуживание офиса / Обслуживание принтеров",
+      "icon_id": "bizexp_office-printer-service",
+      "file": "assets/office-printer-service.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1884426,
+      "sha256": "9767ec8cb7ecbb91371bfed99732bc0c85d063caa98e578c51fbb0e9cdbad4c5",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-stationery",
+      "category_path": "Обслуживание офиса / Канцтовары",
+      "icon_id": "bizexp_office-stationery",
+      "file": "assets/office-stationery.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1901512,
+      "sha256": "408cba8ad4c699120606961eeb964b3c680c5e4f38c1c9a7c66569214fc93723",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-water",
+      "category_path": "Обслуживание офиса / Вода",
+      "icon_id": "bizexp_office-water",
+      "file": "assets/office-water.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1873035,
+      "sha256": "ebb0f5dc69067a2c71c3fa086671a290392a0730fd25ca83fd1048624469aca5",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-beeline",
+      "category_path": "Обслуживание офиса / Телефония Билайн",
+      "icon_id": "bizexp_office-beeline",
+      "file": "assets/office-beeline.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1678097,
+      "sha256": "01d6c591dc60d9db16a1c44cd9edce1ce429a8f0348b1f1e4c57d308c8638720",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-rent",
+      "category_path": "Обслуживание офиса / Аренда",
+      "icon_id": "bizexp_office-rent",
+      "file": "assets/office-rent.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1610038,
+      "sha256": "64ef5907a91435ff0a2aa55e58538b75f22525e9fc9c513b7fc725f978f035d6",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-utilities",
+      "category_path": "Обслуживание офиса / Коммунальные услуги",
+      "icon_id": "bizexp_office-utilities",
+      "file": "assets/office-utilities.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1780760,
+      "sha256": "89a8b519b3137a727e752bacfcb26d90f2ad504edb005547d4cae6947509a928",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-equipment",
+      "category_path": "Обслуживание офиса / Покупка оргтехники",
+      "icon_id": "bizexp_office-office-equipment",
+      "file": "assets/office-office-equipment.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1754874,
+      "sha256": "2f6a17e19a7c7bef8d99de2272b2b08e7e852417ad0e9703d6395615163594e9",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-furniture",
+      "category_path": "Обслуживание офиса / Покупка мебели",
+      "icon_id": "bizexp_office-office-furniture",
+      "file": "assets/office-office-furniture.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1624036,
+      "sha256": "12c1074e07645411bd5facf5f4137ce985a010690a0095dcdaf4a0cc32901cad",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-renovation",
+      "category_path": "Обслуживание офиса / Ремонт офиса",
+      "icon_id": "bizexp_office-office-renovation",
+      "file": "assets/office-office-renovation.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1768684,
+      "sha256": "ac56b310e9a9a47a2fc54a22e4dc8216d52f03ee15ce9627ad657764bef52223",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-security-cameras",
+      "category_path": "Обслуживание офиса / Камеры",
+      "icon_id": "bizexp_office-security-cameras",
+      "file": "assets/office-security-cameras.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1795067,
+      "sha256": "a54b2e21ed7f5f8ba7ec63cd819ae6521119b2bf8918f981aedd636439bb7382",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-supplies",
+      "category_path": "Обслуживание офиса / Хозтовары в офис",
+      "icon_id": "bizexp_office-office-supplies",
+      "file": "assets/office-office-supplies.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1856207,
+      "sha256": "433ff6269c0a3b602ac51744f3fe40d90c23a32126a4004ff0bcdd30da85222c",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-office-cleaning",
+      "category_path": "Обслуживание офиса / Уборка офиса",
+      "icon_id": "bizexp_office-office-cleaning",
+      "file": "assets/office-office-cleaning.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1557711,
+      "sha256": "f24f04fe27310dfb46e7b3835f52aed12f69597fd8da607a4979eb83685e0150",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-snow-removal",
+      "category_path": "Обслуживание офиса / Уборка снега",
+      "icon_id": "bizexp_office-snow-removal",
+      "file": "assets/office-snow-removal.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1543046,
+      "sha256": "ad02d8a4d0b23355c51e6eb44691a5910f5837df2b7b5339f0c25bebc8eab945",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-sipuni",
+      "category_path": "Обслуживание офиса / Телефония Сипуни",
+      "icon_id": "bizexp_office-sipuni",
+      "file": "assets/office-sipuni.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1886229,
+      "sha256": "cb2cd9ae84cce56d8efb9eae67136b1e3d1673afac7dc88279d98e2986225326",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-extra",
+      "category_path": "Доп. обслуживание офиса",
+      "icon_id": "bizexp_office-extra",
+      "file": "assets/office-extra.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2230796,
+      "sha256": "8b6f36bd358c2e0e0058d86f05f4ed61a11a5c85c72797e5846eed1b09b4f21f",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-extra-post",
+      "category_path": "Доп. обслуживание офиса / Почта",
+      "icon_id": "bizexp_office-extra-post",
+      "file": "assets/office-extra-post.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1673819,
+      "sha256": "4f4702ba2c57f7aa258ae2f143542806a8b80cda46239a8cab54a8d73ffb2018",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-extra-headhunter",
+      "category_path": "Доп. обслуживание офиса / HeadHunter",
+      "icon_id": "bizexp_office-extra-headhunter",
+      "file": "assets/office-extra-headhunter.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1567933,
+      "sha256": "7f694f7e6427b0cf59f9345913c4e896e9f1abd6e2b95e3c3849267ff610e1e5",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-extra-garant",
+      "category_path": "Доп. обслуживание офиса / Правовая система Гарант",
+      "icon_id": "bizexp_office-extra-garant",
+      "file": "assets/office-extra-garant.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2112631,
+      "sha256": "aea88b9dd5084b220243985a77c8c0faa815f339befa32740d0779ad8a460cff",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "office-extra-accounting",
+      "category_path": "Доп. обслуживание офиса / Оплата бухгалтерии",
+      "icon_id": "bizexp_office-extra-accounting",
+      "file": "assets/office-extra-accounting.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1960991,
+      "sha256": "5f8683e935a01136460d8f3f602b9a4731bec5f594f7a75356637ec1e97f5406",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services",
+      "category_path": "Обслуживание рекламы",
+      "icon_id": "bizexp_advertising-services",
+      "file": "assets/advertising-services.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1608015,
+      "sha256": "acd023fb2dd3b4908617cdf2faea390f4dc99fb85f0534245bb10ef7f5ca89ea",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-bitrix24",
+      "category_path": "Обслуживание рекламы / Оплата Bitrix24",
+      "icon_id": "bizexp_advertising-services-bitrix24",
+      "file": "assets/advertising-services-bitrix24.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1114336,
+      "sha256": "fb5f2b78f41825ed58fa473036473dae21d26a52a8912168b2fe69bf6765b76e",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-bitrix24-marketplace",
+      "category_path": "Обслуживание рекламы / Оплата маркетплейса Bitrix24",
+      "icon_id": "bizexp_advertising-services-bitrix24-marketplace",
+      "file": "assets/advertising-services-bitrix24-marketplace.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1595483,
+      "sha256": "8a64928e7e1397647ff1a29eab2746a2aaf3af352abee29306de086dd3a63490",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-reviews",
+      "category_path": "Обслуживание рекламы / Отзывы",
+      "icon_id": "bizexp_advertising-services-reviews",
+      "file": "assets/advertising-services-reviews.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1409223,
+      "sha256": "ede81b3dcb791563cbe2c62f163a4a8b7921b220f5d34326eec13890a9b0f85a",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-domains",
+      "category_path": "Обслуживание рекламы / Домены",
+      "icon_id": "bizexp_advertising-services-domains",
+      "file": "assets/advertising-services-domains.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1270956,
+      "sha256": "bf562f8ea0fba432d2bc09649289091a47aeb3eafdb3b1afc838a2f9a5620b33",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-hosting",
+      "category_path": "Обслуживание рекламы / Хостинги",
+      "icon_id": "bizexp_advertising-services-hosting",
+      "file": "assets/advertising-services-hosting.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1477031,
+      "sha256": "42ad386d4db094bff55c06200592c7d4012efc4b03aadec20ac6e93779df10d5",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-avitologist",
+      "category_path": "Обслуживание рекламы / Авитолог",
+      "icon_id": "bizexp_advertising-services-avitologist",
+      "file": "assets/advertising-services-avitologist.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1679409,
+      "sha256": "72f19e39cebc319cbd026c867a9d2b7901de95507fad007f99d5049d1b2164d6",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-vapi",
+      "category_path": "Обслуживание рекламы / VAPI",
+      "icon_id": "bizexp_advertising-services-vapi",
+      "file": "assets/advertising-services-vapi.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1916119,
+      "sha256": "8241fedcb42cfd47d17a774e476180fa42c78fe8efcbd9984d7929be93e5976d",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "advertising-services-yandex-disk",
+      "category_path": "Обслуживание рекламы / Яндекс.Диск",
+      "icon_id": "bizexp_advertising-services-yandex-disk",
+      "file": "assets/advertising-services-yandex-disk.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1492224,
+      "sha256": "8a7cd49d36d92f1a11b22a48cbc38f606523c98c8db468206c7cc1e3c8b4cee6",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "salary",
+      "category_path": "Зарплата",
+      "icon_id": "bizexp_salary",
+      "file": "assets/salary.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2094117,
+      "sha256": "44f0b6bfde17faa7f2c975da393b03b61350209c4f58a0182e8cd1a3f2386e56",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "salary-salary-darya",
+      "category_path": "Зарплата / Лид-менеджер — Вологжанина Дарья",
+      "icon_id": "bizexp_salary-salary-darya",
+      "file": "assets/salary-salary-darya.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2052617,
+      "sha256": "3cc329fccd1a0473940d06ad55871020df41c926e09601665cefe5c2ced5999d",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "salary-salary-marina",
+      "category_path": "Зарплата / Юрист — Смирнова Марина",
+      "icon_id": "bizexp_salary-salary-marina",
+      "file": "assets/salary-salary-marina.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2247520,
+      "sha256": "9d3561a17dec8ded3926c02fe2a20f7f684ec5af7520577e76e63298c07a2ab6",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "salary-salary-elvira",
+      "category_path": "Зарплата / Юрист — Набиуллина Эльвира",
+      "icon_id": "bizexp_salary-salary-elvira",
+      "file": "assets/salary-salary-elvira.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2176778,
+      "sha256": "7cbd60750a9602d66c604b7aaac939e92fb78b970b1d2ed49242cce637151c7c",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "lawyer-travel",
+      "category_path": "Командировки юристов",
+      "icon_id": "bizexp_lawyer-travel",
+      "file": "assets/lawyer-travel.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2073688,
+      "sha256": "ec265cdaabd832c45908d8e0ba87696385e4fe1c6329b8b54d5894e4e625f506",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "lawyer-travel-tickets",
+      "category_path": "Командировки юристов / Билеты",
+      "icon_id": "bizexp_lawyer-travel-tickets",
+      "file": "assets/lawyer-travel-tickets.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1269617,
+      "sha256": "3ed84d83f11d1a58264ea3f725c919e159973be8ade4c034bfee0d07856da918",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "lawyer-travel-hotel",
+      "category_path": "Командировки юристов / Гостиница",
+      "icon_id": "bizexp_lawyer-travel-hotel",
+      "file": "assets/lawyer-travel-hotel.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1648799,
+      "sha256": "846c95b6f4acc831c4472cdbdb87c585e81916b5081630c00adc4af7488acd79",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "lawyer-travel-fuel",
+      "category_path": "Командировки юристов / Бензин",
+      "icon_id": "bizexp_lawyer-travel-fuel",
+      "file": "assets/lawyer-travel-fuel.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2088212,
+      "sha256": "d586ba481cd27f62070fe493662d54771aef66ddee1d7d4aa23f850162439f73",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "lawyer-travel-per-diem",
+      "category_path": "Командировки юристов / Суточные / иное",
+      "icon_id": "bizexp_lawyer-travel-per-diem",
+      "file": "assets/lawyer-travel-per-diem.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2187731,
+      "sha256": "d5af9fe2f8f9d3a49ce926fa420799a212545b36f80c23951200a82ab2314576",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "taxes",
+      "category_path": "Налоги",
+      "icon_id": "bizexp_taxes",
+      "file": "assets/taxes.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2131410,
+      "sha256": "ffbd1996a0cd7e54fa4873e04613fce4f5f529a6c6e73e0379dab8ccc0d68454",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "taxes-ausn",
+      "category_path": "Налоги / АУСН",
+      "icon_id": "bizexp_taxes-ausn",
+      "file": "assets/taxes-ausn.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2046410,
+      "sha256": "94ab35bb439c331afeeb8c814bce971b220ad30ae2b101e870b50ae37adb308d",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "taxes-employee-taxes",
+      "category_path": "Налоги / Налоги за работников",
+      "icon_id": "bizexp_taxes-employee-taxes",
+      "file": "assets/taxes-employee-taxes.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1800211,
+      "sha256": "a411d6ad99999965383bc4dd8362a96fa1983de6285b6250262e371bd19c468e",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "corporate-gifts",
+      "category_path": "Корпоративы и подарки",
+      "icon_id": "bizexp_corporate-gifts",
+      "file": "assets/corporate-gifts.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1915281,
+      "sha256": "b9a55569da499e4f1f4c23e939850026db82e5da9645a05d2d2a9fb4160a5c8f",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "corporate-gifts-birthday-gifts",
+      "category_path": "Корпоративы и подарки / Подарки на день рождения",
+      "icon_id": "bizexp_corporate-gifts-birthday-gifts",
+      "file": "assets/corporate-gifts-birthday-gifts.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2395988,
+      "sha256": "80ceffa9032e2186bca10ff48fe0bbd41a08d924bb580755cffbbfd44e422904",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "corporate-gifts-office-party",
+      "category_path": "Корпоративы и подарки / Корпоратив за счёт офиса",
+      "icon_id": "bizexp_corporate-gifts-office-party",
+      "file": "assets/corporate-gifts-office-party.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1392724,
+      "sha256": "c00512eb494b6f5f101055878486834fe7505882f6480c21fb80d0108288d11f",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "client-refunds",
+      "category_path": "Возврат по договорам клиентам",
+      "icon_id": "bizexp_client-refunds",
+      "file": "assets/client-refunds.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1691583,
+      "sha256": "80ac21221a95b2e1232486600855a97099ee91413e086d8384a3bc39a7b0f7d2",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "client-payments",
+      "category_path": "Оплата за клиента",
+      "icon_id": "bizexp_client-payments",
+      "file": "assets/client-payments.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1998837,
+      "sha256": "997ca51152c5b05f6ec8792ada731f6602c13a20222223547ec9611c9f9b7240",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "client-payments-state-duty",
+      "category_path": "Оплата за клиента / Госпошлина",
+      "icon_id": "bizexp_client-payments-state-duty",
+      "file": "assets/client-payments-state-duty.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1884582,
+      "sha256": "039cfcdd139792532ae4d9dc398eb06aa1e6bce770add85b4865e6976cd08328",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "client-payments-declarations-other",
+      "category_path": "Оплата за клиента / Декларации / иные платежи",
+      "icon_id": "bizexp_client-payments-declarations-other",
+      "file": "assets/client-payments-declarations-other.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1970929,
+      "sha256": "2613a543eddad42f000b64bc6e011d1a873ec22a6626254e65b4c83093c4598c",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees",
+      "category_path": "Банковские комиссии",
+      "icon_id": "bizexp_bank-fees",
+      "file": "assets/bank-fees.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2037756,
+      "sha256": "e6dfdee0d94585ad95c5f31f36d64b4f99e9e170ab3cfd287d86c70346396cc5",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees-sber-terminal",
+      "category_path": "Банковские комиссии / Терминал Сбер",
+      "icon_id": "bizexp_bank-fees-sber-terminal",
+      "file": "assets/bank-fees-sber-terminal.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1577930,
+      "sha256": "b6e9f27f1d38b8b86277fa8cd91ad499f45a816c5496ceb52745fdbfc196fda1",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees-sber-payments",
+      "category_path": "Банковские комиссии / За платёжки Сбер",
+      "icon_id": "bizexp_bank-fees-sber-payments",
+      "file": "assets/bank-fees-sber-payments.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2044407,
+      "sha256": "2514af67f6394eff46f76430cb0d475be4e97d38e3aaf7e8712e7a436024b0de",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees-monthly-account-fee",
+      "category_path": "Банковские комиссии / Ежемесячная комиссия за обслуживание счёта",
+      "icon_id": "bizexp_bank-fees-monthly-account-fee",
+      "file": "assets/bank-fees-monthly-account-fee.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 1802681,
+      "sha256": "f7bd5b764ebb00e7c96609d1bbd9cd424c6947e33813919a032632c6a5850ff9",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees-cash-deposit-fee",
+      "category_path": "Банковские комиссии / За внесение денег на счёт",
+      "icon_id": "bizexp_bank-fees-cash-deposit-fee",
+      "file": "assets/bank-fees-cash-deposit-fee.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2073107,
+      "sha256": "38841b31c0778c6b7d0d80859440dc00f1631ad4cd9a0712b6747f72a0d7bc6e",
+      "alpha_range": [
+        0,
+        255
+      ]
+    },
+    {
+      "category_key": "bank-fees-account-subscription",
+      "category_path": "Банковские комиссии / Заведение счёта — абонентка",
+      "icon_id": "bizexp_bank-fees-account-subscription",
+      "file": "assets/bank-fees-account-subscription.png",
+      "size_px": [
+        1254,
+        1254
+      ],
+      "bytes": 2122870,
+      "sha256": "0c511230a2c5252134cd99e688ee7fded1ee84896438a70a2f3980523760c07e",
+      "alpha_range": [
+        0,
+        255
+      ]
+    }
+  ],
+  "original_png_bytes_preserved": true
+}

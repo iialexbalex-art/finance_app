@@ -1,0 +1,56 @@
+[
+    {
+        "source":  "https://www.bcc.kz/themes/bcc/assets/images/logo-personal-mini.svg",
+        "asset":  "assets/icons/banks/bank_bcc.png",
+        "id":  "bank_bcc",
+        "sha256":  "8690b6c4e8857abeef449f17350ccaa225094a4109b900479cae8aece664c4e6"
+    },
+    {
+        "source":  "https://kaspi.kz/favicon/icon.svg",
+        "asset":  "assets/icons/banks/bank_kaspi.svg",
+        "id":  "bank_kaspi",
+        "sha256":  "007b96b42d7afa520cfa3bf255e1a2b81e88060d0152014335d596e16ab04a1e"
+    },
+    {
+        "source":  "https://halykbank.kz/themes/halyk/assets/favicon/favicon.svg",
+        "asset":  "assets/icons/banks/bank_halyk.svg",
+        "id":  "bank_halyk",
+        "sha256":  "d9cb418adc779e3188c6882dc3a5098d31db8f019b1a85335a930ee4885f63b0"
+    },
+    {
+        "source":  "https://www.gazprombank.ru/_next/c2e2cf5515281430d1da46b535fb5d23/_next/public/favicons/default/light-favicon/favicon-180x180.png",
+        "asset":  "assets/icons/banks/bank_gpb.png",
+        "id":  "bank_gpb",
+        "sha256":  "54395caf4baecf9e3e9f999ab21b85628f5cf3e7d412d2f887878dbbbc9c186b"
+    },
+    {
+        "source":  "https://bakai.kg/bbank/assets/marketing_configs/2026/6/29/marketing_config_LgvQHnTLffRbto44YfLq.png",
+        "asset":  "assets/icons/banks/bank_bakai.png",
+        "id":  "bank_bakai",
+        "sha256":  "3f676508206d28cac6fcd9301fd4b026837ce867813f400b03fc0d34a24c7f83"
+    },
+    {
+        "source":  "https://cdn.tbank.ru/static/pages/files/d39e9d26-fd5e-4574-9ad3-c3f2fc102598.png",
+        "asset":  "assets/icons/banks/bank_t.png",
+        "id":  "bank_t",
+        "sha256":  "c10df771d80d19ca4061f200fbb93cda8fe45ee88e96ae2b65df12ad5e4ea0e9"
+    },
+    {
+        "source":  "https://raw.githubusercontent.com/alfa-laboratory/icons/9ffde4b1d37abdacce63e45121a3fa9ce8d44b22/packages/classic/src/LogoAlfabankSquareXlColorIcon.tsx",
+        "asset":  "assets/icons/banks/bank_alfa.svg",
+        "id":  "bank_alfa",
+        "sha256":  "db911abec62812b3f0e29df84cfc5d34a372e10c3c984ec9cd21a2e2dcf186d9"
+    },
+    {
+        "source":  "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sberbank_Logo_2020.svg",
+        "asset":  "assets/icons/banks/bank_sber.svg",
+        "id":  "bank_sber",
+        "sha256":  "a9b8a5462c16e0c15ff3a4f4957766bd1b152d4e8b8e3f1ce28cd69fda1fedd5"
+    },
+    {
+        "source":  "https://www.rshb.ru/android-icon-512x512.png",
+        "asset":  "assets/icons/banks/bank_rshb.png",
+        "id":  "bank_rshb",
+        "sha256":  "0bf5ce2a0f07dc244c0e884f5605576950c9e6017d5a4c71ab57a726bd5d12e0"
+    }
+]

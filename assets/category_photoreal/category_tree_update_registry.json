@@ -1,0 +1,13 @@
+[
+  {
+    "icon_id": "ready_meal_plov_bread_tea_v1",
+    "name": "Готовая еда",
+    "source": "design/category-tree-update/assets/ready-meal.png",
+    "asset": "assets/category_photoreal/ready_meal_plov_bread_tea_v1.png",
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG RGBA",
+    "sha256": "d288379ea995fc4679166d91ea67863f79c2b9f72731d06b35b2292db0a73c94",
+    "provenance": "User-approved built-in image generation; category-tree-update package"
+  }
+]

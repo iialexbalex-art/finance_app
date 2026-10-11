@@ -1,0 +1,147 @@
+kind|order|name|set_key|icon_id|group|keywords|interpretation|subject
+expense|1|Еда|exp_food|cat_exp_food|Основные|питание продукты блюдо|Готовое блюдо с овощами и хлебом|rustic ceramic plate with grilled chicken roasted vegetables fresh herbs and bread roll
+expense|2|Перевод денег|exp_money_transfer|cat_exp_money_transfer|Финансы|перевод деньги платёж|Передача денег как отдельный расход; не банковский перевод между своими кошельками|two hands passing a neutral sealed cash envelope with a small transfer receipt without text
+expense|3|Парковка|exp_parking|cat_exp_parking|Транспорт|стоянка паркомат|Парковочный расход|realistic parking meter beside a miniature curb and parked-car wheel no letters
+expense|4|Платная дорога|exp_toll_road|cat_exp_toll_road|Транспорт|трасса шлагбаум платёж|Пункт оплаты дороги|highway toll gate barrier with payment terminal and short asphalt lane no signs
+expense|5|Бензин|exp_fuel|cat_exp_fuel|Транспорт|топливо азс заправка|Заправочный пистолет и канистра|red gasoline nozzle coiled black hose and glossy metal fuel can
+expense|6|Автомобиль|exp_car|cat_exp_car|Транспорт|машина авто|Легковой автомобиль|realistic modern neutral compact car three-quarter view no logo
+expense|7|Хозяйственные товары|exp_household_goods|cat_exp_household_goods|Дом|хозтовары губка перчатки|Набор хозяйственных товаров|cleaning gloves sponge brush and plain spray bottle arranged as household supplies
+expense|8|Гигиена|exp_hygiene|cat_exp_hygiene|Уход|гигиена мыло уход|Личные средства гигиены|soap dispenser toothbrush toothpaste tube and folded towel all unbranded
+expense|9|Аптека|exp_pharmacy|cat_exp_pharmacy|Здоровье|аптека витрина медицинский|Аптечный набор, отличный от лекарств|small pharmacy counter composition with green glass cross object and organized unbranded cartons
+expense|10|Такси|exp_taxi|cat_exp_taxi|Транспорт|такси поездка|Автомобиль такси|realistic yellow taxi car with small roof light no text or logo
+expense|11|Косметика|exp_cosmetics|cat_exp_cosmetics|Уход|макияж косметика|Набор косметики|premium unbranded lipstick compact powder and makeup brush
+expense|12|Телефон|exp_phone|cat_exp_phone|Связь и сервисы|телефон смартфон связь|Смартфон и оплата связи|modern smartphone beside a small neutral billing card no readable text
+expense|13|Домофон|exp_intercom|cat_exp_intercom|Дом|домофон подъезд|Домофонная панель|brushed metal apartment intercom handset and outdoor keypad without numbers or brand
+expense|14|Интернет|exp_internet|cat_exp_internet|Связь и сервисы|интернет роутер сеть|Домашний интернет|modern unbranded wifi router with ethernet cable and subtle signal light
+expense|15|Коммунальные услуги|exp_utilities|cat_exp_utilities|Дом|жкх квитанции коммуналка|Коммунальные счётчики и квитанция|water gas and electricity meters beside blank utility bill
+expense|16|Маркетплейсы|exp_marketplaces|cat_exp_marketplaces|Покупки|маркетплейс заказ покупки|Покупки на маркетплейсе|stack of varied delivery boxes with smartphone shopping screen using generic shapes no logos
+expense|17|Квартира|exp_apartment|cat_exp_apartment|Дом|квартира жильё|Интерьер квартиры|realistic cutaway miniature apartment room with sofa window and lamp
+expense|18|Ремонт|exp_repair|cat_exp_repair|Дом|ремонт инструменты|Универсальный ремонт|open metal toolbox with wrench screwdriver hammer and measuring tape
+expense|19|Техника|exp_appliances|cat_exp_appliances|Техника|техника приборы|Бытовая техника|compact composition of unbranded washing machine kettle and vacuum cleaner
+expense|20|Мебель|exp_furniture|cat_exp_furniture|Дом|мебель диван стол|Мебель для дома|modern upholstered armchair beside small wooden cabinet and floor lamp
+expense|21|Стройка|exp_construction|cat_exp_construction|Дом|стройка объект|Строительный процесс|yellow hard hat on unfinished brick wall section with trowel
+expense|22|Вода|exp_water|cat_exp_water|Дом|вода бутылка водоснабжение|Питьевая вода|clear reusable glass water bottle and filled tumbler with realistic droplets no label
+expense|23|Аренда|exp_rent|cat_exp_rent|Дом|аренда ключ договор|Общая аренда|house key on plain rental agreement folder with small calendar block no text
+expense|24|Оргтехника|exp_office_equipment|cat_exp_office_equipment|Работа|оргтехника принтер сканер|Офисная техника|compact office printer scanner with blank paper and desk phone no logos
+expense|25|Визитки|exp_business_cards|cat_exp_business_cards|Работа|визитки печать|Стопка визитных карточек|premium stack of blank business cards in metal card holder no text
+expense|26|Камеры|exp_cameras|cat_exp_cameras|Техника|камеры фото видео наблюдение|Нейтрально: фото- и видеокамера|professional mirrorless camera beside compact security camera no logos
+expense|27|Уборка|exp_cleaning|cat_exp_cleaning|Дом|уборка швабра ведро|Инвентарь уборки|bucket mop microfiber cloth and plain spray bottle
+expense|28|Доставка|exp_delivery|cat_exp_delivery|Работа|доставка курьер посылка|Курьерская доставка|cardboard parcel on small hand truck with neutral location pin object no text
+expense|29|Стрижка|exp_haircut|cat_exp_haircut|Уход|стрижка парикмахер|Инструменты парикмахера|professional scissors comb electric clipper and folded barber cape
+expense|30|Линзы / очки|exp_lenses_glasses|cat_exp_lenses_glasses|Здоровье|линзы очки оптика|Очки и контактные линзы|eyeglasses beside contact lens case and clear lens blister
+expense|31|Одежда|exp_clothing|cat_exp_clothing|Покупки|одежда гардероб|Предметы одежды|neatly folded sweater shirt and trousers on wooden hanger no labels
+expense|32|Обувь|exp_shoes|cat_exp_shoes|Покупки|обувь ботинки|Повседневная обувь|pair of realistic leather casual shoes with laces no brand
+expense|33|Рыбалка|exp_fishing|cat_exp_fishing|Досуг|рыбалка удочка|Рыболовные снасти|fishing rod reel tackle box and lure arranged together no fish
+expense|34|Подарки|exp_gifts|cat_exp_gifts|Досуг|подарок праздник|Подарочная коробка|premium wrapped gift box with satin ribbon and blank greeting tag
+expense|35|Кальян|exp_hookah|cat_exp_hookah|Досуг|кальян|Кальян без табачной рекламы|realistic glass hookah with metal stem hose and charcoal bowl no smoke branding
+expense|36|Маникюр|exp_manicure|cat_exp_manicure|Уход|маникюр ногти|Маникюрный набор|professional manicure tools neutral polish bottles and small UV lamp no labels
+expense|37|Массаж|exp_massage|cat_exp_massage|Уход|массаж спа|Массажные принадлежности|rolled white towels smooth massage stones and unbranded oil bottle
+expense|38|Волосы|exp_hair|cat_exp_hair|Уход|волосы уход|Нейтрально: уход за волосами|wooden hairbrush lock of natural hair and unbranded serum bottle
+expense|39|Эпиляция|exp_epilation|cat_exp_epilation|Уход|эпиляция удаление волос|Средства эпиляции|modern unbranded epilator with wax beads and wooden applicator
+expense|40|Косметолог|exp_cosmetologist|cat_exp_cosmetologist|Уход|косметолог процедура|Косметологический кабинет|compact facial skincare device with magnifying lamp and plain serum vials
+expense|41|Модель|exp_model|cat_exp_model|Работа|модель съёмка портфолио|Нейтрально: работа модели, без изображения личности|fashion mannequin torso beside neutral portfolio book and studio spotlight
+expense|42|Ресницы|exp_eyelashes|cat_exp_eyelashes|Уход|ресницы ламинирование|Материалы для ресниц|professional eyelash extension tray tweezers and small mirror no text
+expense|43|Электроника|exp_electronics|cat_exp_electronics|Техника|электроника гаджеты|Электронные компоненты и устройства|compact circuit board headphones and small smart device no logos
+expense|44|Спорт|exp_sport|cat_exp_sport|Спорт|спорт мяч тренировка|Спортивный инвентарь|neutral football basketball and jump rope grouped as sports gear no logos
+expense|45|Спортивное питание|exp_sports_nutrition|cat_exp_sports_nutrition|Спорт|протеин питание|Спортивное питание|plain protein powder tub shaker and measuring scoop no label or claims
+expense|46|Кафе / ресторан|exp_cafe_restaurant|cat_exp_cafe_restaurant|Еда и досуг|кафе ресторан ужин|Сервировка ресторана|elegant restaurant place setting with plated entrée cutlery glass and folded napkin
+expense|47|Кино|exp_cinema|cat_exp_cinema|Досуг|кино кинотеатр|Посещение кино|cinema popcorn bucket film ticket with no text and 3D glasses
+expense|48|Концерт|exp_concert|cat_exp_concert|Досуг|концерт музыка сцена|Концертное событие|stage microphone with concert wristband and warm miniature spotlights no text
+expense|49|Вечеринка|exp_party|cat_exp_party|Досуг|вечеринка праздник|Атрибуты вечеринки|metallic party streamers disco ball and two plain celebration cups
+expense|50|День рождения|exp_birthday|cat_exp_birthday|Досуг|день рождения торт|Праздничный торт|small realistic birthday cake with one candle confetti and ribbon no numbers
+expense|51|Развлечения|exp_entertainment|cat_exp_entertainment|Досуг|развлечения аттракционы|Разные развлечения|miniature ferris wheel cabin arcade token and admission wristband no text
+expense|52|Путешествия|exp_travel|cat_exp_travel|Путешествия|путешествия отпуск|Путешествие|compact travel suitcase camera and folded blank map with sunglasses
+expense|53|SIM-карта|exp_sim_card|cat_exp_sim_card|Связь и сервисы|сим карта связь|SIM-карта без бренда|generic nano SIM card beside ejector pin and smartphone tray no carrier mark
+expense|54|Жильё|exp_housing|cat_exp_housing|Дом|жильё дом квартира|Общее жильё|small realistic residential building model with front door and warm window
+expense|55|Транспорт|exp_transport|cat_exp_transport|Транспорт|транспорт проезд|Общественный транспорт|miniature city bus train carriage and transit card without text
+expense|56|Сувениры|exp_souvenirs|cat_exp_souvenirs|Путешествия|сувенир подарок поездка|Нейтральные сувениры|small snow globe wooden landmark miniature and fridge magnet without place names
+expense|57|Авиабилеты|exp_air_tickets|cat_exp_air_tickets|Путешествия|авиабилет самолёт перелёт|Авиаперелёт|realistic miniature airplane over two blank boarding passes no airline marks
+expense|58|Обучение|exp_education|cat_exp_education|Обучение|обучение курсы|Учебные материалы|open textbook notebook pencil and graduation cap no readable text
+expense|59|Репетитор|exp_tutor|cat_exp_tutor|Обучение|репетитор урок|Индивидуальное занятие|two notebooks facing each other with pencils and small teaching whiteboard no text
+expense|60|Книги|exp_books|cat_exp_books|Обучение|книги чтение|Книги|stack of realistic hardcover books with blank spines and open book
+expense|61|Ораторское мастерство|exp_public_speaking|cat_exp_public_speaking|Обучение|оратор речь выступление|Публичное выступление|podium microphone cue cards and small stage spotlight no words
+expense|62|Паркур|exp_parkour|cat_exp_parkour|Спорт|паркур прыжки|Паркур без человека|miniature urban concrete obstacles with training shoes and chalk bag
+expense|63|Логопед|exp_speech_therapist|cat_exp_speech_therapist|Здоровье и обучение|логопед речь|Материалы логопеда|hand mirror wooden tongue depressors and neutral articulation cards with simple shapes
+expense|64|Школа|exp_school|cat_exp_school|Обучение|школа ученик|Школьные принадлежности|school backpack notebooks ruler and pencil case no logos
+expense|65|Батут|exp_trampoline|cat_exp_trampoline|Спорт|батут прыжки|Спортивный батут|small realistic round trampoline with safety padding and socks beside it
+expense|66|Компьютер|exp_computer|cat_exp_computer|Техника|компьютер пк|Настольный компьютер|modern desktop computer tower monitor keyboard and mouse no logos or text
+expense|67|Автошкола|exp_driving_school|cat_exp_driving_school|Обучение и транспорт|автошкола вождение|Обучение вождению|training steering wheel traffic cone and blank driving lesson card no marks
+expense|68|Кружки / секции|exp_clubs_sections|cat_exp_clubs_sections|Обучение|кружки секции занятия|Детские и учебные кружки|artist palette small ball music note stand without symbols and craft scissors as activity set
+expense|69|Акробатика|exp_acrobatics|cat_exp_acrobatics|Спорт|акробатика гимнастика|Акробатический инвентарь|gymnastics mat balancing beam section and chalk bowl no person
+expense|70|Психолог|exp_psychologist|cat_exp_psychologist|Здоровье|психолог терапия консультация|Два кресла для консультации|two comfortable armchairs facing each other with small table and closed notebook
+expense|71|Наставничество|exp_mentorship|cat_exp_mentorship|Обучение|наставник ментор|Рабочая встреча наставника|two desk chairs side by side with open planning notebook and compass object no people
+expense|72|Мужские принадлежности|exp_mens_accessories|cat_exp_mens_accessories|Уход|мужские принадлежности аксессуары|Нейтрально: мужские аксессуары и уход|leather belt wallet wristwatch comb and plain grooming bottle no brand
+expense|73|Тренажёрный зал|exp_gym|cat_exp_gym|Спорт|зал фитнес тренажёр|Оборудование зала|realistic dumbbells kettlebell rolled towel and water bottle no logo
+expense|74|Лепка|exp_sculpting|cat_exp_sculpting|Обучение и творчество|лепка глина|Лепка из глины|natural clay block sculpting tools and small unfinished ceramic figure
+expense|75|Рисование|exp_drawing|cat_exp_drawing|Обучение и творчество|рисование краски|Художественные материалы|wooden easel blank canvas palette paint tubes and brushes no labels
+expense|76|Бассейн|exp_pool|cat_exp_pool|Спорт|бассейн плавание|Принадлежности для плавания|swimming goggles folded towel cap and pool lane float segment
+expense|77|Танцы|exp_dance|cat_exp_dance|Спорт и творчество|танцы хореография|Танцевальная обувь|pair of neutral dance shoes beside portable practice barre section
+expense|78|Игрушки|exp_toys|cat_exp_toys|Дети|игрушки ребёнок|Детские игрушки|wooden toy blocks plush bear and small toy car without letters
+expense|79|Театр|exp_theater|cat_exp_theater|Досуг|театр спектакль|Театральный вечер|red velvet theater curtain miniature comedy-tragedy masks and blank ticket
+expense|80|Английский язык|exp_english|cat_exp_english|Обучение|английский язык урок|Изучение языка без буквенных надписей|headphones open blank workbook flash cards with simple object pictures and pencil
+expense|81|Канцтовары|exp_stationery|cat_exp_stationery|Работа и обучение|канцтовары офис|Канцелярские товары|notepad pens clips ruler stapler and sticky notes without writing
+expense|82|Шитьё|exp_sewing|cat_exp_sewing|Творчество|шитьё ткань|Швейные принадлежности|spool of thread needles fabric scissors measuring tape and folded textile
+expense|83|Дом|exp_house|cat_exp_house|Дом|дом коттедж|Частный дом|realistic miniature detached house with roof porch and small shrub
+expense|84|Гараж|exp_garage|cat_exp_garage|Дом и транспорт|гараж ворота|Гараж|realistic miniature garage with raised door workbench and tire
+expense|85|Газон|exp_lawn|cat_exp_lawn|Дом|газон трава сад|Уход за газоном|patch of lush lawn with hand mower and small watering can
+expense|86|Канализация|exp_sewerage|cat_exp_sewerage|Дом|канализация трубы сток|Канализационные работы|clean cutaway drain pipe elbow inspection cover and wrench no dirt
+expense|87|Газ|exp_gas_utility|cat_exp_gas_utility|Дом|газ отопление|Газоснабжение|domestic gas meter brass valve and blue flame burner no text
+expense|88|Электроэнергия|exp_electricity|cat_exp_electricity|Дом|электричество энергия|Электроэнергия|electricity meter copper cable plug and glowing bulb without markings
+expense|89|Снегоуборщик|exp_snow_blower|cat_exp_snow_blower|Дом|снегоуборщик снег|Снегоуборочная машина|compact red snow blower with textured snow pile no logo
+expense|90|Автомойка|exp_car_wash|cat_exp_car_wash|Транспорт|автомойка мойка|Мойка автомобиля|car wash pressure nozzle foam bottle and wet car wheel no brand
+expense|91|Техобслуживание|exp_maintenance|cat_exp_maintenance|Транспорт|то сервис обслуживание|Техническое обслуживание автомобиля|engine oil bottle without label filter spark plug and service wrench
+expense|92|Запчасти|exp_spare_parts|cat_exp_spare_parts|Транспорт|запчасти детали|Автозапчасти|brake disc gear bearing and spark plug arranged as auto parts
+expense|93|Штраф|exp_fine|cat_exp_fine|Финансы|штраф квитанция|Штраф без текста|plain official payment notice with red stamp shape and pen no readable words
+expense|94|Страхование|exp_insurance|cat_exp_insurance|Финансы|страхование полис|Страховой полис|closed policy folder with metal shield object and fountain pen no text
+expense|95|Снегоход|exp_snowmobile|cat_exp_snowmobile|Транспорт|снегоход снег|Снегоход|realistic neutral snowmobile three-quarter view on small snow patch no brand
+expense|96|Подписки|exp_subscriptions|cat_exp_subscriptions|Связь и сервисы|подписка сервис|Цифровые подписки без брендов|smartphone with generic stacked service cards and small calendar token no icons or text
+expense|97|Облачное хранилище|exp_cloud_storage|cat_exp_cloud_storage|Связь и сервисы|облако хранение файлы|Облачное хранение без логотипов|small transparent cloud-shaped glass object over external drive and folder tab no logo
+expense|98|Музыка|exp_music|cat_exp_music|Досуг и сервисы|музыка аудио|Музыкальный сервис без бренда|premium headphones compact speaker and vinyl record without labels
+expense|99|Приложения|exp_apps|cat_exp_apps|Связь и сервисы|приложения софт|Покупка приложений|smartphone beside generic colorful glass app tiles without symbols letters or logos
+expense|100|Фильмы|exp_movies|cat_exp_movies|Досуг и сервисы|фильмы видео|Домашний просмотр фильмов|small projector remote control and blank film clapper without text
+expense|101|Аудиокниги|exp_audiobooks|cat_exp_audiobooks|Досуг и сервисы|аудиокнига слушать|Аудиокниги|open hardcover book with over-ear headphones resting around it no text
+expense|102|Антивирус|exp_antivirus|cat_exp_antivirus|Связь и сервисы|антивирус защита компьютер|Защита компьютера|laptop with blank dark screen beside transparent protective shield and padlock no logos
+expense|103|Telegram|exp_telegram|cat_exp_telegram|Связь и сервисы|телеграм сообщения мессенджер|Нейтральная композиция мессенджера без логотипа Telegram|smartphone with generic chat bubbles made of translucent glass and secure paper message no brand marks
+expense|104|VPN|exp_vpn|cat_exp_vpn|Связь и сервисы|vpn безопасность сеть|Защищённое сетевое соединение|router and laptop connected through transparent tunnel-shaped lock object no text
+expense|105|GPT / ИИ|exp_gpt_ai|cat_exp_gpt_ai|Связь и сервисы|gpt ии нейросеть ai|Нейтральная ИИ-станция без фирменного логотипа|translucent glass neural-processing cube with circuitry beside small laptop no logos
+expense|106|Видеосвязь|exp_video_calls|cat_exp_video_calls|Связь и сервисы|видеосвязь конференция|Видеоконференция без логотипа|webcam headset and laptop with generic four empty participant frames no faces or logos
+expense|107|Помощь родителям|exp_parent_support|cat_exp_parent_support|Семья|родители помощь семья|Материальная помощь родителям|warm composition of two senior hands receiving a plain support envelope no faces
+expense|108|Строительные материалы|exp_building_materials|cat_exp_building_materials|Дом|стройматериалы цемент кирпич|Материалы, отдельно от процесса стройки|stack of bricks timber board cement bag without label and ceramic tile
+expense|109|Рабочие|exp_workers|cat_exp_workers|Дом и работа|рабочие оплата труд|Оплата рабочих без изображения лиц|two hard hats work gloves folded overalls and time card without text
+expense|110|Кредит|exp_loan|cat_exp_loan|Финансы|кредит заём банк|Кредитный договор|plain loan agreement folder calculator and repayment calendar block no text
+expense|111|Ипотека|exp_mortgage|cat_exp_mortgage|Финансы|ипотека жильё банк|Ипотека|miniature house on mortgage document with key and calculator no text
+expense|112|Кредитная карта|exp_credit_card|cat_exp_credit_card|Финансы|кредитка карта|Кредитная карта без бренда|premium generic credit card with chip beside small statement and pen no numbers
+expense|113|Рассрочка|exp_installment|cat_exp_installment|Финансы|рассрочка платежи|Оплата частями|purchased box beside four equal blank payment cards and calendar tokens no text
+expense|114|Налоги|exp_taxes|cat_exp_taxes|Финансы|налог декларация|Налоговые документы|formal blank tax document calculator stamp and pen no readable text
+expense|115|Пошлины|exp_duties|cat_exp_duties|Финансы|пошлина сбор|Государственная пошлина|official blank receipt document embossed seal object and payment card no text
+expense|116|Земля|exp_land|cat_exp_land|Дом|земля участок|Земельный участок|realistic square plot of soil with survey marker miniature fence and rolled blank plan
+expense|117|Госуслуги|exp_government_services|cat_exp_government_services|Финансы|госуслуги документы|Государственные услуги без логотипа|neutral government service counter token passport-like blank booklet and stamped form no emblems
+expense|118|Банковские комиссии|exp_bank_fees|cat_exp_bank_fees|Финансы|банк комиссия сбор|Банковская комиссия|generic bank card calculator and small fee receipt with coin stack no text
+expense|119|Лечение|exp_treatment|cat_exp_treatment|Здоровье|лечение терапия|Процесс лечения, отдельно от лекарств|medical care folder thermometer bandage and treatment schedule card no text
+expense|120|Анализы|exp_lab_tests|cat_exp_lab_tests|Здоровье|анализы лаборатория кровь|Лабораторные анализы|rack of sealed laboratory test tubes pipette and sample tray no labels
+expense|121|Лекарства|exp_medicines|cat_exp_medicines|Здоровье|лекарства таблетки|Блистер и флакон|silver medicine blister and amber bottle with white cap no labels
+expense|122|Врач|exp_doctor|cat_exp_doctor|Здоровье|врач доктор приём|Приём врача|stethoscope on medical clipboard beside diagnostic penlight no text
+expense|123|Стоматолог|exp_dentist|cat_exp_dentist|Здоровье|стоматолог зубы|Стоматологические инструменты|dental mirror probe clean tooth model and folded bib
+expense|124|Больница|exp_hospital|cat_exp_hospital|Здоровье|больница клиника|Здание клиники|realistic miniature modern hospital building with entrance and neutral medical cross no words
+expense|125|БАДы|exp_supplements|cat_exp_supplements|Здоровье|бады витамины добавки|Добавки без медицинских обещаний|plain dietary supplement jar capsules and herbal sprig no label or claims
+expense|126|Благотворительность|exp_charity|cat_exp_charity|Семья и общество|благотворительность помощь|Благотворительная помощь|two hands placing plain donation envelope into transparent collection box no text
+expense|127|Тренинг|exp_training|cat_exp_training|Обучение|тренинг семинар|Групповое обучение без людей|presentation flipchart with blank cards workshop markers and participant badges no text
+expense|128|Деньги в долг|exp_lending_money|cat_exp_lending_money|Финансы|долг одолжить деньги|Выдача денег в долг|one hand passing folded banknotes with plain handwritten-style IOU card without readable text
+expense|129|Приставы|exp_bailiffs|cat_exp_bailiffs|Финансы|приставы взыскание суд|Исполнительное производство без символики|sealed legal document folder desk gavel and key ring no official emblems or text
+expense|130|Пенсионные взносы|exp_pension_contributions|cat_exp_pension_contributions|Финансы|пенсия взносы накопления|Пенсионные накопления|mature oak-shaped savings sculpture coin stack and blank pension document no text
+income|1|Агентское вознаграждение за Контрагента|inc_agent_counterparty|cat_inc_agent_counterparty|Доходы|агент комиссия договор контрагент|Агентский доход за контрагента|signed contract folder fountain pen handshake paperweight and sealed payment envelope
+income|2|Агентское вознаграждение за Аренду офиса|inc_agent_office_rent|cat_inc_agent_office_rent|Доходы|агент аренда офис комиссия|Агентский доход за аренду офиса|office key contract folder miniature office building and premium commission envelope
+income|3|Сдача недвижимости|inc_property_lease|cat_inc_property_lease|Доходы|сдача недвижимость аренда|Доход от сдачи недвижимости|two property keys in handover box beside miniature apartment building and contract
+income|4|Договор на юр услуги|inc_legal_services_contract|cat_inc_legal_services_contract|Доходы|договор юр услуги юрист|Доход по юридическому договору|formal legal services folder fountain pen balance-scale paperweight and payment receipt no text
+income|5|Бонусы|inc_bonuses|cat_inc_bonuses|Доходы|бонус премия награда|Бонусный доход|elegant achievement medal beside sealed reward envelope and subtle confetti
+income|6|Доход от Аренда квартиры|inc_apartment_rent_income|cat_inc_apartment_rent_income|Доходы|доход аренда квартира|Доход от аренды квартиры|apartment key on rent ledger with miniature apartment interior and payment envelope
+income|7|Дополнительный доход|inc_extra_income|cat_inc_extra_income|Доходы|дополнительный доход подработка|Дополнительный источник дохода|small side-project briefcase beside extra payment envelope and calculator
+income|8|Временный доход|inc_temporary_income|cat_inc_temporary_income|Доходы|временный доход разовый|Временный доход|hourglass beside short-term contract folder and single payment envelope
+income|9|Корректировка|inc_adjustment|cat_inc_adjustment|Доходы|корректировка исправление|Учётная корректировка без автоматической семантики|accounting ledger with correction tape calculator and balanced coin trays no text
+income|10|Наставничество|inc_mentorship|cat_inc_mentorship|Доходы|наставничество ментор доход|Доход от наставничества|open mentoring planner compass premium pen and payment envelope on desk
+income|11|Проценты|inc_interest|cat_inc_interest|Доходы|проценты вклад доход|Процентный доход|deposit document with rising coin stack calculator and small calendar no text
+income|12|Подарок|inc_gift|cat_inc_gift|Доходы|подарок деньги|Полученный подарок|open premium gift box containing sealed envelope with satin ribbon no cash visible
+income|13|Продажа имущества|inc_property_sale|cat_inc_property_sale|Доходы|продажа имущество актив|Продажа имущества|house and car miniatures beside signed sale folder and payment envelope no text
+income|14|Компенсация за что то|inc_compensation|cat_inc_compensation|Доходы|компенсация возмещение|Компенсация без уточнения причины|approved claim folder plain reimbursement envelope and small balance scale no text
+income|15|Возврат долга|inc_debt_repayment|cat_inc_debt_repayment|Доходы|возврат долга деньги|Возвращённый долг|hand returning sealed cash envelope beside fulfilled IOU card no readable text
+income|16|Возврат списанных денег|inc_chargeback_refund|cat_inc_chargeback_refund|Доходы|возврат списание деньги|Возврат ранее списанных денег|generic bank card refund receipt and coins moving back into open wallet no text

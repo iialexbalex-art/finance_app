@@ -1,0 +1,25 @@
+[Unit]
+Description=Finance backup scheduled handler verification
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=finance-backups
+Group=finance-backups
+WorkingDirectory=/opt/finance-backups/server
+EnvironmentFile=/etc/finance-backups.env
+ExecStart=/opt/finance-backups/venv/bin/python backup_worker.py --once
+TimeoutStartSec=30min
+MemoryAccounting=true
+MemoryHigh=512M
+MemoryMax=1G
+TasksMax=64
+LimitNOFILE=1024
+LimitCORE=0
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/finance-backups
+UMask=0077

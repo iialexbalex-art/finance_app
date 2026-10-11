@@ -1,0 +1,1002 @@
+[
+    {
+        "id":  "category",
+        "label":  "Без специального значка",
+        "group":  "Общее",
+        "synonyms":  "другое нейтральный категория",
+        "asset":  "assets/icons/category.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Label/Flat/label_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ccb2b3dbffc84c3ce4ec226ad3090d4907f933beed3020c3212030f299605255"
+    },
+    {
+        "id":  "groceries",
+        "label":  "Продукты",
+        "group":  "Еда",
+        "synonyms":  "еда питание покупки",
+        "asset":  "assets/icons/groceries.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Basket/Flat/basket_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ba3325690df45f79d0254dd290b72432c6799977be42d6818caf7f0bd4fedb75"
+    },
+    {
+        "id":  "supermarket",
+        "label":  "Супермаркет",
+        "group":  "Еда",
+        "synonyms":  "магазин гипермаркет",
+        "asset":  "assets/icons/supermarket.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Shopping%20cart/Flat/shopping_cart_flat.svg",
+        "license":  "MIT",
+        "sha256":  "eb3ccc40394a1e9b0a550e3ebaf238941d72db849ae3c75151829dba664d3896"
+    },
+    {
+        "id":  "vegetables",
+        "label":  "Овощи",
+        "group":  "Еда",
+        "synonyms":  "зелень капуста",
+        "asset":  "assets/icons/vegetables.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Broccoli/Flat/broccoli_flat.svg",
+        "license":  "MIT",
+        "sha256":  "53e9899f7e5ee6da63c0357a1152d7da413bbab029bbf53beb5255999c2823df"
+    },
+    {
+        "id":  "fruit",
+        "label":  "Фрукты",
+        "group":  "Еда",
+        "synonyms":  "яблоки груши",
+        "asset":  "assets/icons/fruit.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Red%20apple/Flat/red_apple_flat.svg",
+        "license":  "MIT",
+        "sha256":  "bc69f7c89a3621fb564482f9e13818019c6eac3a9d16fe996852514f3b19a073"
+    },
+    {
+        "id":  "meat",
+        "label":  "Мясо",
+        "group":  "Еда",
+        "synonyms":  "говядина свинина",
+        "asset":  "assets/icons/meat.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cut%20of%20meat/Flat/cut_of_meat_flat.svg",
+        "license":  "MIT",
+        "sha256":  "28bc250d5a779cac7fcdace60150f46f662933030daf4452159be7613c418a47"
+    },
+    {
+        "id":  "fish",
+        "label":  "Рыба",
+        "group":  "Еда",
+        "synonyms":  "морепродукты",
+        "asset":  "assets/icons/fish.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fish/Flat/fish_flat.svg",
+        "license":  "MIT",
+        "sha256":  "1fc7329fd735a8b8bd7482a39bc100e3c347e7f0e9ce36473fde81d19e96a1ee"
+    },
+    {
+        "id":  "bakery",
+        "label":  "Выпечка",
+        "group":  "Еда",
+        "synonyms":  "хлеб булочная",
+        "asset":  "assets/icons/bakery.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Baguette%20bread/Flat/baguette_bread_flat.svg",
+        "license":  "MIT",
+        "sha256":  "f65ae926257cfc775bfc0239d7bf4404b75fc6765a24747044f60f4227053f91"
+    },
+    {
+        "id":  "cafe",
+        "label":  "Кафе",
+        "group":  "Еда",
+        "synonyms":  "завтрак перекус",
+        "asset":  "assets/icons/cafe.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Croissant/Flat/croissant_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ae35174ffabb5610fd7ed0320f48c7bd759e18d4c9d1a06ff67f7597470fb9fd"
+    },
+    {
+        "id":  "restaurant",
+        "label":  "Ресторан",
+        "group":  "Еда",
+        "synonyms":  "ужин обед",
+        "asset":  "assets/icons/restaurant.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fork%20and%20knife%20with%20plate/Flat/fork_and_knife_with_plate_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c4745d563e1587989ed8a1cd0f4b39ef2b40fc7a97c29382102652195db4a8df"
+    },
+    {
+        "id":  "coffee",
+        "label":  "Кофе",
+        "group":  "Еда",
+        "synonyms":  "чай напитки кофейня",
+        "asset":  "assets/icons/coffee.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hot%20beverage/Flat/hot_beverage_flat.svg",
+        "license":  "MIT",
+        "sha256":  "1fd0ed706ba85841193fffc9d2382c533486e41f7d1b9ec90d8eb6748c397183"
+    },
+    {
+        "id":  "food_delivery",
+        "label":  "Доставка еды",
+        "group":  "Еда",
+        "synonyms":  "готовая еда суши",
+        "asset":  "assets/icons/food_delivery.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Takeout%20box/Flat/takeout_box_flat.svg",
+        "license":  "MIT",
+        "sha256":  "63690442617c8fc0b9b437c993067aa951bcea12276171bd9e02a3316359dbdc"
+    },
+    {
+        "id":  "car",
+        "label":  "Автомобиль",
+        "group":  "Транспорт",
+        "synonyms":  "машина авто",
+        "asset":  "assets/icons/car.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Automobile/Flat/automobile_flat.svg",
+        "license":  "MIT",
+        "sha256":  "1d12961ada570f692b9ce495a9c531b0d56edcf1136be5823bb7bd8a3112907c"
+    },
+    {
+        "id":  "fuel",
+        "label":  "Бензин",
+        "group":  "Транспорт",
+        "synonyms":  "топливо азс дизель",
+        "asset":  "assets/icons/fuel.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fuel%20pump/Flat/fuel_pump_flat.svg",
+        "license":  "MIT",
+        "sha256":  "6d0357b8142ba87d9394adbc52b6890cb86db97cbdaeaad922f8ffbfbb12e525"
+    },
+    {
+        "id":  "ev",
+        "label":  "Зарядка электромобиля",
+        "group":  "Транспорт",
+        "synonyms":  "электрокар аккумулятор",
+        "asset":  "assets/icons/ev.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Battery/Flat/battery_flat.svg",
+        "license":  "MIT",
+        "sha256":  "b4bd8ca9944092a3e50979810942b203f406c55fa9315811d83ffb65396c4ac7"
+    },
+    {
+        "id":  "car_repair",
+        "label":  "Ремонт автомобиля",
+        "group":  "Транспорт",
+        "synonyms":  "автосервис сто",
+        "asset":  "assets/icons/car_repair.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Wrench/Flat/wrench_flat.svg",
+        "license":  "MIT",
+        "sha256":  "bf72f7cd17e82492ea669cdf9d23f06e6009afb391c4dad55b3c493fcae4f840"
+    },
+    {
+        "id":  "tires",
+        "label":  "Шины",
+        "group":  "Транспорт",
+        "synonyms":  "колесо резина",
+        "asset":  "assets/icons/tires.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Wheel/Flat/wheel_flat.svg",
+        "license":  "MIT",
+        "sha256":  "2d331ed535b0da1f4d6af27b73e0daf32f46d311b3993e9a5259825f11d8e148"
+    },
+    {
+        "id":  "car_wash",
+        "label":  "Мойка",
+        "group":  "Транспорт",
+        "synonyms":  "автомойка уборка",
+        "asset":  "assets/icons/car_wash.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sponge/Flat/sponge_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c5ae5e6ec5e059494b5729571df8bb5c4a35705644cf5a2ad0cc7bbfc4d013de"
+    },
+    {
+        "id":  "parking",
+        "label":  "Парковка",
+        "group":  "Транспорт",
+        "synonyms":  "стоянка",
+        "asset":  "assets/icons/parking.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/P%20button/Flat/p_button_flat.svg",
+        "license":  "MIT",
+        "sha256":  "52ebd652c89ffd0ead2886c83f02760f5f2c2ef9104902f1b6f056b0a26e7bbf"
+    },
+    {
+        "id":  "taxi",
+        "label":  "Такси",
+        "group":  "Транспорт",
+        "synonyms":  "поездка",
+        "asset":  "assets/icons/taxi.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Taxi/Flat/taxi_flat.svg",
+        "license":  "MIT",
+        "sha256":  "9044f78bace8610f6f1ca73010f3af5e8f3cee5621ce46dfa0ad387bf3643041"
+    },
+    {
+        "id":  "bus",
+        "label":  "Автобус",
+        "group":  "Транспорт",
+        "synonyms":  "общественный транспорт",
+        "asset":  "assets/icons/bus.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bus/Flat/bus_flat.svg",
+        "license":  "MIT",
+        "sha256":  "d31dafdba29476b40fccca7c157a9913c8bc469b46b420eac6597050e17a8352"
+    },
+    {
+        "id":  "train",
+        "label":  "Поезд",
+        "group":  "Транспорт",
+        "synonyms":  "железная дорога билеты",
+        "asset":  "assets/icons/train.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Train/Flat/train_flat.svg",
+        "license":  "MIT",
+        "sha256":  "33f7bc287b8d856118ed572a96746e4d1f96374a96a925081ba37f0b9b795f84"
+    },
+    {
+        "id":  "travel",
+        "label":  "Путешествия",
+        "group":  "Путешествия",
+        "synonyms":  "поездки туризм отпуск",
+        "asset":  "assets/icons/travel.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/World%20map/Flat/world_map_flat.svg",
+        "license":  "MIT",
+        "sha256":  "dcb7208079a961893aac6700bac2cdcb069e30d787ff91cb865c8cb5f7209eea"
+    },
+    {
+        "id":  "airplane",
+        "label":  "Самолёт",
+        "group":  "Путешествия",
+        "synonyms":  "авиабилеты перелёт",
+        "asset":  "assets/icons/airplane.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Airplane/Flat/airplane_flat.svg",
+        "license":  "MIT",
+        "sha256":  "712be925e9ba02fa9dfa86d2b8e53a0a7205b5dfb5bfd9322a53ed2a99fe9013"
+    },
+    {
+        "id":  "hotel",
+        "label":  "Отель",
+        "group":  "Путешествия",
+        "synonyms":  "гостиница проживание",
+        "asset":  "assets/icons/hotel.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hotel/Flat/hotel_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a09c37a20c4bae3995fb80658190bb898a707d08e9be567e326d5a864b47d0f3"
+    },
+    {
+        "id":  "beach",
+        "label":  "Пляж",
+        "group":  "Путешествия",
+        "synonyms":  "море отдых",
+        "asset":  "assets/icons/beach.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Beach%20with%20umbrella/Flat/beach_with_umbrella_flat.svg",
+        "license":  "MIT",
+        "sha256":  "cebb26bceb7e6224e43518e43b06f2abd93547d0df0f625a4298a56741fde43e"
+    },
+    {
+        "id":  "luggage",
+        "label":  "Чемодан",
+        "group":  "Путешествия",
+        "synonyms":  "багаж",
+        "asset":  "assets/icons/luggage.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Luggage/Flat/luggage_flat.svg",
+        "license":  "MIT",
+        "sha256":  "6dd37128a0f980ba0c7301b066ec0d34fbf26271a7ee5dd6f5d4b9bc1774b6f7"
+    },
+    {
+        "id":  "home",
+        "label":  "Дом",
+        "group":  "Дом",
+        "synonyms":  "жильё квартира",
+        "asset":  "assets/icons/home.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/House/Flat/house_flat.svg",
+        "license":  "MIT",
+        "sha256":  "9fe2c5d0c32e5414252b6bf919cb53f65849094431e4305660ace13549e7f4a7"
+    },
+    {
+        "id":  "rent",
+        "label":  "Аренда жилья",
+        "group":  "Дом",
+        "synonyms":  "съём найм",
+        "asset":  "assets/icons/rent.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Key/Flat/key_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a526faedcffc7f460053eabc25ac617404009d1536f1f7b172f1dc46b11dd4d1"
+    },
+    {
+        "id":  "utilities",
+        "label":  "Коммунальные услуги",
+        "group":  "Дом",
+        "synonyms":  "жкх квитанции",
+        "asset":  "assets/icons/utilities.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Receipt/Flat/receipt_flat.svg",
+        "license":  "MIT",
+        "sha256":  "0e8165e45e93095439848658c96c23875cf9ba949315940c48734aad2fab84cf"
+    },
+    {
+        "id":  "electricity",
+        "label":  "Электричество",
+        "group":  "Дом",
+        "synonyms":  "свет энергия",
+        "asset":  "assets/icons/electricity.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Electric%20plug/Flat/electric_plug_flat.svg",
+        "license":  "MIT",
+        "sha256":  "18f96c4dac913737ef6acfb6b612952116a264a8bb973009c12fc2a3bc73109a"
+    },
+    {
+        "id":  "water",
+        "label":  "Вода",
+        "group":  "Дом",
+        "synonyms":  "водоснабжение",
+        "asset":  "assets/icons/water.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Droplet/Flat/droplet_flat.svg",
+        "license":  "MIT",
+        "sha256":  "91bbffebc864f286b0684817b797f8ce1e1c4cc7dd0d9e1af1bd58afef2d09f0"
+    },
+    {
+        "id":  "renovation",
+        "label":  "Ремонт жилья",
+        "group":  "Дом",
+        "synonyms":  "строительство инструменты",
+        "asset":  "assets/icons/renovation.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hammer%20and%20wrench/Flat/hammer_and_wrench_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a478475656fe852afbcb47831d3b69212631454925ca69a7afd30bc9b5846260"
+    },
+    {
+        "id":  "furniture",
+        "label":  "Мебель",
+        "group":  "Дом",
+        "synonyms":  "диван интерьер",
+        "asset":  "assets/icons/furniture.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Couch%20and%20lamp/Flat/couch_and_lamp_flat.svg",
+        "license":  "MIT",
+        "sha256":  "abc972c728856afd5c365221636fe98d0fb727c64365ca469366a3fcb88254a3"
+    },
+    {
+        "id":  "appliances",
+        "label":  "Бытовая техника",
+        "group":  "Дом",
+        "synonyms":  "приборы оборудование",
+        "asset":  "assets/icons/appliances.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Control%20knobs/Flat/control_knobs_flat.svg",
+        "license":  "MIT",
+        "sha256":  "f1ea47d40166e54968ef41eae28e7c17215c93dd9633c7fc13997e45272777d0"
+    },
+    {
+        "id":  "clothes",
+        "label":  "Одежда",
+        "group":  "Покупки и уход",
+        "synonyms":  "гардероб футболка",
+        "asset":  "assets/icons/clothes.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/T-shirt/Flat/t-shirt_flat.svg",
+        "license":  "MIT",
+        "sha256":  "6f8ffd795e5ed30cb3f2075cb7336824ddc6d2c988bf8c2e29503a8717d9cb6d"
+    },
+    {
+        "id":  "shoes",
+        "label":  "Обувь",
+        "group":  "Покупки и уход",
+        "synonyms":  "кроссовки ботинки",
+        "asset":  "assets/icons/shoes.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Running%20shoe/Flat/running_shoe_flat.svg",
+        "license":  "MIT",
+        "sha256":  "0b171e09195a6d146aea23e1628448d418b051a4f436ce2a03d3bc8e908bdacb"
+    },
+    {
+        "id":  "cosmetics",
+        "label":  "Косметика",
+        "group":  "Покупки и уход",
+        "synonyms":  "макияж красота",
+        "asset":  "assets/icons/cosmetics.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Lipstick/Flat/lipstick_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ba05e44f95625a505e726e927f4fa4364700ed1008641bdeaad0a38d658ef72a"
+    },
+    {
+        "id":  "hair",
+        "label":  "Парикмахерская",
+        "group":  "Покупки и уход",
+        "synonyms":  "стрижка салон",
+        "asset":  "assets/icons/hair.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Barber%20pole/Flat/barber_pole_flat.svg",
+        "license":  "MIT",
+        "sha256":  "47a59b3fa59e8f6011eefc74c9cb08ee0bd0854ca638dc8d09a44e296fad960a"
+    },
+    {
+        "id":  "pharmacy",
+        "label":  "Аптека",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "лекарства",
+        "asset":  "assets/icons/pharmacy.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pill/Flat/pill_flat.svg",
+        "license":  "MIT",
+        "sha256":  "d1b28405690bcaed66046937e62d5f40d80428a84265a99fb5f6f5fd16e34edd"
+    },
+    {
+        "id":  "health",
+        "label":  "Врач",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "здоровье медицина",
+        "asset":  "assets/icons/health.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Stethoscope/Flat/stethoscope_flat.svg",
+        "license":  "MIT",
+        "sha256":  "0fc113046a5f3e6f2898d3af54e958896227170b33fa18d3044336114363351f"
+    },
+    {
+        "id":  "dental",
+        "label":  "Стоматология",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "зубы дантист",
+        "asset":  "assets/icons/dental.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tooth/Flat/tooth_flat.svg",
+        "license":  "MIT",
+        "sha256":  "f1de4464be967269122cd98b458f662d858069a50c5d810498093c9ed65188cb"
+    },
+    {
+        "id":  "sport",
+        "label":  "Спорт",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "фитнес тренировка",
+        "asset":  "assets/icons/sport.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Soccer%20ball/Flat/soccer_ball_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ca792d91995ac20dc37be0c1bd1f9f46d2f7ea4aea3bd4d0c69df1083bd641c9"
+    },
+    {
+        "id":  "children",
+        "label":  "Дети",
+        "group":  "Семья и обучение",
+        "synonyms":  "ребёнок малыш",
+        "asset":  "assets/icons/children.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Baby%20bottle/Flat/baby_bottle_flat.svg",
+        "license":  "MIT",
+        "sha256":  "fef28b26f3e04f9e80ca3ae50c9b9fd9013104e13e1939c1714a9b4c3c0ede02"
+    },
+    {
+        "id":  "school",
+        "label":  "Школа",
+        "group":  "Семья и обучение",
+        "synonyms":  "учёба школьник",
+        "asset":  "assets/icons/school.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/School/Flat/school_flat.svg",
+        "license":  "MIT",
+        "sha256":  "03febeb59b9c13ee792874a87cd04aea413e7c6ef23b1e7752837dc5d6cbe34d"
+    },
+    {
+        "id":  "books",
+        "label":  "Книги",
+        "group":  "Семья и обучение",
+        "synonyms":  "чтение литература",
+        "asset":  "assets/icons/books.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Books/Flat/books_flat.svg",
+        "license":  "MIT",
+        "sha256":  "41e2686cdc526bfa41ea599e2a74378f3a02788ff7e8cd1b9ad0a39ea157000c"
+    },
+    {
+        "id":  "education",
+        "label":  "Обучение",
+        "group":  "Семья и обучение",
+        "synonyms":  "образование курсы университет",
+        "asset":  "assets/icons/education.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Graduation%20cap/Flat/graduation_cap_flat.svg",
+        "license":  "MIT",
+        "sha256":  "8bd1f157195b278cfea4e5b852df232c4ca89dc6eb2174b1f1473ad1c0102be1"
+    },
+    {
+        "id":  "pets",
+        "label":  "Питомцы",
+        "group":  "Досуг",
+        "synonyms":  "собака кошка животные",
+        "asset":  "assets/icons/pets.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dog%20face/Flat/dog_face_flat.svg",
+        "license":  "MIT",
+        "sha256":  "2ccc82b870a9f6e5ddf64b2874f923890b526b77099feb05892e7839f14dfbe4"
+    },
+    {
+        "id":  "gift",
+        "label":  "Подарки",
+        "group":  "Досуг",
+        "synonyms":  "праздник день рождения",
+        "asset":  "assets/icons/gift.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Wrapped%20gift/Flat/wrapped_gift_flat.svg",
+        "license":  "MIT",
+        "sha256":  "326da81790739066b77219b1a84dbcdb2efb4fddbf4d1767c7097c6ab9b7634b"
+    },
+    {
+        "id":  "entertainment",
+        "label":  "Развлечения",
+        "group":  "Досуг",
+        "synonyms":  "аттракционы парк",
+        "asset":  "assets/icons/entertainment.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ferris%20wheel/Flat/ferris_wheel_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a81f1f765eb45f38782f0108ca33caf31e5aecee78f06e621aca997cfb95ff0a"
+    },
+    {
+        "id":  "cinema",
+        "label":  "Кино",
+        "group":  "Досуг",
+        "synonyms":  "фильмы кинотеатр",
+        "asset":  "assets/icons/cinema.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Clapper%20board/Flat/clapper_board_flat.svg",
+        "license":  "MIT",
+        "sha256":  "15354b0944510e3d9f4969d737b5ef8f88fd330a7be3803465c61bc434898660"
+    },
+    {
+        "id":  "subscriptions",
+        "label":  "Подписки",
+        "group":  "Досуг",
+        "synonyms":  "сервис абонемент",
+        "asset":  "assets/icons/subscriptions.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ticket/Flat/ticket_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c228f9e530534209453dd24685a6d82a24ecb700033d2ab1d97d3d97f3fe545e"
+    },
+    {
+        "id":  "phone",
+        "label":  "Телефон",
+        "group":  "Техника и связь",
+        "synonyms":  "мобильная связь смартфон",
+        "asset":  "assets/icons/phone.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Mobile%20phone/Flat/mobile_phone_flat.svg",
+        "license":  "MIT",
+        "sha256":  "46d491e10b70419637c10823d55a5af38f504a8e0e1d0f6ac4ff44de80b12e05"
+    },
+    {
+        "id":  "internet",
+        "label":  "Интернет",
+        "group":  "Техника и связь",
+        "synonyms":  "сеть wifi провайдер",
+        "asset":  "assets/icons/internet.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Satellite%20antenna/Flat/satellite_antenna_flat.svg",
+        "license":  "MIT",
+        "sha256":  "957d4b9f92899422aa8c6ae8c730e46800c3705d959fed6a46549d9fc2a4b6c2"
+    },
+    {
+        "id":  "computer",
+        "label":  "Компьютер",
+        "group":  "Техника и связь",
+        "synonyms":  "ноутбук техника",
+        "asset":  "assets/icons/computer.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Laptop/Flat/laptop_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c8fa307ed2c3e7e9e4267cff317caff6f0789a0601dabebde8380a0f0a7671b5"
+    },
+    {
+        "id":  "office",
+        "label":  "Офис",
+        "group":  "Бизнес",
+        "synonyms":  "работа компания",
+        "asset":  "assets/icons/office.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Office%20building/Flat/office_building_flat.svg",
+        "license":  "MIT",
+        "sha256":  "6765760106520386c371f9746e7c8de31fd8fa7017bf31e0d349f752d5ca26b3"
+    },
+    {
+        "id":  "communication",
+        "label":  "Связь",
+        "group":  "Бизнес",
+        "synonyms":  "звонки телефония",
+        "asset":  "assets/icons/communication.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Telephone/Flat/telephone_flat.svg",
+        "license":  "MIT",
+        "sha256":  "becb65f22d6704a60304abd8f113b52e39bbab64b4724eb6718dd31dbd6d603e"
+    },
+    {
+        "id":  "delivery",
+        "label":  "Доставка",
+        "group":  "Бизнес",
+        "synonyms":  "курьер перевозка логистика",
+        "asset":  "assets/icons/delivery.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Delivery%20truck/Flat/delivery_truck_flat.svg",
+        "license":  "MIT",
+        "sha256":  "eb6c8e547c6d4b97ac94796a390bdb603699a3489c61df1446f1658f8932b89e"
+    },
+    {
+        "id":  "advertising",
+        "label":  "Реклама",
+        "group":  "Бизнес",
+        "synonyms":  "маркетинг продвижение",
+        "asset":  "assets/icons/advertising.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Megaphone/Flat/megaphone_flat.svg",
+        "license":  "MIT",
+        "sha256":  "05a0a162bc5f231d05dd27422cbee28c91e3c62c65703512919292ea4a5300a3"
+    },
+    {
+        "id":  "taxes",
+        "label":  "Налоги",
+        "group":  "Бизнес",
+        "synonyms":  "сбор пошлина",
+        "asset":  "assets/icons/taxes.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Page%20facing%20up/Flat/page_facing_up_flat.svg",
+        "license":  "MIT",
+        "sha256":  "64766aae9c7c49b8e3aae4f6aeaec44af202bec7655d2bb8124f0a74d8b29824"
+    },
+    {
+        "id":  "legal",
+        "label":  "Юридические услуги",
+        "group":  "Бизнес",
+        "synonyms":  "юрист адвокат право",
+        "asset":  "assets/icons/legal.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Balance%20scale/Flat/balance_scale_flat.svg",
+        "license":  "MIT",
+        "sha256":  "086e82d739451ebd0cf8dc7b23376bd3e2e019373dda6da487f8971bc0437e00"
+    },
+    {
+        "id":  "accounting",
+        "label":  "Бухгалтерия",
+        "group":  "Бизнес",
+        "synonyms":  "учёт расчёты бухгалтер",
+        "asset":  "assets/icons/accounting.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Abacus/Flat/abacus_flat.svg",
+        "license":  "MIT",
+        "sha256":  "2607947d66ebec1165917b518947d5e6f08f1dd7f939293f42b10fcdbf6d2e06"
+    },
+    {
+        "id":  "salary",
+        "label":  "Зарплата",
+        "group":  "Доходы",
+        "synonyms":  "оклад премия заработок",
+        "asset":  "assets/icons/salary.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Money%20with%20wings/Flat/money_with_wings_flat.svg",
+        "license":  "MIT",
+        "sha256":  "6ee8df573b513b9d318e3b3d22de8746f20eb093d012eb00e2f46618d580740a"
+    },
+    {
+        "id":  "contract",
+        "label":  "Доход от договора",
+        "group":  "Доходы",
+        "synonyms":  "контракт фриланс услуги",
+        "asset":  "assets/icons/contract.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Handshake/Flat/handshake_flat.svg",
+        "license":  "MIT",
+        "sha256":  "64206bd30217e01847ac8c6041d1b040bc81fe5efe412ace481c79a579bd1266"
+    },
+    {
+        "id":  "interest",
+        "label":  "Проценты",
+        "group":  "Доходы",
+        "synonyms":  "пассивный доход дивиденды",
+        "asset":  "assets/icons/interest.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Chart%20increasing%20with%20yen/Flat/chart_increasing_with_yen_flat.svg",
+        "license":  "MIT",
+        "sha256":  "fae25b1021f49755c5666b5d07890f6c9b570810d92b98420c988c903f776411"
+    },
+    {
+        "id":  "refund",
+        "label":  "Возврат денег",
+        "group":  "Доходы",
+        "synonyms":  "компенсация кэшбэк",
+        "asset":  "assets/icons/refund.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Left%20arrow%20curving%20right/Flat/left_arrow_curving_right_flat.svg",
+        "license":  "MIT",
+        "sha256":  "977a61d57eff47187445ee2ff9558f031788a97c8d597a4c2677472ab241249c"
+    },
+    {
+        "id":  "rental_income",
+        "label":  "Арендный доход",
+        "group":  "Доходы",
+        "synonyms":  "сдача недвижимости",
+        "asset":  "assets/icons/rental_income.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Houses/Flat/houses_flat.svg",
+        "license":  "MIT",
+        "sha256":  "1605a1afb7c630a96fdef8b0464e9bea5dd218f0ec2f00d2b9919454ca091c86"
+    },
+    {
+        "id":  "property_sale",
+        "label":  "Продажа имущества",
+        "group":  "Доходы",
+        "synonyms":  "продажа вещей активы",
+        "asset":  "assets/icons/property_sale.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Card%20file%20box/Flat/card_file_box_flat.svg",
+        "license":  "MIT",
+        "sha256":  "836382ad4694160d8c2ad1646fcbce44014de562421719eb53155c6b4a692e8e"
+    },
+    {
+        "id":  "music",
+        "label":  "Музыка",
+        "group":  "Досуг",
+        "synonyms":  "концерт аудио",
+        "asset":  "assets/icons/music.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Headphone/Flat/headphone_flat.svg",
+        "license":  "MIT",
+        "sha256":  "cda2447d8063692b29056d0cb1a2ea38a66d9f6ac787f380bc88c7b30735ca8a"
+    },
+    {
+        "id":  "games",
+        "label":  "Игры",
+        "group":  "Досуг",
+        "synonyms":  "приставка развлечения",
+        "asset":  "assets/icons/games.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Video%20game/Flat/video_game_flat.svg",
+        "license":  "MIT",
+        "sha256":  "72e72f324aea8c19f4eac430d377be8a33b0c3fa12495d74e886625568b4af60"
+    },
+    {
+        "id":  "flowers",
+        "label":  "Цветы",
+        "group":  "Покупки и уход",
+        "synonyms":  "букет флористика",
+        "asset":  "assets/icons/flowers.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bouquet/Flat/bouquet_flat.svg",
+        "license":  "MIT",
+        "sha256":  "53164ac38028d62fb02a3520e6c0ad4fda29c52ad0a370e2b53b0dd1f7fc1902"
+    },
+    {
+        "id":  "charity",
+        "label":  "Благотворительность",
+        "group":  "Досуг",
+        "synonyms":  "помощь пожертвование",
+        "asset":  "assets/icons/charity.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Red%20heart/Flat/red_heart_flat.svg",
+        "license":  "MIT",
+        "sha256":  "61846b9c946736481d65dbf244fe53792d06d50405c2d5f3e40a0a06cbfe5317"
+    },
+    {
+        "id":  "insurance",
+        "label":  "Страхование",
+        "group":  "Бизнес",
+        "synonyms":  "полис осаго защита",
+        "asset":  "assets/icons/insurance.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Umbrella/Flat/umbrella_flat.svg",
+        "license":  "MIT",
+        "sha256":  "7a8ad98481ebff883a216200a0228b84f0679d609c85158afcfe5ce45f9bd52c"
+    },
+    {
+        "id":  "stationery",
+        "label":  "Канцелярия",
+        "group":  "Бизнес",
+        "synonyms":  "бумага ручки офисные товары",
+        "asset":  "assets/icons/stationery.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Memo/Flat/memo_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c25d823ddb3ed0d9c66eff249456ff681244dbb1c9a7d19785864607f46a4f3a"
+    },
+    {
+        "id":  "cleaning",
+        "label":  "Хозяйственные товары",
+        "group":  "Дом",
+        "synonyms":  "уборка бытовая химия",
+        "asset":  "assets/icons/cleaning.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Broom/Flat/broom_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a0d9f525a3a2b02f847f378cec0b1242a323e027a58e9abad6028b8ee07e6795"
+    },
+    {
+        "id":  "heating",
+        "label":  "Отопление",
+        "group":  "Дом",
+        "synonyms":  "газ тепло",
+        "asset":  "assets/icons/heating.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fire/Flat/fire_flat.svg",
+        "license":  "MIT",
+        "sha256":  "00184d516421223782fc5efd67af64641ee8044af9613a3674ce5899cd38583d"
+    },
+    {
+        "id":  "fitness",
+        "label":  "Тренажёрный зал",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "мышцы тренировки сила",
+        "asset":  "assets/icons/fitness.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Flexed%20biceps/Default/Flat/flexed_biceps_flat_default.svg",
+        "license":  "MIT",
+        "sha256":  "0271c7b5033da1653b0c9d6e54f0136c568a7f7e974c301fe56a6643948cc7c1"
+    },
+    {
+        "id":  "swimming",
+        "label":  "Бассейн",
+        "group":  "Здоровье и спорт",
+        "synonyms":  "плавание",
+        "asset":  "assets/icons/swimming.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Water%20wave/Flat/water_wave_flat.svg",
+        "license":  "MIT",
+        "sha256":  "8bd8b1e0d8e7f58571ffe1ce09135d9715c0b26a77ce0bf19f55c354823ddf7f"
+    },
+    {
+        "id":  "shop",
+        "label":  "Покупки",
+        "group":  "Покупки и уход",
+        "synonyms":  "магазин шопинг",
+        "asset":  "assets/icons/shop.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Shopping%20bags/Flat/shopping_bags_flat.svg",
+        "license":  "MIT",
+        "sha256":  "f84a7015ba6351f7a78f9d30e96ac0a3e1b7988e515c5172428ccb0450c7fa90"
+    },
+    {
+        "id":  "globe",
+        "label":  "Международные операции",
+        "group":  "Бизнес",
+        "synonyms":  "валюта зарубежные",
+        "asset":  "assets/icons/globe.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Globe%20with%20meridians/Flat/globe_with_meridians_flat.svg",
+        "license":  "MIT",
+        "sha256":  "adbe5c01de58d6a1289ac559cacaefd5a9072dd3eb326b6612cabf79f37cb552"
+    },
+    {
+        "id":  "cash",
+        "label":  "Наличные",
+        "group":  "Наличные",
+        "synonyms":  "деньги",
+        "asset":  "assets/icons/cash.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Money%20bag/Flat/money_bag_flat.svg",
+        "license":  "MIT",
+        "sha256":  "4da969956b28cb2075af99deaa14f0861dc2cfd919628fe3c71739476b836444"
+    },
+    {
+        "id":  "banknote",
+        "label":  "Банкноты",
+        "group":  "Наличные",
+        "synonyms":  "купюры",
+        "asset":  "assets/icons/banknote.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dollar%20banknote/Flat/dollar_banknote_flat.svg",
+        "license":  "MIT",
+        "sha256":  "fe02a2698be50cff58528b132fcae2376a367e506e1859f986b63d1aa69d8340"
+    },
+    {
+        "id":  "coins",
+        "label":  "Монеты",
+        "group":  "Наличные",
+        "synonyms":  "мелочь",
+        "asset":  "assets/icons/coins.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Coin/Flat/coin_flat.svg",
+        "license":  "MIT",
+        "sha256":  "ea473ad6d7d38f5476c13c3bd32c15393f8e59503e2269f724f70f4e5c107f4f"
+    },
+    {
+        "id":  "wallet",
+        "label":  "Кошелёк",
+        "group":  "Наличные",
+        "synonyms":  "бумажник",
+        "asset":  "assets/icons/wallet.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Purse/Flat/purse_flat.svg",
+        "license":  "MIT",
+        "sha256":  "c0b96076e1f8d02d6cabe3b609737637a07f2b830527e9232cbf7176be701887"
+    },
+    {
+        "id":  "purse",
+        "label":  "Портмоне",
+        "group":  "Наличные",
+        "synonyms":  "клатч",
+        "asset":  "assets/icons/purse.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Clutch%20bag/Flat/clutch_bag_flat.svg",
+        "license":  "MIT",
+        "sha256":  "dc7e923ccf47de5c6167b26091f76407d1e76a9c23f9550436a37a51f4b88d27"
+    },
+    {
+        "id":  "pocket",
+        "label":  "Сумка с деньгами",
+        "group":  "Наличные",
+        "synonyms":  "карман",
+        "asset":  "assets/icons/pocket.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Handbag/Flat/handbag_flat.svg",
+        "license":  "MIT",
+        "sha256":  "f1322e9af630360b55176f81d9b6a3fc459748d5f2eb889da45543972fd181d8"
+    },
+    {
+        "id":  "cashbox",
+        "label":  "Касса офиса",
+        "group":  "Наличные",
+        "synonyms":  "кассовая картотека",
+        "asset":  "assets/icons/cashbox.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Card%20index/Flat/card_index_flat.svg",
+        "license":  "MIT",
+        "sha256":  "b2fa40a26cad33c0c03d7ec3a5f7ac30b6f36e0b4a5d67cca02f9f03a5f9cf67"
+    },
+    {
+        "id":  "atm",
+        "label":  "Банкомат",
+        "group":  "Наличные",
+        "synonyms":  "снятие денег",
+        "asset":  "assets/icons/atm.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Atm%20sign/Flat/atm_sign_flat.svg",
+        "license":  "MIT",
+        "sha256":  "829d8db8e5b0305601a9865231ff294f6909a19f3d391ce90a11c4fc5f7ad55f"
+    },
+    {
+        "id":  "envelope",
+        "label":  "Денежный конверт",
+        "group":  "Наличные",
+        "synonyms":  "бюджет",
+        "asset":  "assets/icons/envelope.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Envelope/Flat/envelope_flat.svg",
+        "license":  "MIT",
+        "sha256":  "82a8b1c5576caa1c83ca9d1f2e7a340f84f86788969a27ff749811089d33353c"
+    },
+    {
+        "id":  "card",
+        "label":  "Банковская карта",
+        "group":  "Счета и накопления",
+        "synonyms":  "дебетовая кредитная",
+        "asset":  "assets/icons/card.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Credit%20card/Flat/credit_card_flat.svg",
+        "license":  "MIT",
+        "sha256":  "52ea60562d254c180436d1b8ff5f53bdceeae9347e374eceb1da77cb2bc342f1"
+    },
+    {
+        "id":  "cards",
+        "label":  "Счета по целям",
+        "group":  "Счета и накопления",
+        "synonyms":  "несколько карт",
+        "asset":  "assets/icons/cards.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Card%20index%20dividers/Flat/card_index_dividers_flat.svg",
+        "license":  "MIT",
+        "sha256":  "61f14c81db2e759f27c6f919bbb99d915b100f5fbc629e868fbd8450f5e9bc15"
+    },
+    {
+        "id":  "bank",
+        "label":  "Расчётный счёт",
+        "group":  "Счета и накопления",
+        "synonyms":  "банк",
+        "asset":  "assets/icons/bank.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bank/Flat/bank_flat.svg",
+        "license":  "MIT",
+        "sha256":  "e4b87d75976c51e6efda9207ff9cdc74921f91b56a89fb229976345c4b6d40df"
+    },
+    {
+        "id":  "safe",
+        "label":  "Сейф",
+        "group":  "Счета и накопления",
+        "synonyms":  "хранение",
+        "asset":  "assets/icons/safe.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Locked/Flat/locked_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a3042ba561a791bf2a4ad820e82e557374962c771e39eeb93d2963478e5b57b8"
+    },
+    {
+        "id":  "piggy",
+        "label":  "Копилка",
+        "group":  "Счета и накопления",
+        "synonyms":  "сбережения",
+        "asset":  "assets/icons/piggy.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pig%20face/Flat/pig_face_flat.svg",
+        "license":  "MIT",
+        "sha256":  "90dcc30373bac5cee297f1ca7f046e16fe11aee380f49dbe24d4be6aa55dd56a"
+    },
+    {
+        "id":  "deposit",
+        "label":  "Депозит",
+        "group":  "Счета и накопления",
+        "synonyms":  "вклад",
+        "asset":  "assets/icons/deposit.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Package/Flat/package_flat.svg",
+        "license":  "MIT",
+        "sha256":  "82a5591c465302b009a3681ac2f45d21fac61d1b48e6d7fc956cc8a723dae14d"
+    },
+    {
+        "id":  "business",
+        "label":  "Бизнес-счёт",
+        "group":  "Счета и накопления",
+        "synonyms":  "деловой",
+        "asset":  "assets/icons/business.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Briefcase/Flat/briefcase_flat.svg",
+        "license":  "MIT",
+        "sha256":  "2dae84f4f31b2302fd03d2089dc7a88ab971db12ca64a3f89fad37de4e565a31"
+    },
+    {
+        "id":  "reserve",
+        "label":  "Резерв",
+        "group":  "Счета и накопления",
+        "synonyms":  "подушка безопасности",
+        "asset":  "assets/icons/reserve.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Shield/Flat/shield_flat.svg",
+        "license":  "MIT",
+        "sha256":  "838b7367c59cc96bfcbdc4adafb98e2886a6e397aaae1bc751edd91127539bd0"
+    },
+    {
+        "id":  "investment",
+        "label":  "Инвестиции",
+        "group":  "Счета и накопления",
+        "synonyms":  "капитал брокер акции",
+        "asset":  "assets/icons/investment.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Chart%20increasing/Flat/chart_increasing_flat.svg",
+        "license":  "MIT",
+        "sha256":  "a306f410105d146d616d5c8e86032c2abe25195ab3e0734746ca05d88855e9d8"
+    },
+    {
+        "id":  "retirement",
+        "label":  "Пенсионные накопления",
+        "group":  "Счета и накопления",
+        "synonyms":  "пенсия будущее",
+        "asset":  "assets/icons/retirement.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hourglass%20not%20done/Flat/hourglass_not_done_flat.svg",
+        "license":  "MIT",
+        "sha256":  "111b05a30ae7cc4e4e09d6a2f46941b48eeb2c97b72ba8b0e37ef88e010401ae"
+    },
+    {
+        "id":  "family",
+        "label":  "Семейный счёт",
+        "group":  "Счета и накопления",
+        "synonyms":  "семья общий",
+        "asset":  "assets/icons/family.svg",
+        "source":  "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Busts%20in%20silhouette/Flat/busts_in_silhouette_flat.svg",
+        "license":  "MIT",
+        "sha256":  "7c54af879a2699ca05c26115d23246c7a7350f984b1f57ca6b162759be703047"
+    }
+]

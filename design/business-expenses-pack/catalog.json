@@ -1,0 +1,888 @@
+{
+  "schema_version": 1,
+  "package_key": "business_expenses_20261006_v1",
+  "space_kind": "business",
+  "transaction_type": "expense",
+  "root_count": 11,
+  "subcategory_count": 51,
+  "category_count": 62,
+  "notes": [
+    "Покупка оргтехники и покупка мебели разделены.",
+    "Суточные / иное и Декларации / иные платежи сохранены объединёнными.",
+    "Три сотрудника: Дарья Вологжанина, Марина Смирнова, Эльвира Набиуллина.",
+    "АУСН — нормализованное русское написание AUSN.",
+    "Две похожие комиссии за обслуживание/абонентку сохранены отдельно по исходному списку."
+  ],
+  "categories": [
+    {
+      "key": "advertising",
+      "name": "Реклама",
+      "parent_key": null,
+      "path": "Реклама",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising",
+      "asset_file": "assets/advertising.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium red and brushed-metal advertising megaphone beside one small neat stack of colorful unbranded advertising flyers.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-olx",
+      "name": "Реклама на площадке OLX",
+      "parent_key": "advertising",
+      "path": "Реклама / Реклама на площадке OLX",
+      "sort_order": 1,
+      "aliases": [
+        "OLX"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-olx",
+      "asset_file": "assets/advertising-olx.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A modern smartphone displaying the large exact word OLX, bold purple lettering on a lime-green screen, with one neatly stacked advertising listing card.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-yandex-direct",
+      "name": "Яндекс.Директ",
+      "parent_key": "advertising",
+      "path": "Реклама / Яндекс.Директ",
+      "sort_order": 2,
+      "aliases": [
+        "Яндекс Директ"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-yandex-direct",
+      "asset_file": "assets/advertising-yandex-direct.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An open slim laptop displaying the exact Russian wordmark Яндекс Директ with a large red Я and a simple advertising click target.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-seo",
+      "name": "SEO",
+      "parent_key": "advertising",
+      "path": "Реклама / SEO",
+      "sort_order": 3,
+      "aliases": [
+        "СЕО"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-seo",
+      "asset_file": "assets/advertising-seo.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An open laptop with the large exact letters SEO on its screen, a clear magnifying glass and a small rising graph on the screen.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-agency-client-fee",
+      "name": "Агентская комиссия за клиента",
+      "parent_key": "advertising",
+      "path": "Реклама / Агентская комиссия за клиента",
+      "sort_order": 4,
+      "aliases": [
+        "Оплата комиссии за клиента агентские"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-agency-client-fee",
+      "asset_file": "assets/advertising-agency-client-fee.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A close-up of two realistic business-sleeved hands shaking, alongside a small elegant payment envelope and several coins. Hands only, no faces or bodies.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-avito-budget",
+      "name": "Авито — бюджет",
+      "parent_key": "advertising",
+      "path": "Реклама / Авито — бюджет",
+      "sort_order": 5,
+      "aliases": [
+        "Авито бюджет"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-avito-budget",
+      "asset_file": "assets/advertising-avito-budget.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A smartphone displaying the exact word Avito in dark letters with four distinct colorful circles, next to a neat small stack of coins representing advertising budget.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office",
+      "name": "Обслуживание офиса",
+      "parent_key": null,
+      "path": "Обслуживание офиса",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office",
+      "asset_file": "assets/office.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A compact real office equipment arrangement: large monitor, small task lamp and a tidy document organizer, freestanding isolated products.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-internet",
+      "name": "Интернет",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Интернет",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-internet",
+      "asset_file": "assets/office-internet.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium dark graphite Wi-Fi router with three antennas and a short neatly coiled blue Ethernet cable.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects. Pay particular attention to a surgically clean alpha mask around the whole silhouette: transparent space between antennas and cables, transparent outside every object, no white ragged patches or fringe. Leave clear breathing room on all four sides."
+    },
+    {
+      "key": "office-office-groceries",
+      "name": "Продукты в офис",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Продукты в офис",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-groceries",
+      "asset_file": "assets/office-office-groceries.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A small wicker grocery basket holding fresh apples, bananas, a loaf of bread and a sealed coffee bag, compact appetizing food photography.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-printer-service",
+      "name": "Обслуживание принтеров",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Обслуживание принтеров",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-printer-service",
+      "asset_file": "assets/office-printer-service.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic black-and-white office laser printer with an open cartridge compartment, a toner cartridge and a small screwdriver.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-stationery",
+      "name": "Канцтовары",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Канцтовары",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-stationery",
+      "asset_file": "assets/office-stationery.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An elegant pen cup with pencils and scissors, two notebooks and a compact metal stapler, crisp tactile materials.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-water",
+      "name": "Вода",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Вода",
+      "sort_order": 5,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-water",
+      "asset_file": "assets/office-water.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A clear blue-tinted nineteen-litre office water bottle with cap, beside a transparent tumbler of drinking water.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-beeline",
+      "name": "Телефония Билайн",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Телефония Билайн",
+      "sort_order": 6,
+      "aliases": [
+        "Билайн"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-beeline",
+      "asset_file": "assets/office-beeline.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium smartphone and a compact SIM card carrier in yellow and black, exact visible word Билайн, a prominent yellow-and-black striped sphere emblem.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-rent",
+      "name": "Аренда",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Аренда",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-rent",
+      "asset_file": "assets/office-rent.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A polished office door key and a silver access key fob beside a miniature transparent glass office door with a metal handle, realistic architectural product photography.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-utilities",
+      "name": "Коммунальные услуги",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Коммунальные услуги",
+      "sort_order": 8,
+      "aliases": [
+        "Коммуналка"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-utilities",
+      "asset_file": "assets/office-utilities.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A neat utility bill with exact readable title ЖКУ, a compact calculator and a realistic LED light bulb.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-office-equipment",
+      "name": "Покупка оргтехники",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Покупка оргтехники",
+      "sort_order": 9,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-equipment",
+      "asset_file": "assets/office-office-equipment.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A new multifunction office printer, a compact document scanner and a slim keyboard arranged as a premium office technology product photograph.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-office-furniture",
+      "name": "Покупка мебели",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Покупка мебели",
+      "sort_order": 10,
+      "aliases": [
+        "Мебель"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-furniture",
+      "asset_file": "assets/office-office-furniture.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An ergonomic charcoal office chair next to a small modern oak office desk, complete furniture silhouettes visible and isolated.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-office-renovation",
+      "name": "Ремонт офиса",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Ремонт офиса",
+      "sort_order": 11,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-renovation",
+      "asset_file": "assets/office-office-renovation.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic open can of white paint, a paint roller with a blue handle, masking tape and one clean finishing trowel.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-security-cameras",
+      "name": "Камеры",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Камеры",
+      "sort_order": 12,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-security-cameras",
+      "asset_file": "assets/office-security-cameras.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium dark graphite bullet security camera with a glass lens beside a compact dark graphite dome surveillance camera.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects. Pay particular attention to a surgically clean alpha mask around the whole silhouette: transparent space between antennas and cables, transparent outside every object, no white ragged patches or fringe. Leave clear breathing room on all four sides."
+    },
+    {
+      "key": "office-office-supplies",
+      "name": "Хозтовары в офис",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Хозтовары в офис",
+      "sort_order": 13,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-supplies",
+      "asset_file": "assets/office-office-supplies.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: Three realistic household cleaning products: an unbranded spray bottle, a detergent bottle and a neatly folded microfiber cloth in a small caddy.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-office-cleaning",
+      "name": "Уборка офиса",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Уборка офиса",
+      "sort_order": 14,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-office-cleaning",
+      "asset_file": "assets/office-office-cleaning.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A modern compact vacuum cleaner with a short attached cleaning nozzle beside a blue mop and bucket, complete objects visible.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-snow-removal",
+      "name": "Уборка снега",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Уборка снега",
+      "sort_order": 15,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-snow-removal",
+      "asset_file": "assets/office-snow-removal.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A sturdy black-and-orange snow shovel and a wide snow pusher resting against a small pile of clean white snow; the snow is part of the isolated object group.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-sipuni",
+      "name": "Телефония Сипуни",
+      "parent_key": "office",
+      "path": "Обслуживание офиса / Телефония Сипуни",
+      "sort_order": 16,
+      "aliases": [
+        "Сипуни",
+        "Sipuni"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-sipuni",
+      "asset_file": "assets/office-sipuni.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium office VoIP desk telephone with its handset and a small headset; the telephone screen clearly reads Sipuni in a clean blue wordmark.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-extra",
+      "name": "Доп. обслуживание офиса",
+      "parent_key": null,
+      "path": "Доп. обслуживание офиса",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra",
+      "asset_file": "assets/office-extra.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A tidy dark-blue office services folder with an envelope, a calculator and a small legal reference book, compact premium product photography.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-extra-post",
+      "name": "Почта",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Почта",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-post",
+      "asset_file": "assets/office-extra-post.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: Three cream business envelopes tied with thin twine and a realistic blue postal stamp tool, without addresses or personal information.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-extra-headhunter",
+      "name": "HeadHunter",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / HeadHunter",
+      "sort_order": 2,
+      "aliases": [
+        "Headhunter",
+        "HH",
+        "hh.ru"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-headhunter",
+      "asset_file": "assets/office-extra-headhunter.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium recruitment clipboard containing an anonymous CV with no portrait, a bright red circular physical badge with the exact white letters hh and a small magnifying glass.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-extra-garant",
+      "name": "Правовая система Гарант",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Правовая система Гарант",
+      "sort_order": 3,
+      "aliases": [
+        "Гарант"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-garant",
+      "asset_file": "assets/office-extra-garant.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium dark-blue legal reference book and a tablet displaying the exact clear Cyrillic word ГАРАНТ in blue, sophisticated legal research product photograph.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "office-extra-accounting",
+      "name": "Оплата бухгалтерии",
+      "parent_key": "office-extra",
+      "path": "Доп. обслуживание офиса / Оплата бухгалтерии",
+      "sort_order": 4,
+      "aliases": [
+        "Бухгалтерия"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_office-extra-accounting",
+      "asset_file": "assets/office-extra-accounting.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A high-quality desktop calculator beside a neatly bound bookkeeping ledger and a short rolled printed receipt with no readable personal data.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services",
+      "name": "Обслуживание рекламы",
+      "parent_key": null,
+      "path": "Обслуживание рекламы",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services",
+      "asset_file": "assets/advertising-services.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A slim modern tablet with a clean marketing dashboard beside a realistic brushed-metal gear and a compact server device, premium technical service photograph.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-bitrix24",
+      "name": "Оплата Bitrix24",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Оплата Bitrix24",
+      "sort_order": 1,
+      "aliases": [
+        "Bitrix24",
+        "Битрикс24"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-bitrix24",
+      "asset_file": "assets/advertising-services-bitrix24.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A slim silver tablet displaying the large exact word Битрикс24 in bright blue and a simple CRM dashboard with colored cards, no other readable text.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-bitrix24-marketplace",
+      "name": "Оплата маркетплейса Bitrix24",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Оплата маркетплейса Bitrix24",
+      "sort_order": 2,
+      "aliases": [
+        "Маркетплейс Bitrix24"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-bitrix24-marketplace",
+      "asset_file": "assets/advertising-services-bitrix24-marketplace.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic miniature wire shopping cart containing three small blue software product boxes; foremost box prominently reads Битрикс24.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-reviews",
+      "name": "Отзывы",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Отзывы",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-reviews",
+      "asset_file": "assets/advertising-services-reviews.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium smartphone showing a large 5.0 rating with five gold stars, next to one small realistic gold star trophy, clean customer review concept.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-domains",
+      "name": "Домены",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Домены",
+      "sort_order": 4,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-domains",
+      "asset_file": "assets/advertising-services-domains.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic slim laptop with a large clear browser address bar reading www, beside a polished metal nameplate bearing the exact letters .ru, domain-name service product photograph.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-hosting",
+      "name": "Хостинги",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Хостинги",
+      "sort_order": 5,
+      "aliases": [
+        "Хостинг"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-hosting",
+      "asset_file": "assets/advertising-services-hosting.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: Two compact black rack servers with crisp metal ventilation grilles, several tiny blue status LEDs and neatly arranged network connectors.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-avitologist",
+      "name": "Авитолог",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Авитолог",
+      "sort_order": 6,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-avitologist",
+      "asset_file": "assets/advertising-services-avitologist.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An open laptop displaying the exact word Avito and a few colorful listing thumbnails, with a large realistic magnifying glass in front of the screen.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-vapi",
+      "name": "VAPI",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / VAPI",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-vapi",
+      "asset_file": "assets/advertising-services-vapi.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium voice-assistant microphone and black call-centre headset beside a small tablet displaying the exact word VAPI and a clean green audio waveform.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "advertising-services-yandex-disk",
+      "name": "Яндекс.Диск",
+      "parent_key": "advertising-services",
+      "path": "Обслуживание рекламы / Яндекс.Диск",
+      "sort_order": 8,
+      "aliases": [
+        "Яндекс Диск"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_advertising-services-yandex-disk",
+      "asset_file": "assets/advertising-services-yandex-disk.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium compact yellow external storage drive beside a small white screen with the exact Cyrillic text Яндекс Диск, realistic data-storage product photography.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "salary",
+      "name": "Зарплата",
+      "parent_key": null,
+      "path": "Зарплата",
+      "sort_order": 5,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary",
+      "asset_file": "assets/salary.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A neat stack of kraft payroll envelopes with a premium desktop calculator and a few coins, no currency amounts or personal names.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "salary-salary-darya",
+      "name": "Лид-менеджер — Вологжанина Дарья",
+      "parent_key": "salary",
+      "path": "Зарплата / Лид-менеджер — Вологжанина Дарья",
+      "sort_order": 1,
+      "aliases": [
+        "Лид менеджер (Вологжанина Дарья)",
+        "Вологжанина Дарья"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-darya",
+      "asset_file": "assets/salary-salary-darya.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium professional call-centre headset resting against a green client folder, with a slim smartphone beside it. No human figure, portrait or written personal name.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "salary-salary-marina",
+      "name": "Юрист — Смирнова Марина",
+      "parent_key": "salary",
+      "path": "Зарплата / Юрист — Смирнова Марина",
+      "sort_order": 2,
+      "aliases": [
+        "Юрист Смирнова Марина",
+        "Смирнова Марина"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-marina",
+      "asset_file": "assets/salary-salary-marina.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An elegant burgundy legal case folder with a brass balance scale and a dark law book; realistic premium materials. No human figure, portrait or written personal name.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "salary-salary-elvira",
+      "name": "Юрист — Набиуллина Эльвира",
+      "parent_key": "salary",
+      "path": "Зарплата / Юрист — Набиуллина Эльвира",
+      "sort_order": 3,
+      "aliases": [
+        "Юрист Набиуллина Эльвира",
+        "Набиуллина Эльвира"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_salary-salary-elvira",
+      "asset_file": "assets/salary-salary-elvira.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An elegant teal leather legal briefcase with a fountain pen and a cream document bundle; realistic premium materials. No human figure, portrait or written personal name.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "lawyer-travel",
+      "name": "Командировки юристов",
+      "parent_key": null,
+      "path": "Командировки юристов",
+      "sort_order": 6,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel",
+      "asset_file": "assets/lawyer-travel.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A small premium navy carry-on suitcase beside a brown legal briefcase and a plain closed passport cover with no national emblem or personal details.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "lawyer-travel-tickets",
+      "name": "Билеты",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Билеты",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-tickets",
+      "asset_file": "assets/lawyer-travel-tickets.png",
+      "prompt": "Use case: product-mockup. Create ONE individual hyperrealistic finance-app icon, square composition: a premium satin dark navy-blue metal scale model of a passenger airplane, accurate aircraft proportions, beside two dark blue cardstock boarding passes with a small airplane pictogram and subtle silver neutral lines. Three-quarter elevated studio product photography, natural realistic materials, crisp focus and exquisite detail, maximum native resolution, compact strong silhouette readable at 64–96 px. Fully show all objects with transparent margin on all sides. Genuinely transparent alpha background. Clean precise isolated silhouette and clean transparent gaps around wings and under fuselage; no white patches, no halo, no ragged edges, no painted background, no badge, no frame, no floor, no watermark. Avoid fine readable passenger information, avoid invented text, no extra objects."
+    },
+    {
+      "key": "lawyer-travel-hotel",
+      "name": "Гостиница",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Гостиница",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-hotel",
+      "asset_file": "assets/lawyer-travel-hotel.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A polished brass hotel reception bell beside a premium room-key card and a leather room key fob with no hotel branding.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "lawyer-travel-fuel",
+      "name": "Бензин",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Бензин",
+      "sort_order": 3,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-fuel",
+      "asset_file": "assets/lawyer-travel-fuel.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A red metal fuel can with a realistic black fuel-pump nozzle placed compactly beside it; glossy painted metal and crisp rubber textures.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "lawyer-travel-per-diem",
+      "name": "Суточные / иное",
+      "parent_key": "lawyer-travel",
+      "path": "Командировки юристов / Суточные / иное",
+      "sort_order": 4,
+      "aliases": [
+        "Суточные иное"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_lawyer-travel-per-diem",
+      "asset_file": "assets/lawyer-travel-per-diem.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A small travel cash envelope partly open with generic banknotes and coins, beside a compact travel wallet and a plain daily-expense notepad, no readable amounts.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "taxes",
+      "name": "Налоги",
+      "parent_key": null,
+      "path": "Налоги",
+      "sort_order": 7,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes",
+      "asset_file": "assets/taxes.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A cream tax document with the large exact Cyrillic title НАЛОГИ beside a dark calculator and a small neat stack of coins.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "taxes-ausn",
+      "name": "АУСН",
+      "parent_key": "taxes",
+      "path": "Налоги / АУСН",
+      "sort_order": 1,
+      "aliases": [
+        "AUSN"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes-ausn",
+      "asset_file": "assets/taxes-ausn.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A cream tax form with the large exact Cyrillic title АУСН on a clipboard, beside a compact calculator and a small silver gear suggesting automation. No other readable words.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "taxes-employee-taxes",
+      "name": "Налоги за работников",
+      "parent_key": "taxes",
+      "path": "Налоги / Налоги за работников",
+      "sort_order": 2,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_taxes-employee-taxes",
+      "asset_file": "assets/taxes-employee-taxes.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic payroll tax document with three small anonymous employee pictograms printed at its top, a desktop calculator and a metal clip. No faces or personal names.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "corporate-gifts",
+      "name": "Корпоративы и подарки",
+      "parent_key": null,
+      "path": "Корпоративы и подарки",
+      "sort_order": 8,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts",
+      "asset_file": "assets/corporate-gifts.png",
+      "prompt": "Edit this individual photorealistic category icon. Keep the same gift box and gold satin ribbon and preserve the detailed realistic textures. Replace both transparent champagne flutes with two elegant solid opaque polished rose-gold metal champagne flutes, naturally proportioned, tall slender stems, accurate metal reflections. The opaque flutes must have perfectly clean precise outside edges and transparent empty gaps around and between them. Remove all stray white, yellow or red edge fragments outside objects. Entire background genuinely transparent alpha, no floor, no backdrop, no drop-shadow plane, no frame, no painted checkerboard. All objects fully visible with clear margin. Sharp hyperrealistic studio product photograph, maximum native detail. Do not add text or extra items."
+    },
+    {
+      "key": "corporate-gifts-birthday-gifts",
+      "name": "Подарки на день рождения",
+      "parent_key": "corporate-gifts",
+      "path": "Корпоративы и подарки / Подарки на день рождения",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts-birthday-gifts",
+      "asset_file": "assets/corporate-gifts-birthday-gifts.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A beautiful turquoise gift box with a satin ribbon beside a small birthday cupcake with one candle; highly realistic wrapping paper and pastry textures.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "corporate-gifts-office-party",
+      "name": "Корпоратив за счёт офиса",
+      "parent_key": "corporate-gifts",
+      "path": "Корпоративы и подарки / Корпоратив за счёт офиса",
+      "sort_order": 2,
+      "aliases": [
+        "Корпоратив за счет офиса"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_corporate-gifts-office-party",
+      "asset_file": "assets/corporate-gifts-office-party.png",
+      "prompt": "Edit this individual photorealistic category icon. Keep the same plate of four elegant canapes and gold satin ribbon and preserve the detailed realistic textures. Replace both transparent champagne flutes with two elegant solid opaque polished rose-gold metal champagne flutes, naturally proportioned, tall slender stems, accurate metal reflections. The opaque flutes must have perfectly clean precise outside edges and transparent empty gaps around and between them. Remove all stray white, yellow or red edge fragments outside objects. Entire background genuinely transparent alpha, no floor, no backdrop, no drop-shadow plane, no frame, no painted checkerboard. All objects fully visible with clear margin. Sharp hyperrealistic studio product photograph, maximum native detail. Do not add text or extra items."
+    },
+    {
+      "key": "client-refunds",
+      "name": "Возврат по договорам клиентам",
+      "parent_key": null,
+      "path": "Возврат по договорам клиентам",
+      "sort_order": 9,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-refunds",
+      "asset_file": "assets/client-refunds.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An elegant cream contract folder with a fountain pen, an open refund payment envelope and a small green curved return-arrow physical sign. No personal details or readable amounts.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "client-payments",
+      "name": "Оплата за клиента",
+      "parent_key": null,
+      "path": "Оплата за клиента",
+      "sort_order": 10,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments",
+      "asset_file": "assets/client-payments.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium blue client document folder beside a payment receipt and an elegant metal payment stamp, no personal data.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "client-payments-state-duty",
+      "name": "Госпошлина",
+      "parent_key": "client-payments",
+      "path": "Оплата за клиента / Госпошлина",
+      "sort_order": 1,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments-state-duty",
+      "asset_file": "assets/client-payments-state-duty.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An official-looking neutral payment receipt with the exact title ГОСПОШЛИНА, beside a polished stamp and a small calculator, no state emblems or personal details.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "client-payments-declarations-other",
+      "name": "Декларации / иные платежи",
+      "parent_key": "client-payments",
+      "path": "Оплата за клиента / Декларации / иные платежи",
+      "sort_order": 2,
+      "aliases": [
+        "Декларации иные платежи"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_client-payments-declarations-other",
+      "asset_file": "assets/client-payments-declarations-other.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A neat cream document stack in a blue folder with the exact large title ДЕКЛАРАЦИЯ on its cover, beside a fountain pen and one payment receipt.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees",
+      "name": "Банковские комиссии",
+      "parent_key": null,
+      "path": "Банковские комиссии",
+      "sort_order": 11,
+      "aliases": [],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees",
+      "asset_file": "assets/bank-fees.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A modern premium bank card terminal beside a small calculator and a tidy stack of coins, no account numbers or personal details.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees-sber-terminal",
+      "name": "Терминал Сбер",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Терминал Сбер",
+      "sort_order": 1,
+      "aliases": [
+        "Терминал Сбербанк"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-sber-terminal",
+      "asset_file": "assets/bank-fees-sber-terminal.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic premium green-and-black Sber payment terminal, the exact white Cyrillic word СБЕР prominent on its green top panel, with a short receipt.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees-sber-payments",
+      "name": "За платёжки Сбер",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / За платёжки Сбер",
+      "sort_order": 2,
+      "aliases": [
+        "За платежки Сбер"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-sber-payments",
+      "asset_file": "assets/bank-fees-sber-payments.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A green document folder bearing the exact Cyrillic word СБЕР, with one neat bank payment order and a slim pen, no account numbers or personal data.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees-monthly-account-fee",
+      "name": "Ежемесячная комиссия за обслуживание счёта",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Ежемесячная комиссия за обслуживание счёта",
+      "sort_order": 3,
+      "aliases": [
+        "Ежемесячная комиссия за обслуживание счета"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-monthly-account-fee",
+      "asset_file": "assets/bank-fees-monthly-account-fee.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A premium small desk calendar showing the number 30 beside a compact calculator and a folded bank-service receipt, no readable amount.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees-cash-deposit-fee",
+      "name": "За внесение денег на счёт",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / За внесение денег на счёт",
+      "sort_order": 4,
+      "aliases": [
+        "За внесение денег на счет"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-cash-deposit-fee",
+      "asset_file": "assets/bank-fees-cash-deposit-fee.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: A realistic compact cash-deposit banking machine front with a clearly visible cash-acceptance slot and a neat bundle of generic banknotes entering it, no readable currency values.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    },
+    {
+      "key": "bank-fees-account-subscription",
+      "name": "Заведение счёта — абонентка",
+      "parent_key": "bank-fees",
+      "path": "Банковские комиссии / Заведение счёта — абонентка",
+      "sort_order": 5,
+      "aliases": [
+        "Заведение счета - абонентка"
+      ],
+      "scope": "business",
+      "type": "expense",
+      "icon_id": "bizexp_bank-fees-account-subscription",
+      "asset_file": "assets/bank-fees-account-subscription.png",
+      "prompt": "Use case: product-mockup. Asset type: ONE individual premium finance-app expense category icon, square composition. Create a hyperrealistic studio product photograph of: An elegant neutral bank-service subscription folder with a gold-edged payment card and a slim pen, small recurring-payment circular-arrow mark on the folder; no card numbers or personal data.. One compact visually clear object ensemble, all objects fully visible within frame, occupies about 85–90% of the canvas, elevated three-quarter view, natural proportions, extraordinary native detail, realistic metal/plastic/paper/glass/material textures, soft studio lighting, balanced rich colors and crisp focus. Readable silhouette even at 64–96px. Maximize native resolution and detail. Genuinely TRANSPARENT BACKGROUND with real alpha outside subjects, no white rectangle, no painted checkerboard, no background scenery, no floor plane, no border or frame, no icon badge, no plastic cartoon or stylized 3D illustration, no watermark. Only the explicitly requested service word or short title may appear; any other small text should be unobtrusive non-legible neutral lines. Logos/service names are visual cues, not promotional claims. No extra objects beyond the requested ensemble. Clean isolated edges without halos, no cropped objects."
+    }
+  ],
+  "install_mode": "replace_all_existing_business_expense_categories"
+}

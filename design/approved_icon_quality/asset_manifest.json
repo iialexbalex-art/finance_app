@@ -1,0 +1,51 @@
+{
+  "approved_on": "2026-10-02",
+  "purpose": "Approved visual quality references with user-requested chip placement correction; original PNG files for local Codex implementation",
+  "images": [
+    {
+      "file": "sber_emerald_approved.png",
+      "existing_icon_id": "card_sber_green",
+      "width": 1585,
+      "height": 992,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "file_size_bytes": 2107297,
+      "sha256": "6e3bdcd97b9a116887320f99e33473047a433d08bf8940e992cd1fd9268ea6db",
+      "byte_identical_to_reference_source": true
+    },
+    {
+      "file": "safe_approved.png",
+      "existing_icon_id": "safe_steel_photo",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "file_size_bytes": 1821411,
+      "sha256": "75c48115a301e3f058f8a8c920fd5cdc7bca28828d2dd58b8e059bbcef227308",
+      "byte_identical_to_reference_source": true
+    },
+    {
+      "file": "food_approved.png",
+      "existing_icon_id": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "file_size_bytes": 2799399,
+      "sha256": "6da560def27d186bc11d41a5c1777207348e0bd76e1ec3da854d2b532da479ca",
+      "byte_identical_to_reference_source": true
+    }
+  ]
+}

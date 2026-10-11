@@ -1,0 +1,30 @@
+[Unit]
+Description=Finance application backup worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=finance-backups
+Group=finance-backups
+WorkingDirectory=/opt/finance-backups/server
+EnvironmentFile=/etc/finance-backups.env
+ExecStart=/opt/finance-backups/venv/bin/python backup_worker.py
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=45
+MemoryAccounting=true
+MemoryHigh=512M
+MemoryMax=1G
+TasksMax=64
+LimitNOFILE=1024
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/finance-backups
+UMask=0077
+LimitCORE=0
+
+[Install]
+WantedBy=multi-user.target

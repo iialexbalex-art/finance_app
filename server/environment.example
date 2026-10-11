@@ -1,0 +1,20 @@
+# Protected server file (chmod 600), never client config or a user ZIP.
+BACKUP_DATABASE_URL=
+SUPABASE_URL=
+SUPABASE_PUBLISHABLE_KEY=
+APP_ORIGIN=
+BACKUP_STORAGE_ROOT=/srv/finance-backups
+BACKUP_STORAGE_BACKEND=s3
+BACKUP_STORAGE_LABEL=Private independent Timeweb S3
+# true only after the actual independent private bucket is connected and checked.
+BACKUP_INDEPENDENT=false
+BACKUP_S3_BUCKET=
+BACKUP_S3_ENDPOINT=https://s3.twcstorage.ru
+BACKUP_S3_REGION=ru-1
+BACKUP_S3_PREFIX=finance-backups
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_EC2_METADATA_DISABLED=true
+# Reserve 5 GiB in addition to estimated operation space. Keep this protection.
+BACKUP_MIN_FREE_BYTES=5368709120
+PYTHONUNBUFFERED=1

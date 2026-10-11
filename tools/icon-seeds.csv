@@ -1,0 +1,101 @@
+id|label|group|source|synonyms
+category|Без специального значка|Общее|Label|другое нейтральный категория
+groceries|Продукты|Еда|Basket|еда питание покупки
+supermarket|Супермаркет|Еда|Shopping cart|магазин гипермаркет
+vegetables|Овощи|Еда|Broccoli|зелень капуста
+fruit|Фрукты|Еда|Red apple|яблоки груши
+meat|Мясо|Еда|Cut of meat|говядина свинина
+fish|Рыба|Еда|Fish|морепродукты
+bakery|Выпечка|Еда|Baguette bread|хлеб булочная
+cafe|Кафе|Еда|Croissant|завтрак перекус
+restaurant|Ресторан|Еда|Fork and knife with plate|ужин обед
+coffee|Кофе|Еда|Hot beverage|чай напитки кофейня
+food_delivery|Доставка еды|Еда|Takeout box|готовая еда суши
+car|Автомобиль|Транспорт|Automobile|машина авто
+fuel|Бензин|Транспорт|Fuel pump|топливо азс дизель
+ev|Зарядка электромобиля|Транспорт|Battery|электрокар аккумулятор
+car_repair|Ремонт автомобиля|Транспорт|Wrench|автосервис сто
+tires|Шины|Транспорт|Wheel|колесо резина
+car_wash|Мойка|Транспорт|Sponge|автомойка уборка
+parking|Парковка|Транспорт|P button|стоянка
+taxi|Такси|Транспорт|Taxi|поездка
+bus|Автобус|Транспорт|Bus|общественный транспорт
+train|Поезд|Транспорт|Train|железная дорога билеты
+travel|Путешествия|Путешествия|World map|поездки туризм отпуск
+airplane|Самолёт|Путешествия|Airplane|авиабилеты перелёт
+hotel|Отель|Путешествия|Hotel|гостиница проживание
+beach|Пляж|Путешествия|Beach with umbrella|море отдых
+luggage|Чемодан|Путешествия|Luggage|багаж
+home|Дом|Дом|House|жильё квартира
+rent|Аренда жилья|Дом|Key|съём найм
+utilities|Коммунальные услуги|Дом|Receipt|жкх квитанции
+electricity|Электричество|Дом|Electric plug|свет энергия
+water|Вода|Дом|Droplet|водоснабжение
+renovation|Ремонт жилья|Дом|Hammer and wrench|строительство инструменты
+furniture|Мебель|Дом|Couch and lamp|диван интерьер
+appliances|Бытовая техника|Дом|Control knobs|приборы оборудование
+clothes|Одежда|Покупки и уход|T-shirt|гардероб футболка
+shoes|Обувь|Покупки и уход|Running shoe|кроссовки ботинки
+cosmetics|Косметика|Покупки и уход|Lipstick|макияж красота
+hair|Парикмахерская|Покупки и уход|Barber pole|стрижка салон
+pharmacy|Аптека|Здоровье и спорт|Pill|лекарства
+health|Врач|Здоровье и спорт|Stethoscope|здоровье медицина
+dental|Стоматология|Здоровье и спорт|Tooth|зубы дантист
+sport|Спорт|Здоровье и спорт|Soccer ball|фитнес тренировка
+children|Дети|Семья и обучение|Baby bottle|ребёнок малыш
+school|Школа|Семья и обучение|School|учёба школьник
+books|Книги|Семья и обучение|Books|чтение литература
+education|Обучение|Семья и обучение|Graduation cap|образование курсы университет
+pets|Питомцы|Досуг|Dog face|собака кошка животные
+gift|Подарки|Досуг|Wrapped gift|праздник день рождения
+entertainment|Развлечения|Досуг|Ferris wheel|аттракционы парк
+cinema|Кино|Досуг|Clapper board|фильмы кинотеатр
+subscriptions|Подписки|Досуг|Ticket|сервис абонемент
+phone|Телефон|Техника и связь|Mobile phone|мобильная связь смартфон
+internet|Интернет|Техника и связь|Satellite antenna|сеть wifi провайдер
+computer|Компьютер|Техника и связь|Laptop|ноутбук техника
+office|Офис|Бизнес|Office building|работа компания
+communication|Связь|Бизнес|Telephone|звонки телефония
+delivery|Доставка|Бизнес|Delivery truck|курьер перевозка логистика
+advertising|Реклама|Бизнес|Megaphone|маркетинг продвижение
+taxes|Налоги|Бизнес|Page facing up|сбор пошлина
+legal|Юридические услуги|Бизнес|Balance scale|юрист адвокат право
+accounting|Бухгалтерия|Бизнес|Abacus|учёт расчёты бухгалтер
+salary|Зарплата|Доходы|Money with wings|оклад премия заработок
+contract|Доход от договора|Доходы|Handshake|контракт фриланс услуги
+interest|Проценты|Доходы|Chart increasing with yen|пассивный доход дивиденды
+refund|Возврат денег|Доходы|Left arrow curving right|компенсация кэшбэк
+rental_income|Арендный доход|Доходы|Houses|сдача недвижимости
+property_sale|Продажа имущества|Доходы|Card file box|продажа вещей активы
+music|Музыка|Досуг|Headphone|концерт аудио
+games|Игры|Досуг|Video game|приставка развлечения
+flowers|Цветы|Покупки и уход|Bouquet|букет флористика
+charity|Благотворительность|Досуг|Red heart|помощь пожертвование
+insurance|Страхование|Бизнес|Umbrella|полис осаго защита
+stationery|Канцелярия|Бизнес|Memo|бумага ручки офисные товары
+cleaning|Хозяйственные товары|Дом|Broom|уборка бытовая химия
+heating|Отопление|Дом|Fire|газ тепло
+fitness|Тренажёрный зал|Здоровье и спорт|Flexed biceps|мышцы тренировки сила
+swimming|Бассейн|Здоровье и спорт|Water wave|плавание
+shop|Покупки|Покупки и уход|Shopping bags|магазин шопинг
+globe|Международные операции|Бизнес|Globe with meridians|валюта зарубежные
+cash|Наличные|Наличные|Money bag|деньги
+banknote|Банкноты|Наличные|Dollar banknote|купюры
+coins|Монеты|Наличные|Coin|мелочь
+wallet|Кошелёк|Наличные|Purse|бумажник
+purse|Портмоне|Наличные|Clutch bag|клатч
+pocket|Сумка с деньгами|Наличные|Handbag|карман
+cashbox|Касса офиса|Наличные|Card index|кассовая картотека
+atm|Банкомат|Наличные|Atm sign|снятие денег
+envelope|Денежный конверт|Наличные|Envelope|бюджет
+card|Банковская карта|Счета и накопления|Credit card|дебетовая кредитная
+cards|Счета по целям|Счета и накопления|Card index dividers|несколько карт
+bank|Расчётный счёт|Счета и накопления|Bank|банк
+safe|Сейф|Счета и накопления|Locked|хранение
+piggy|Копилка|Счета и накопления|Pig face|сбережения
+deposit|Депозит|Счета и накопления|Package|вклад
+business|Бизнес-счёт|Счета и накопления|Briefcase|деловой
+reserve|Резерв|Счета и накопления|Shield|подушка безопасности
+investment|Инвестиции|Счета и накопления|Chart increasing|капитал брокер акции
+retirement|Пенсионные накопления|Счета и накопления|Hourglass not done|пенсия будущее
+family|Семейный счёт|Счета и накопления|Busts in silhouette|семья общий
