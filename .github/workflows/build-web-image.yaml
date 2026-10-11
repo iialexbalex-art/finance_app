@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 60
     env:
       SITE_PLATFORM: linux/amd64
-      SITE_DOMAIN: http://localhost
+      SITE_DOMAIN: http://127.0.0.1
     steps:
       - name: Checkout committed source and images
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -73,7 +73,7 @@ jobs:
           mkdir -p "$RUNNER_TEMP/update-fixture"
           printf '%s' "$GITHUB_SHA" > "$RUNNER_TEMP/update-fixture/ci-version.txt"
           printf 'FROM %s\nCOPY ci-version.txt /srv/ci-version.txt\n' "$original" > "$RUNNER_TEMP/update-fixture/Dockerfile"
-          docker build --platform linux/amd64 -t finance-app:ci-update "$RUNNER_TEMP/update-fixture"
+          docker build --builder default --platform linux/amd64 -t finance-app:ci-update "$RUNNER_TEMP/update-fixture"
           export SITE_IMAGE=finance-app:ci-update
           compose up -d --no-build --wait --wait-timeout 120
           test "$(curl --fail --silent http://127.0.0.1:18080/ci-version.txt)" = "$GITHUB_SHA"

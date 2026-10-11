@@ -63,7 +63,7 @@ docker buildx build --platform $sitePlatform --load --tag $siteImage --secret id
 Проверить runtime, не публикуя домен и не занимая локальные 80/443:
 
 ```powershell
-docker run --detach --name finance-web-smoke --platform $sitePlatform --publish 127.0.0.1:18080:80 --env SITE_DOMAIN=http://localhost --volume finance_web_smoke_data:/data --volume finance_web_smoke_config:/config $siteImage
+docker run --detach --name finance-web-smoke --platform $sitePlatform --publish 127.0.0.1:18080:80 --env SITE_DOMAIN=http://127.0.0.1 --volume finance_web_smoke_data:/data --volume finance_web_smoke_config:/config $siteImage
 docker inspect --format '{{json .State.Health}}' finance-web-smoke
 python deploy/verify_web_http.py http://127.0.0.1:18080
 # Если Python отсутствует в PATH: uv run --no-project python deploy/verify_web_http.py http://127.0.0.1:18080
@@ -80,7 +80,7 @@ docker history --no-trunc $siteImage
 ```powershell
 docker exec finance-web-smoke sh -c 'printf persistence-test > /data/.finance-qa; printf persistence-test > /config/.finance-qa'
 docker rm --force finance-web-smoke
-docker run --detach --name finance-web-smoke --platform $sitePlatform --publish 127.0.0.1:18080:80 --env SITE_DOMAIN=http://localhost --volume finance_web_smoke_data:/data --volume finance_web_smoke_config:/config $siteImage
+docker run --detach --name finance-web-smoke --platform $sitePlatform --publish 127.0.0.1:18080:80 --env SITE_DOMAIN=http://127.0.0.1 --volume finance_web_smoke_data:/data --volume finance_web_smoke_config:/config $siteImage
 docker exec finance-web-smoke sh -c 'test "$(cat /data/.finance-qa)" = persistence-test && test "$(cat /config/.finance-qa)" = persistence-test'
 docker exec finance-web-smoke rm /data/.finance-qa /config/.finance-qa
 ```
