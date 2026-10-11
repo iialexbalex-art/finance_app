@@ -1,0 +1,31 @@
+name: finance-web
+services:
+  site:
+    # Set an immutable release tag; retain the previous tag for rollback.
+    image: ${SITE_IMAGE:?Set SITE_IMAGE with an explicit release tag}
+    platform: ${SITE_PLATFORM:?Set SITE_PLATFORM to linux/amd64 or linux/arm64 from VPS uname -m}
+    restart: unless-stopped
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:?Set SITE_DOMAIN to your real hostname}
+    ports:
+      - "80:80/tcp"
+      - "443:443/tcp"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /srv/index.html && test -s /srv/main.dart.js && wget -q -O /dev/null http://127.0.0.1:8081/healthz"]
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
+volumes:
+  caddy_data:
+    name: finance_web_caddy_data
+  caddy_config:
+    name: finance_web_caddy_config

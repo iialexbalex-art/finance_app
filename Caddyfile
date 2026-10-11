@@ -1,0 +1,40 @@
+# SITE_DOMAIN must be a real hostname, without scheme or path, in production.
+# Local tests may explicitly use http://127.0.0.1:18080 instead.
+{$SITE_DOMAIN} {
+	root * {$SITE_ROOT:/srv}
+	encode zstd gzip
+	log
+	header Cache-Control "no-cache, max-age=0, must-revalidate"
+
+	# Never turn missing resources or API requests into an HTML 200 response.
+	@static path /assets /assets/* /canvaskit /canvaskit/* /icons /icons/* /api /api/*
+	@extension path_regexp extension \.[^/]+$
+	@get method GET HEAD
+	route {
+		handle @static {
+			file_server
+		}
+		handle @extension {
+			file_server
+		}
+		handle @get {
+			try_files {path} /index.html
+			file_server
+		}
+		handle {
+			respond "Method Not Allowed" 405
+		}
+	}
+}
+
+# Loopback only; never published by Compose; no external TLS needed for health.
+http://127.0.0.1:8081 {
+	bind 127.0.0.1
+	root * {$SITE_ROOT:/srv}
+	handle /healthz {
+		header Cache-Control "no-store"
+		try_files /index.html =503
+		file_server
+	}
+	respond 404
+}
