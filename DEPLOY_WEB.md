@@ -97,7 +97,7 @@ docker buildx build --platform $sitePlatform --push --tag $siteImage --secret id
 # Для multi-platform push нужен buildx builder с поддержкой этих платформ.
 ```
 
-В CI подготовить JSON как временный файл из **только публичных** переменных, вычислить его SHA-256, передать secret mount и выполнить эту же сборку/push с уникальным release tag. Доступ к реестру хранить в CI secrets. Не передавать клиентской сборке административные секреты Supabase/БД/S3. Автоматический публичный деплой в этом репозитории не настроен.
+В CI подготовить JSON как временный файл из **только публичных** переменных, вычислить его SHA-256, передать secret mount и выполнить эту же сборку/push с уникальным release tag. Доступ к реестру хранить в CI secrets. Не передавать клиентской сборке административные секреты Supabase/БД/S3. Публичный деплой не настроен. Ручная проверочная сборка GitHub Actions описана ниже.
 
 ## Ubuntu VPS — сначала обследование
 
@@ -259,3 +259,24 @@ Volumes `finance_web_caddy_data` и `finance_web_caddy_config` имеют ста
 - Нет адреса/доступа VPS и реального домена. SSH, архитектура VPS, занятость портов, firewall, DNS, ACME/публичный HTTPS, реальные вход/выход и разграничение Supabase на опубликованном origin **не проверены**. Административные настройки Supabase и DNS не изменялись.
 
 Источники: [Docker multi-platform](https://docs.docker.com/build/building/multi-platform/), [BuildKit secrets](https://docs.docker.com/build/building/secrets/), [Docker Engine на Ubuntu](https://docs.docker.com/engine/install/ubuntu/), [Flutter Web release](https://docs.flutter.dev/deployment/web), [Caddy automatic HTTPS](https://caddyserver.com/docs/automatic-https), [Caddy try_files](https://caddyserver.com/docs/caddyfile/directives/try_files).
+
+## Ручная сборка GitHub Actions (linux/amd64)
+
+Workflow `.github/workflows/build-web-image.yaml` запускается только вручную через Actions → Build and verify Flutter Web image → Run workflow на `main`. Используется Ubuntu 24.04 runner; официальные Actions закреплены по commit SHA. До Docker build `deploy/audit_web_assets.py` проверяет существование, отслеживание в Git HEAD и включение в pubspec всех ресурсов; изменение байтов растровых изображений относительно коммита запрещено.
+
+Repository secret `WEB_CLIENT_CONFIG` содержит существующий клиентский JSON, предварительно проверенный allowlist-валидатором. В него переданы только публичные клиентские настройки; серверные секреты не передавались. Для смены Supabase или публичного backup API обновить этот secret через GitHub Settings → Secrets and variables → Actions. JSON попадает в builder через BuildKit secret, а его SHA-256 сбрасывает нужный слой кэша.
+
+Образ собирается только для `linux/amd64`, без push в реестр. После сборки проверяются фактическая архитектура, отсутствие SDK/Dart/Git, побайтное совпадение всех bundled assets, типовые секреты во всех runtime layers, Compose healthcheck, HTTP/404/сжатие/кэш, состояние обоих Caddy volumes после пересоздания. Проверка обновления использует отдельный тестовый образ с добавленным статическим файлом; после отката проверяется его исчезновение и сохранение volumes. Это тест смены образа, а не проверка обновления двух исторических production-релизов или реального сертификата.
+
+Только после успешных проверок загружается артефакт `finance-web-linux-amd64-<commit>`: Docker archive `finance-web-linux-amd64.tar` и `asset-audit.json`. Срок хранения — **1 день**; скачать вовремя. В публичном репозитории артефакт нельзя считать приватным хранилищем: в образе есть только разрешённые публичные настройки. Административные секреты в него не включать.
+
+Результат запуска, логи, tag образа и commit видны в Actions run summary. После скачивания и распаковки артефакта на компьютере с Docker или на VPS:
+
+```bash
+docker load --input finance-web-linux-amd64.tar
+# На VPS при необходимости использовать sudo docker.
+# Указать напечатанный при загрузке tag finance-app:web-<commit>-<run_number>
+# в SITE_IMAGE файла .env.deploy; SITE_PLATFORM=linux/amd64.
+```
+
+Дальнейший запуск на VPS требует отдельного разрешения на публикацию и выполнения проверок домена/портов из этой инструкции. Workflow не подключается к VPS, не меняет DNS, не разворачивает сайт и не проверяет реальные Supabase login/logout/RLS.

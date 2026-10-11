@@ -1,0 +1,112 @@
+name: Build and verify Flutter Web image
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: finance-web-image-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  image:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      SITE_PLATFORM: linux/amd64
+      SITE_DOMAIN: http://localhost
+    steps:
+      - name: Checkout committed source and images
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Audit every bundled and referenced asset before building
+        run: python3 deploy/audit_web_assets.py
+      - name: Prepare validated public client settings
+        env:
+          WEB_CLIENT_CONFIG: ${{ secrets.WEB_CLIENT_CONFIG }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, os
+          from pathlib import Path
+          from deploy.validate_client_config import validate
+          data = os.environ['WEB_CLIENT_CONFIG'].encode()
+          validate(data)
+          path = Path(os.environ['RUNNER_TEMP']) / 'client.json'
+          path.write_bytes(data)
+          path.chmod(0o600)
+          digest = hashlib.sha256(data).hexdigest()
+          with open(os.environ['GITHUB_ENV'], 'a') as output:
+              output.write('CLIENT_CONFIG_SHA256=' + digest + '\n')
+              output.write('SITE_IMAGE=finance-app:web-' + os.environ['GITHUB_SHA'][:12] + '-' + os.environ['GITHUB_RUN_NUMBER'] + '\n')
+          PY
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3
+      - name: Build release runtime for VPS linux/amd64
+        uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6
+        with:
+          context: .
+          platforms: linux/amd64
+          load: true
+          push: false
+          tags: ${{ env.SITE_IMAGE }}
+          build-args: CLIENT_CONFIG_SHA256=${{ env.CLIENT_CONFIG_SHA256 }}
+          secret-files: client_config=${{ runner.temp }}/client.json
+          cache-from: type=gha,scope=finance-web-amd64
+          cache-to: type=gha,mode=min,scope=finance-web-amd64
+      - name: Verify actual image contents and image architecture
+        run: python3 deploy/verify_docker_image.py "$SITE_IMAGE" "$RUNNER_TEMP/finance-web-linux-amd64.tar"
+      - name: Compose health, HTTP, volumes, update and rollback checks
+        run: |
+          cat > "$RUNNER_TEMP/compose.ci.yaml" <<'YAML'
+          services:
+            site:
+              ports: !override
+                - "127.0.0.1:18080:80/tcp"
+          YAML
+          compose() { docker compose -f compose.yaml -f "$RUNNER_TEMP/compose.ci.yaml" "$@"; }
+          compose config --quiet
+          compose up -d --no-build --wait --wait-timeout 120
+          python3 deploy/verify_web_http.py http://127.0.0.1:18080
+          compose exec -T site sh -c 'printf persistence-test > /data/.ci-state; printf persistence-test > /config/.ci-state'
+          compose up -d --no-build --force-recreate --wait --wait-timeout 120
+          compose exec -T site sh -c 'test "$(cat /data/.ci-state)" = persistence-test && test "$(cat /config/.ci-state)" = persistence-test'
+          original="$SITE_IMAGE"
+          mkdir -p "$RUNNER_TEMP/update-fixture"
+          printf '%s' "$GITHUB_SHA" > "$RUNNER_TEMP/update-fixture/ci-version.txt"
+          printf 'FROM %s\nCOPY ci-version.txt /srv/ci-version.txt\n' "$original" > "$RUNNER_TEMP/update-fixture/Dockerfile"
+          docker build --platform linux/amd64 -t finance-app:ci-update "$RUNNER_TEMP/update-fixture"
+          export SITE_IMAGE=finance-app:ci-update
+          compose up -d --no-build --wait --wait-timeout 120
+          test "$(curl --fail --silent http://127.0.0.1:18080/ci-version.txt)" = "$GITHUB_SHA"
+          python3 deploy/verify_web_http.py http://127.0.0.1:18080
+          export SITE_IMAGE="$original"
+          compose up -d --no-build --wait --wait-timeout 120
+          test "$(curl --silent --output /dev/null --write-out '%{http_code}' http://127.0.0.1:18080/ci-version.txt)" = 404
+          compose exec -T site sh -c 'test "$(cat /data/.ci-state)" = persistence-test && test "$(cat /config/.ci-state)" = persistence-test'
+          python3 deploy/verify_web_http.py http://127.0.0.1:18080
+          printf 'PASS: container health, HTTP, recreation persistence, fixture image update and rollback\n'
+          {
+            printf '## Verified Docker image\n\n'
+            printf -- '- Image: `%s`\n- Platform: `linux/amd64`\n- Commit: `%s`\n' "$SITE_IMAGE" "$GITHUB_SHA"
+            printf -- '- Asset audit, layer secret-pattern scan, container health, HTTP, volume persistence and fixture update/rollback passed.\n'
+            printf -- '- No public deployment, registry push or DNS changes. No real HTTPS/auth/RLS verification.\n'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload verified image and asset audit
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: finance-web-linux-amd64-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/finance-web-linux-amd64.tar
+            asset-audit.json
+          compression-level: 0
+          retention-days: 1
+          if-no-files-found: error
+      - name: Collect container logs on failure
+        if: failure()
+        run: docker compose -f compose.yaml -f "$RUNNER_TEMP/compose.ci.yaml" logs --tail=100 || true
+      - name: Cleanup runner
+        if: always()
+        run: |
+          if test -f "$RUNNER_TEMP/compose.ci.yaml"; then
+            docker compose -f compose.yaml -f "$RUNNER_TEMP/compose.ci.yaml" down || true
+          fi
+          rm -f "$RUNNER_TEMP/client.json"
