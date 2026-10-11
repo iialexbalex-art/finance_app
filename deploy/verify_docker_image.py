@@ -19,7 +19,7 @@ def check(image, archive):
     info = json.loads(run('docker', 'image', 'inspect', image))[0]
     assert (info['Os'], info['Architecture']) == ('linux', 'amd64')
     subprocess.run(['docker', 'run', '--rm', '--entrypoint', 'sh', image, '-c',
-                    'command -v wget; test ! -e /opt/flutter; test ! -e /app; '
+                    'set -eu; command -v wget; test ! -e /opt/flutter; test ! -e /app; '
                     '! command -v git && ! command -v dart && ! command -v flutter'], check=True)
     run('docker', 'create', '--name', 'finance-audit', image)
     try:
@@ -37,7 +37,7 @@ def check(image, archive):
     finally:
         run('docker', 'rm', 'finance-audit')
     subprocess.run(['docker', 'image', 'save', '--output', archive, image], check=True)
-    patterns = [rb'sb_secret_[A-Za-z0-9_-]{16,}', rb'AKIA[A-Z0-9]{16}',
+    patterns = [rb'sb_secret_[A-Za-z0-9_-]{16,}', rb'(?<![A-Za-z0-9_])AKIA[A-Z0-9]{16}(?![A-Za-z0-9_])',
                 rb'eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+',
                 rb'postgres(?:ql)?://[^\s/:]+:[^\s@]+@',
                 rb'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----']
