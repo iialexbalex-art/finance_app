@@ -86,16 +86,12 @@ app.*.map.json
 /backups-preflight/
 /personal-expenses-install/
 /PERSONAL_EXPENSES_MAPPING.csv
-
-# Local original-image workspace; runtime assets stay versioned in assets/
-/source_assets/
-/design/**/assets/
-/design/**/references/
-/design/**/*.png
-/design/**/*.jpg
-/design/**/*.jpeg
-/design/**/*.webp
-
+!/assets/
+!/assets/**
+!/source_assets/
+!/source_assets/**
+!/design/
+!/design/**
 # Python, Node and editor caches
 __pycache__/
 .pytest_cache/
