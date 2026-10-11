@@ -255,7 +255,7 @@ Volumes `finance_web_caddy_data` и `finance_web_caddy_config` имеют ста
 - Официальный standalone Compose 2.39.4 проверен по SHA-256; `config --quiet` с примером настроек успешно. Это проверка модели Compose без Docker daemon.
 - Валидатор: корректный публичный JSON принят, восемь случаев неверных/опасных настроек или хеша отклонены. 406 объявленных растровых изображений совпадают с release-сборкой по SHA-256; существующие изображения не менялись. 25 текстовых файлов сборки просканированы на типовые токены/ключи/DSN серверных секретов: совпадений нет; исходный JSON, Dart и source maps отсутствуют. Это не полный аудит образа или поиск всех неизвестных секретов.
 - Миграция service worker проверена в JavaScript VM для свежей и ранее контролируемой страницы: отмена регистрации, удаление только трёх Flutter-кэшей, загрузка/перезагрузка; retirement worker не перехватывает fetch. Реальная миграция прежнего браузерного offline cache остаётся ручной проверкой.
-- Docker Engine/daemon отсутствует. Сборка Docker-образа, запуск именно Alpine runtime, его wget health, аудит всего образа/слоёв, сохранение production volumes после пересоздания, обновление/откат между образами **не выполнены**.
+- Локальный Docker Engine/daemon отсутствует. Эти проверки выполнены в GitHub Actions для настоящего Alpine runtime: сборка, wget health, аудит runtime layers, сохранение тестовых volumes после пересоздания и смена тестового образа с откатом. Production-сертификаты и volumes реального VPS не проверялись. См. фактический CI-прогон ниже.
 - Нет адреса/доступа VPS и реального домена. SSH, архитектура VPS, занятость портов, firewall, DNS, ACME/публичный HTTPS, реальные вход/выход и разграничение Supabase на опубликованном origin **не проверены**. Административные настройки Supabase и DNS не изменялись.
 
 Источники: [Docker multi-platform](https://docs.docker.com/build/building/multi-platform/), [BuildKit secrets](https://docs.docker.com/build/building/secrets/), [Docker Engine на Ubuntu](https://docs.docker.com/engine/install/ubuntu/), [Flutter Web release](https://docs.flutter.dev/deployment/web), [Caddy automatic HTTPS](https://caddyserver.com/docs/automatic-https), [Caddy try_files](https://caddyserver.com/docs/caddyfile/directives/try_files).
@@ -280,3 +280,18 @@ docker load --input finance-web-linux-amd64.tar
 ```
 
 Дальнейший запуск на VPS требует отдельного разрешения на публикацию и выполнения проверок домена/портов из этой инструкции. Workflow не подключается к VPS, не меняет DNS, не разворачивает сайт и не проверяет реальные Supabase login/logout/RLS.
+
+## Фактический успешный CI-прогон
+
+11 октября 2026 выполнен [Actions run 38158945162](https://github.com/iialexbalex-art/finance_app/actions/runs/38158945162), итог **success**, проверенный commit `0b07dda04eb3a414b70bcff321273d65e09a9c12`.
+
+- Образ: `finance-app:web-0b07dda04eb3-3`, платформа `linux/amd64`.
+- Manifest digest сборки: `sha256:2ab559beef9af504fcc6d0b431239a5dbf6c726daebc8a58c615392ff174be9f`.
+- До сборки: 510 используемых изображений и 526 bundled файлов присутствуют в удалённом Git HEAD. Отсутствующих ресурсов не обнаружено; качество изображений не менялось.
+- В готовом runtime: все 526 ресурсов совпадают по SHA-256 с checkout; SDK/Dart/Git отсутствуют; 833 файла слоёв прошли поиск типовых серверных секретов. Это поиск известных форматов, а не доказательство отсутствия любого неизвестного секрета.
+- Настоящий контейнер стал healthy; HTTP smoke проверил главную, SPA shell, ресурсы, 404, no-cache, retirement worker и gzip. Оба Caddy volumes сохранили тестовое состояние после пересоздания, обновления тестовым образом и отката.
+- [Готовый артефакт образа](https://github.com/iialexbalex-art/finance_app/actions/runs/38158945162/artifacts/11709443754): примерно 810 МБ, содержит `finance-web-linux-amd64.tar` и `asset-audit.json`. SHA-256 ZIP-артефакта: `5cf14ef114365baa5c436eac3607e45d732b0d6341568ee7760b560c60f3ec82`.
+
+Артефакт хранится до **12 октября 2026, 22:18 по Asia/Qyzylorda**. Скачать и распаковать до истечения срока; затем `docker load --input finance-web-linux-amd64.tar`. Workflow можно запустить повторно вручную.
+
+Публичный сайт, DNS и VPS не изменялись. Публичный HTTPS, реальные Supabase login/logout/RLS и миграция прежнего браузерного offline cache остаются отдельными проверками перед публикацией.
